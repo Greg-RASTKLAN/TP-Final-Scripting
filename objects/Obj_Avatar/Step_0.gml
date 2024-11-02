@@ -79,14 +79,12 @@ if(CanMove && _space && AvatarState != "Dodge" && CanDodge){
 
 
 #region POTION COLLISION
-
 var inventory = instance_find(Obj_Inventory, 0);
 var potion = instance_place(x, y, Obj_Potion);
 
-if (potion && !inventory.is_full()) 
+if (potion && !inventory.is_full())
 {
 	instance_destroy(potion);
 	inventory.pickup(Spr_Potion);
 }
-
 #endregion
