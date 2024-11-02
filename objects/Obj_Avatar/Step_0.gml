@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 #region KEYS
-_left = keyboard_check(ord("A"));
+_left = keyboard_check(ord("A")) ||  keyboard_check(ord("Q"));
 _right = keyboard_check(ord("D"));
-_up = keyboard_check(ord("W"));
+_up = keyboard_check(ord("W")) || keyboard_check(ord("Z"));
 _down = keyboard_check(ord("S"));
 _space = keyboard_check(vk_space);
 _mouseclick_left = mouse_check_button(mb_left);
@@ -75,4 +75,18 @@ if(CanMove && _space && AvatarState != "Dodge" && CanDodge){
 	CanAttack = false;
 	alarm_set(0,StateDelay);
 }
+#endregion
+
+
+#region POTION COLLISION
+
+var inventory = instance_find(Obj_Inventory, 0);
+var potion = instance_place(x, y, Obj_Potion);
+
+if (potion && !inventory.is_full()) 
+{
+	instance_destroy(potion);
+	inventory.pickup(Spr_Potion);
+}
+
 #endregion
