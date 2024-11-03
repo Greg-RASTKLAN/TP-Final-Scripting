@@ -22,7 +22,7 @@ CanDodge = true;
 AggroRange = 128;
 EnemyTarget = 0;
 
-Arc_VitesseDeTir = 30;
+Bow_AttackSpeed = 30;
 CanAttack = true;
 _Dir = 0;
 

@@ -46,11 +46,11 @@ if(CanMove && AvatarState != "Dodge"){
 /*/
 #region ATTACK
 if(CanAttack && CanMove && AvatarState != "Dodge"){
-	_arrow = instance_create_layer(x,y,"Instances",Obj_Arrow);
-	_arrow.direction = direction;
-	_arrow.image_angle = direction;
+	_weapon = instance_create_layer(x,y,"Instances",Obj_weapon);
+	_weapon.direction = direction;
+	_weapon.image_angle = direction;
 	CanAttack = false;
-	alarm_set(0,Arc_VitesseDeTir);
+	alarm_set(0,Bow_AttackSpeed);
 	CanMove = false;
 	alarm_set(1,StateDelay);
 	AvatarState = "Attack";

@@ -43,7 +43,10 @@ if(CanMove && AvatarState != "Dodge"){
 		y += lengthdir_y(DodgeStep, DodgeDirection);
 	}
 	DodgeLeft -= DodgeStep;
-	if (DodgeLeft == 0){AvatarState = "Idle";}
+	if (DodgeLeft == 0){
+		AvatarState = "Idle";
+		sprite_index = Spr_Avatar_Idle;
+	}
 	else if(DodgeLeft < 0){
 		DodgeLeft = 0;
 		AvatarState = "Idle";
@@ -54,15 +57,27 @@ if(CanMove && AvatarState != "Dodge"){
 
 #region ATTACK
 if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
-	_arrow = instance_create_layer(x,y,"Instances",Obj_Arrow);
-	_arrow.direction = direction;
-	_arrow.image_angle = direction;
-	CanAttack = false;
-	alarm_set(0,Arc_VitesseDeTir);
-	CanMove = false;
-	alarm_set(1,StateDelay);
-	AvatarState = "Attack";
-	sprite_index = Spr_Avatar_Arc;
+	if (EquippedWeapon == "Bow"){ //bow
+		_weapon = instance_create_layer(x,y,"Instances",Obj_Arrow);
+		_weapon.direction = direction;
+		_weapon.image_angle = direction;
+		CanAttack = false;
+		alarm_set(0,Bow_AttackSpeed);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Arc;
+	} else if (EquippedWeapon == "Sword"){ //sword
+		_weapon = instance_create_layer(x,y,"Instances",Obj_Sword);
+		_weapon.direction = direction;
+		_weapon.image_angle = direction-45;
+		CanAttack = false;
+		alarm_set(0,Bow_AttackSpeed);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Arc;
+	}
 }
 #endregion
 

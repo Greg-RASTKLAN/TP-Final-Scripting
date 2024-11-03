@@ -17,6 +17,11 @@ DodgeDirection = 0;
 CanDodge = true;
 
 //ATTACK
-Arc_VitesseDeTir = 30;
+WeaponsAvailable = ["Bow", "Sword", "Daggers"];
+EquippedWeapon = WeaponsAvailable[1];
 CanAttack = true;
 _Dir = 0;
+//bow
+Bow_AttackSpeed = 30;
+//sword
+Sword_AttackSpeed = 45;

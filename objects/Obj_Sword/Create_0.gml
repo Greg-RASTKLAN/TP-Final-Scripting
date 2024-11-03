@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_angle += 8;
+depth = -16000;
+alarm_set(0, 15);
