@@ -15,9 +15,9 @@
     {"$GMFolder":"","%Name":"Courbes d’animation","folderPath":"folders/Courbes d’animation.yy","name":"Courbes d’animation","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objets","folderPath":"folders/Objets.yy","name":"Objets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Armes","folderPath":"folders/Objets/Armes.yy","name":"Armes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Objets/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Game","folderPath":"folders/Objets/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Armes","folderPath":"folders/Objets/Armes.yy","name":"Armes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inventory","folderPath":"folders/Objets/Inventory.yy","name":"Inventory","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objets/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"ChildrenOfMortaLike",
   "resources":[
@@ -50,6 +50,7 @@
     {"id":{"name":"Obj_Inventory","path":"objects/Obj_Inventory/Obj_Inventory.yy",},},
     {"id":{"name":"Obj_Potion","path":"objects/Obj_Potion/Obj_Potion.yy",},},
     {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},},
+    {"id":{"name":"Obj_UI_Controller","path":"objects/Obj_UI_Controller/Obj_UI_Controller.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Spr_Arrow","path":"sprites/Spr_Arrow/Spr_Arrow.yy",},},
     {"id":{"name":"Spr_Avatar_Arc","path":"sprites/Spr_Avatar_Arc/Spr_Avatar_Arc.yy",},},
