@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Arrow",
+  "%Name":"Obj_ManaBar",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Enemy_1","path":"objects/Obj_Enemy_1/Obj_Enemy_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Arrow",
+  "name":"Obj_ManaBar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objets/Player.yy",
+    "name":"UI",
+    "path":"folders/Objets/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_Arrow",
-    "path":"sprites/Spr_Arrow/Spr_Arrow.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
