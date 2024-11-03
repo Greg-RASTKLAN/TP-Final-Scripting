@@ -40,8 +40,6 @@ function is_full()
 
 function hovered_space()
 {
-	//var mouse_x_in_room = mouse_x + camera_get_view_x(view_camera[0]);
-	//var mouse_y_in_room = mouse_y + camera_get_view_y(view_camera[0]);
 	var mouse_x_in_room = device_mouse_x_to_gui(0);
 	var mouse_y_in_room = device_mouse_y_to_gui(0);
 	

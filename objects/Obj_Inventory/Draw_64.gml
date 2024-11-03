@@ -12,7 +12,7 @@ if (show_inventory) {
 
 
 
-	// Dessine les inventaire
+	// Dessine les cases d'inventaire
 	for(var i = 0; i < capacity; i++)
 	{
 		draw_set_alpha(hovered_index == i ? 0.8 : 1.0);
