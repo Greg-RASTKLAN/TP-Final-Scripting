@@ -1,5 +1,6 @@
 /// @description 
 
+show_inventory = false;
 capacity = 3
 items = array_create(capacity, undefined);
 
@@ -52,16 +53,16 @@ function hovered_space()
         var bottom = top + item_sprite_height;
 
         // Log pour vérifier les positions du rectangle
-        show_debug_message("Rectangle " + string(i) + ": (" + string(left) + ", " + string(top) + ", " + string(right) + ", " + string(bottom) + ")");
-        show_debug_message("Mouse: (" + string(mouse_x_in_room) + ", " + string(mouse_y_in_room) + ")");
+        //show_debug_message("Rectangle " + string(i) + ": (" + string(left) + ", " + string(top) + ", " + string(right) + ", " + string(bottom) + ")");
+        //show_debug_message("Mouse: (" + string(mouse_x_in_room) + ", " + string(mouse_y_in_room) + ")");
         
         if (point_in_rectangle(mouse_x_in_room, mouse_y_in_room, left, top, right, bottom))
         {
-            show_debug_message("Mouse is over item " + string(i));
+            //show_debug_message("Mouse is over item " + string(i));
             return i;
         }
     }
-    show_debug_message("Mouse is not over any item");
+    //show_debug_message("Mouse is not over any item");
     return undefined;
 }
 
