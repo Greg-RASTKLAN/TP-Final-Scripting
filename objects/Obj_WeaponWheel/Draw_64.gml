@@ -10,7 +10,7 @@ if (show_weapon_wheel) {
     var hovered_segment = -1;
 
     // Déterminer quel segment est survolé par la souris
-    var mouse_angle = point_direction(cx, cy, device_mouse_x(0), device_mouse_y(0));
+    var mouse_angle = point_direction(cx, cy, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0));
     for (var i = 0; i < 3; i++) {
         var start_angle = i * angle_step - 90;
         var end_angle = (i + 1) * angle_step - 90;

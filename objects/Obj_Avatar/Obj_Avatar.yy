@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Avatar_Arc",
-    "path":"sprites/Spr_Avatar_Arc/Spr_Avatar_Arc.yy",
+    "name":"Spr_Avatar_Idle",
+    "path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
