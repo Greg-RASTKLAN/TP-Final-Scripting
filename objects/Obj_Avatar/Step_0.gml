@@ -14,6 +14,8 @@ if(keyboard_check_pressed(vk_control)){room_restart();}
 #endregion
 
 #region DIRECTION
+inputDirection = point_direction(0,0,_right-_left,_down-_up);
+inputMagnitute = (_right - _left !=0) || (_down - _up !=0);
 _Dir = point_direction(x,y,mouse_x,mouse_y);
 direction = _Dir;
 #endregion
@@ -22,12 +24,14 @@ direction = _Dir;
 if(CanMove && AvatarState != "Dodge"){
 	if(_left || _right || _up || _down){ //WALK
 		//X
-		_X = (_right - _left)*Vitesse;
+		//_X = (_right - _left)*Vitesse;
+		_X = lengthdir_x(inputMagnitute*Vitesse,inputDirection);
 		if(!place_meeting(x+_X, y,Obj_Collision)){
 			x += _X;
 		}
 		//Y
-		_Y = (_down - _up)*Vitesse;
+		//_Y = (_down - _up)*Vitesse;
+		_Y = lengthdir_y(inputMagnitute*Vitesse,inputDirection);
 		if(!place_meeting(x, y+_Y,Obj_Collision)){
 			y += _Y;
 		}
