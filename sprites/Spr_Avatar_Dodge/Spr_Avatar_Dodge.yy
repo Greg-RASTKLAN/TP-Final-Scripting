@@ -15,9 +15,6 @@
     {"$GMSpriteFrame":"","%Name":"2257fd2e-a869-419d-b25a-40db2707d2f4","name":"2257fd2e-a869-419d-b25a-40db2707d2f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"1f27c0ea-d908-4a47-bd0d-4d8b3dd19b06","name":"1f27c0ea-d908-4a47-bd0d-4d8b3dd19b06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"c2074215-44d5-40ee-a80a-69feebc34d78","name":"c2074215-44d5-40ee-a80a-69feebc34d78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a94aaebc-bd36-43a6-9f6b-d172d706b7fe","name":"a94aaebc-bd36-43a6-9f6b-d172d706b7fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e7ecdd1c-cb64-46ae-8fef-185c33a642f8","name":"e7ecdd1c-cb64-46ae-8fef-185c33a642f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"974e686e-92b3-4ad7-bbae-265352b43241","name":"974e686e-92b3-4ad7-bbae-265352b43241","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -54,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":6.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -82,15 +79,6 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2074215-44d5-40ee-a80a-69feebc34d78","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2a6cfbaf-3f9f-4f63-95b7-04bf0559b286","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a94aaebc-bd36-43a6-9f6b-d172d706b7fe","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"15dc2069-5452-468c-bccd-610a094991cc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7ecdd1c-cb64-46ae-8fef-185c33a642f8","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"867c147c-c711-4238-845f-fe33f43d32aa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"974e686e-92b3-4ad7-bbae-265352b43241","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d873550f-634c-4626-8a47-0d10cae8868f","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
