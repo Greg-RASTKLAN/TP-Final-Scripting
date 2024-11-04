@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Spr_Enemy_1",
+  "%Name":"Spr_MutantRat_Walk",
   "bboxMode":2,
   "bbox_bottom":44,
   "bbox_left":5,
@@ -28,19 +28,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"2687884f-5593-48d7-ae01-70a9a63dcb12","blendMode":0,"displayName":"default","isLocked":false,"name":"2687884f-5593-48d7-ae01-70a9a63dcb12","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_Enemy_1",
+  "name":"Spr_MutantRat_Walk",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Ennemis",
+    "path":"folders/Sprites/Ennemis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Spr_Enemy_1",
+    "%Name":"Spr_MutantRat_Walk",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -64,7 +64,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_Enemy_1",
+    "name":"Spr_MutantRat_Walk",
     "playback":1,
     "playbackSpeed":8.0,
     "playbackSpeedType":0,
@@ -76,28 +76,28 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f22437a-e56e-4965-9f66-3262bd88ff64","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f22437a-e56e-4965-9f66-3262bd88ff64","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"18021ddc-40d0-4a35-af62-fd09034f3ad6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"293acdd0-0078-48f2-99f6-9e26f4121217","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"293acdd0-0078-48f2-99f6-9e26f4121217","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2fb4aea1-a3f7-48dd-b4c0-26007369acda","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf78f722-6d67-40e8-b56e-5ded8b51f8d0","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf78f722-6d67-40e8-b56e-5ded8b51f8d0","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f8b200f9-23eb-4aea-9a77-17b429b66b91","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9fd28324-54e5-404e-b7b0-1e6940abb1ec","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9fd28324-54e5-404e-b7b0-1e6940abb1ec","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a03927fe-3913-4e26-922d-2f44939d82f8","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78cb241d-3054-4d2f-86d4-41b6f4886d7d","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78cb241d-3054-4d2f-86d4-41b6f4886d7d","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0f30db09-0369-4547-9f32-674523cb47d2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4489c72-955e-4cf2-b5e8-4629b0bc2df0","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4489c72-955e-4cf2-b5e8-4629b0bc2df0","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9760bbfc-64ff-42e3-9dfe-2f3dacb480cc","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b38338af-a39e-4a83-a038-1a1356e48d69","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b38338af-a39e-4a83-a038-1a1356e48d69","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"eb457b58-4aec-4300-893f-b147fa068b46","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0cc67ad-5ec5-4b4c-a472-40cd29e3c7b5","path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0cc67ad-5ec5-4b4c-a472-40cd29e3c7b5","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8903c098-ad18-4e1e-9c51-a86fb956347a","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

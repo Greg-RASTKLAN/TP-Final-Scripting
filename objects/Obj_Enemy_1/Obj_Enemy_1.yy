@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Enemy_1",
-    "path":"sprites/Spr_Enemy_1/Spr_Enemy_1.yy",
+    "name":"Spr_MutantRat_Walk",
+    "path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
