@@ -9,6 +9,7 @@ _down = keyboard_check(ord("S"));
 _space = keyboard_check(vk_space);
 _mouseclick_left = mouse_check_button(mb_left);
 
+
 //DEV
 if(keyboard_check_pressed(vk_control)){room_restart();}
 #endregion
@@ -26,13 +27,13 @@ if(CanMove && AvatarState != "Dodge"){
 		//X
 		//_X = (_right - _left)*Vitesse;
 		_X = lengthdir_x(inputMagnitute*Vitesse,inputDirection);
-		if(!place_meeting(x+_X, y,Obj_Collision)){
+		if(!place_meeting(x+_X, y,_Collisions)){
 			x += _X;
 		}
 		//Y
 		//_Y = (_down - _up)*Vitesse;
 		_Y = lengthdir_y(inputMagnitute*Vitesse,inputDirection);
-		if(!place_meeting(x, y+_Y,Obj_Collision)){
+		if(!place_meeting(x, y+_Y,_Collisions)){
 			y += _Y;
 		}
 		AvatarState = "Walking"
@@ -42,7 +43,7 @@ if(CanMove && AvatarState != "Dodge"){
 		sprite_index = Spr_Avatar_Idle;
 	}
 } else if(DodgeLeft > 0){ //DODGE
-	if(!place_meeting(x+lengthdir_x(DodgeStep, DodgeDirection),y+lengthdir_y(DodgeStep, DodgeDirection),Obj_Collision)){
+	if(!place_meeting(x+lengthdir_x(DodgeStep, DodgeDirection),y+lengthdir_y(DodgeStep, DodgeDirection),_Collisions)){
 		x += lengthdir_x(DodgeStep, DodgeDirection);
 		y += lengthdir_y(DodgeStep, DodgeDirection);
 	}

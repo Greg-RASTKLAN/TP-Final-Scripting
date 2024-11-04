@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -16000
+//depth = -16000
+_Collisions = [Obj_Collision,layer_tilemap_get_id("Tiles_Collision")];
 
 nbVies = 3;
 Vitesse = 3;
