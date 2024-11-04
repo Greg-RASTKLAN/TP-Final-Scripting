@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Bush",
+  "%Name":"Obj_Chest_1",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Avatar","path":"objects/Obj_Avatar/Obj_Avatar.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Bush",
+  "name":"Obj_Chest_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Props",
@@ -34,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Bush",
-    "path":"sprites/Spr_Bush/Spr_Bush.yy",
+    "name":"Spr_Chest_1",
+    "path":"sprites/Spr_Chest_1/Spr_Chest_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

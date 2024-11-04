@@ -10,8 +10,8 @@
   "name":"Obj_Arrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objets/Player.yy",
+    "name":"Armes",
+    "path":"folders/Objets/Armes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
