@@ -18,7 +18,7 @@ CanDodge = true;
 
 //ATTACK
 WeaponsAvailable = ["Bow", "Sword", "Daggers"];
-EquippedWeapon = WeaponsAvailable[1];
+EquippedWeapon = WeaponsAvailable[0];
 CanAttack = true;
 _Dir = 0;
 //bow
