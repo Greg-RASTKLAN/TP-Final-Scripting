@@ -1,50 +1,29 @@
-/// @description Weapon Wheel
+if (visible) {
+    draw_set_alpha(0.7);
 
-if (show_weapon_wheel) {
-    var cx = wheel_x;
-    var cy = wheel_y;
-    var radius = 100;
-    var angle_step = 120;
-    
-    // Initialiser les variables pour le segment survolé
-    var hovered_segment = -1;
-
-    // Déterminer quel segment est survolé par la souris
-    var mouse_angle = point_direction(cx, cy, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0));
+    // Affiche l'arc de cercle vierge de la *weapon wheel*
     for (var i = 0; i < 3; i++) {
-        var start_angle = i * angle_step - 90;
-        var end_angle = (i + 1) * angle_step - 90;
-        if (mouse_angle >= start_angle && mouse_angle < end_angle) {
-            hovered_segment = i; // Le segment survolé est trouvé
+        var draw_angle = i * 120; // Angle pour chaque segment de 120°
+
+        // Applique la surbrillance si le segment est survolé
+        if (i == selected_index) {
+            draw_sprite_ext(Spr_WeaponWheel, 0, mouse_pos_x, mouse_pos_y, 1, 1, draw_angle, highlight_color, 1);
+        } else {
+            draw_sprite_ext(Spr_WeaponWheel, 0, mouse_pos_x, mouse_pos_y, 1, 1, draw_angle, c_white, 1);
         }
     }
-	
-    draw_set_alpha(0.5);
 
-    // Dessiner le cercle transparent et les lignes de division
-    draw_circle(cx, cy, radius, false);
-    for (var i = 0; i < 3; i++) {
-        var line_x = cx + lengthdir_x(radius, i * angle_step - 90);
-        var line_y = cy + lengthdir_y(radius, i * angle_step - 90);
-        draw_line(cx, cy, line_x, line_y);
-        
-        // Surbrillance du segment survolé
-        if (i == hovered_segment) {
-            draw_set_color(c_yellow);
-            draw_triangle(cx, cy, line_x, line_y, cx + lengthdir_x(radius, (i + 1) * angle_step - 90), cy + lengthdir_y(radius, (i + 1) * angle_step - 90), false);
-            draw_set_color(c_white);
-        }
+    // Affiche les icônes d'armes sur chaque segment
+    var weapon_sprites = [Spr_Bow, Spr_Magic, Spr_Sword];
+    for (var j = 0; j < 3; j++) {
+        var weapon_angle = j * 250;
+        var x_offset = lengthdir_x(100, weapon_angle);
+        var y_offset = lengthdir_y(100, weapon_angle);
+
+        // Dessine chaque sprite d'arme au centre du segment
+        draw_sprite(weapon_sprites[j], 0, mouse_pos_x + x_offset, mouse_pos_y + y_offset);
     }
-	
+
+    // Remet la transparence par défaut
     draw_set_alpha(1);
-
-    // Dessiner les sprites des armes au-dessus de la wheel
-    var weapon_sprites = [Spr_Sword, Spr_Sword, Spr_Sword];
-    for (var i = 0; i < 3; i++) {
-        var wx = cx + lengthdir_x(radius * 0.7, i * angle_step - 145);
-        var wy = cy + lengthdir_y(radius * 0.7, i * angle_step - 145);
-        draw_sprite_ext(weapon_sprites[i], 0, wx, wy, 1, 1, 0, c_white, 1);
-    }
 }
-
-
