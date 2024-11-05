@@ -2,7 +2,7 @@
 surface_resize(application_surface,camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0])); //320,180
 display_set_gui_maximize();
 
-//turn of automaic drawing of application surface
+//turn off automaic drawing of application surface
 application_surface_draw_enable(false);
 
 //view coordinates
@@ -16,7 +16,6 @@ u_str = shader_get_uniform(shd_light,"u_str");
 u_dir = shader_get_uniform(shd_light,"u_dir");
 u_fov = shader_get_uniform(shd_light,"u_fov");
 u_nmap = shader_get_sampler_index(shd_light,"u_nmap");
-
 u_pos2 = shader_get_uniform(shd_shadow,"u_pos");
 
 //Vertex format and buffer setup
@@ -27,7 +26,6 @@ vb = vertex_create_buffer();
 
 //shadow surface variable declaration
 shad_surf = noone;
-
 
 //Background layer functions
 function BGbegin(){
@@ -42,8 +40,6 @@ var _bg_layer = layer_get_id("Background");
 var _bg_layer2 = layer_get_id("Background2");
 layer_script_begin(_bg_layer,BGbegin);
 layer_script_end(_bg_layer2,BGend);
-
-
 
 // Normal layer functions
 global.n_surf = noone;
@@ -67,7 +63,6 @@ function Nend(){
 var _n_layer = layer_get_id("Normal");
 layer_script_begin(_n_layer,Nbegin);
 layer_script_end(_n_layer,Nend);
-
 
 //turn on Debug
 //show_debug_overlay(1);
