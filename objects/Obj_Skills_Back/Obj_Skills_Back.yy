@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Mouse",
+  "%Name":"Obj_Skills_Back",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Mouse",
+  "name":"Obj_Skills_Back",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
     "path":"folders/Objets/UI.yy",
-  }, 
+  },
   "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Skills_Back",
+    "path":"sprites/Spr_Skills_Back/Spr_Skills_Back.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

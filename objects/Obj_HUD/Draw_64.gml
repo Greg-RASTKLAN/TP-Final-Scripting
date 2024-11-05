@@ -1,5 +1,5 @@
 /// @description Affichage HUD
-
+/*
 #region BACKGROUND HUD - SKILLS
 // Définir la transparence et la couleur
 draw_set_alpha(0.5);
@@ -65,3 +65,4 @@ var angle = -90;
 draw_sprite_ext(Spr_Sword, 0, rect_x, rect_y, scale_factor, scale_factor, angle, c_white, 1);
 
 
+*/
