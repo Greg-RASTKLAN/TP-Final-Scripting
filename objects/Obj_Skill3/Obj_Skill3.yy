@@ -9,8 +9,8 @@
   "name":"Obj_Skill3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"UI",
+    "path":"folders/Objets/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
