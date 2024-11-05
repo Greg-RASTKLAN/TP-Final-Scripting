@@ -74,6 +74,11 @@
     {"name":"inst_322550DC","path":"rooms/aRoom1/aRoom1.yy",},
     {"name":"inst_C3D5631","path":"rooms/aRoom1/aRoom1.yy",},
     {"name":"inst_1C3A27C1","path":"rooms/aRoom1/aRoom1.yy",},
+    {"name":"inst_1A052D0C","path":"rooms/aRoom1/aRoom1.yy",},
+    {"name":"inst_6EADA22C","path":"rooms/aRoom1/aRoom1.yy",},
+    {"name":"inst_20A064AD","path":"rooms/aRoom1/aRoom1.yy",},
+    {"name":"inst_638D2EC0","path":"rooms/aRoom1/aRoom1.yy",},
+    {"name":"inst_261E4597","path":"rooms/aRoom1/aRoom1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -198,6 +203,11 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"TS_Walls_NoWater","path":"tilesets/TS_Walls_NoWater/TS_Walls_NoWater.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"HUDandMANAGERS","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_569B6107","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_569B6107","objectId":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"","%Name":"inst_1A052D0C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A052D0C","objectId":{"name":"Obj_ManaBar","path":"objects/Obj_ManaBar/Obj_ManaBar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":0.0,},
+        {"$GMRInstance":"","%Name":"inst_6EADA22C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EADA22C","objectId":{"name":"Obj_HealthBar","path":"objects/Obj_HealthBar/Obj_HealthBar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":64.0,},
+        {"$GMRInstance":"","%Name":"inst_20A064AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20A064AD","objectId":{"name":"Obj_HUD","path":"objects/Obj_HUD/Obj_HUD.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":32.0,},
+        {"$GMRInstance":"","%Name":"inst_638D2EC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_638D2EC0","objectId":{"name":"Obj_WeaponWheel","path":"objects/Obj_WeaponWheel/Obj_WeaponWheel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":96.0,},
+        {"$GMRInstance":"","%Name":"inst_261E4597","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_261E4597","objectId":{"name":"Obj_Inventory","path":"objects/Obj_Inventory/Obj_Inventory.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":128.0,},
       ],"layers":[],"name":"HUDandMANAGERS","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Collision","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Collision","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
           -2,-2147483648,-13,0,-9,-2147483648,-13,0,-25,-2147483648,-13,0,-9,-2147483648,-13,0,-25,-2147483648,
