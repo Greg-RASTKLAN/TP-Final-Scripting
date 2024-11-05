@@ -11,7 +11,7 @@
   "parent":{
     "name":"UI",
     "path":"folders/Objets/UI.yy",
-  },
+  }, 
   "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
