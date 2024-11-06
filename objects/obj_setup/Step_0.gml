@@ -12,7 +12,6 @@ function Quad(_vb,_x1,_y1,_x2,_y2){
 	vertex_position_3d(_vb,_x2,_y2,3); //repositioned vertex
 }
 
-
 //Construct the vertex buffer with every wall
 //Instead of using the four edges as the walls, we use the diagonals instead (Optimization)
 vertex_begin(vb,vf);
@@ -27,7 +26,6 @@ with(obj_tri){
 }
 vertex_end(vb);
 
-
 //view movement controls
 //vy += (keyboard_check(vk_down)-keyboard_check(vk_up))*4; 
 //vx += (keyboard_check(vk_right)-keyboard_check(vk_left))*4;
@@ -37,12 +35,11 @@ vx = Obj_Camera.x;
 global.vx = vx;
 global.vy = vy;
 
-
-
 //add lights by left clicking. For testing purposes
+/*
 if (mouse_check_button_pressed(mb_left)){
 		instance_create_depth(mouse_x,mouse_y,depth,obj_light);	
-}/*
+}
 if (mouse_check_button_pressed(mb_right)){
 	repeat(100)
 		instance_create_depth(mouse_x,mouse_y,depth,obj_light);	
