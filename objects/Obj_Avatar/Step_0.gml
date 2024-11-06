@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y; //Draw order
 
 #region KEYS
 _left = keyboard_check(ord("A")) ||  keyboard_check(ord("Q"));
@@ -8,16 +9,15 @@ _up = keyboard_check(ord("W")) || keyboard_check(ord("Z"));
 _down = keyboard_check(ord("S"));
 _space = keyboard_check(vk_space);
 _mouseclick_left = mouse_check_button(mb_left);
+_mouseclick_right = mouse_check_button_released(mb_right);
 
-/*
-_KeyOne = keyboard_check(ord("1"));
-_KeyTwo = keyboard_check(ord("2"));
-_KeyThree = keyboard_check(ord("3"));
-
-if(_KeyOne == true){EquippedWeapon == "Bow";}
-if(_KeyTwo == true){EquippedWeapon == "Sword";}
-if(_KeyThree == true){EquippedWeapon == "Magic";}
-*/
+if (_mouseclick_right){
+	switch (EquippedWeapon){
+		case "Sword": EquippedWeapon = "Bow"; break;
+		case "Bow": EquippedWeapon = "Magic"; break;
+		case "Magic": EquippedWeapon = "Sword"; break;
+	}
+}
 
 //DEV
 if(keyboard_check_pressed(vk_control)){room_restart();}
@@ -74,9 +74,20 @@ if(CanMove && AvatarState != "Dodge"){
 }
 #endregion
 
-#region ATTACK
+#region ATTACKS
 if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
-	if (EquippedWeapon == "Bow"){ //bow
+	if (EquippedWeapon == "Sword"){ //sword
+		direction = _Dir;
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Sword);
+		_weapon.direction = direction;
+		_weapon.image_angle = direction-45;
+		CanAttack = false;
+		alarm_set(0,Bow_AttackSpeed);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Sword;
+	} else if (EquippedWeapon == "Bow"){ //bow
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
 		_weapon.direction = _Dir;
@@ -87,20 +98,9 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Bow;
-	} else if (EquippedWeapon == "Sword"){ //sword
-		direction = _Dir;
-		_weapon = instance_create_layer(x,y,"Instances",Obj_Sword);
-		_weapon.direction = direction;
-		_weapon.image_angle = direction-45;
-		CanAttack = false;
-		alarm_set(0,Bow_AttackSpeed);
-		CanMove = false;
-		alarm_set(1,StateDelay);
-		AvatarState = "Attack";
-		sprite_index = Spr_Avatar_Sword;
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y,"Instances",Obj_Magic);
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
 		_weapon.direction = direction;
 		_weapon.image_angle = direction-45;
 		CanAttack = false;
@@ -124,9 +124,10 @@ if(CanMove && _space && AvatarState != "Dodge" && CanDodge){
 }
 #endregion
 
-//Update Animations
+#region Update Animations
 if (_OldSprite != sprite_index){LocalFrame = 0;}
 Scr_SpriteAnimation();
+#endregion
 
 #region POTION COLLISION
 var inventory = instance_find(Obj_Inventory, 0);

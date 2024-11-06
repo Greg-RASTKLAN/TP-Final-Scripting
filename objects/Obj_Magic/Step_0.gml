@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y; //Draw order
 
 #region DIRECTION
-_Dir = direction;
-image_angle = direction;
+image_angle = direction+90;
 #endregion
 
 #region MOUVEMENTS
@@ -17,5 +17,4 @@ if(!place_meeting(x+_X,y+_Y,Obj_Collision)){
 } else{
 	instance_destroy();
 }
-
 #endregion
