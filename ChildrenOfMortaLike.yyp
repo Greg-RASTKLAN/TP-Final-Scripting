@@ -93,6 +93,7 @@
     {"id":{"name":"Spr_Avatar_Magic","path":"sprites/Spr_Avatar_Magic/Spr_Avatar_Magic.yy",},},
     {"id":{"name":"Spr_Avatar_Sword","path":"sprites/Spr_Avatar_Sword/Spr_Avatar_Sword.yy",},},
     {"id":{"name":"Spr_Avatar_Walk","path":"sprites/Spr_Avatar_Walk/Spr_Avatar_Walk.yy",},},
+    {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},},
     {"id":{"name":"Spr_BG_Tile","path":"sprites/Spr_BG_Tile/Spr_BG_Tile.yy",},},
     {"id":{"name":"Spr_Bow","path":"sprites/Spr_Bow/Spr_Bow.yy",},},
     {"id":{"name":"Spr_Bush","path":"sprites/Spr_Bush/Spr_Bush.yy",},},
