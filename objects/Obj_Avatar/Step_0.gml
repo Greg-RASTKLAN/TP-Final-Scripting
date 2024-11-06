@@ -88,7 +88,18 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
-		sprite_index = Spr_Avatar_Bow;
+		sprite_index = Spr_Avatar_Sword;
+	} else if (EquippedWeapon == "Sword"){ //sword
+		direction = _Dir;
+		_weapon = instance_create_layer(x,y,"Instances",Obj_Sword);
+		_weapon.direction = direction;
+		_weapon.image_angle = direction-45;
+		CanAttack = false;
+		alarm_set(0,Bow_AttackSpeed);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Magic;
 	}
 }
 #endregion
