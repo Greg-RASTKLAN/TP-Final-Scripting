@@ -20,7 +20,7 @@ matrix_set(matrix_world,matrix_build(-vx,-vy,0,0,0,0,1,1,1));
 //Draw Normal (EDIT: this should be below the matrix set)
 surface_set_target(global.n_surf);
 shader_set(shd_norm);
-with(obj_robo && Obj_Arrow){
+with(obj_robo && Obj_Avatar){
 	draw_self();	
 }
 shader_reset();

@@ -48,7 +48,7 @@ global.vy = 0;
 
 function Nbegin(){
 	if (!surface_exists(global.n_surf)){
-		global.n_surf = surface_create(320,180);
+		global.n_surf = surface_create(camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0]));
 	}
 	surface_set_target(global.n_surf);
 	matrix_set(matrix_world,matrix_build(-global.vx,-global.vy,0,0,0,0,1,1,1));
