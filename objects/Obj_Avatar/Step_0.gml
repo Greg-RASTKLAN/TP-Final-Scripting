@@ -18,12 +18,13 @@ if(keyboard_check_pressed(vk_control)){room_restart();}
 inputDirection = point_direction(0,0,_right-_left,_down-_up);
 inputMagnitute = (_right - _left !=0) || (_down - _up !=0);
 _Dir = point_direction(x,y,mouse_x,mouse_y);
-direction = _Dir;
+direction = inputDirection;
 #endregion
 
 #region MOUVEMENTS
+var _OldSprite = sprite_index;
 if(CanMove && AvatarState != "Dodge"){
-	if(_left || _right || _up || _down){ //WALK
+	if(inputMagnitute != 0){ //WALK
 		//X
 		//_X = (_right - _left)*Vitesse;
 		_X = lengthdir_x(inputMagnitute*Vitesse,inputDirection);
@@ -71,7 +72,7 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
-		sprite_index = Spr_Avatar_Arc;
+		sprite_index = Spr_Avatar_Bow;
 	} else if (EquippedWeapon == "Sword"){ //sword
 		_weapon = instance_create_layer(x,y,"Instances",Obj_Sword);
 		_weapon.direction = direction;
@@ -81,7 +82,7 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
-		sprite_index = Spr_Avatar_Arc;
+		sprite_index = Spr_Avatar_Bow;
 	}
 }
 #endregion
@@ -97,6 +98,9 @@ if(CanMove && _space && AvatarState != "Dodge" && CanDodge){
 }
 #endregion
 
+//Update Animations
+if (_OldSprite != sprite_index){LocalFrame = 0;}
+Scr_SpriteAnimation();
 
 #region POTION COLLISION
 var inventory = instance_find(Obj_Inventory, 0);

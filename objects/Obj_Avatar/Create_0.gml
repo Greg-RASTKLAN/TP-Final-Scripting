@@ -9,6 +9,7 @@ Vitesse = 3;
 CanMove = true;
 StateDelay = 20; //Délai entre les States pour éviter le animation cancel trop tôt
 AvatarState = "Idle";
+LocalFrame = 0;
 
 //DODGE
 DodgeRange = 128;
