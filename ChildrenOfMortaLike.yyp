@@ -88,7 +88,6 @@
     {"id":{"name":"Spr_Avatar_Dodge","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},},
     {"id":{"name":"Spr_Avatar_Idle","path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",},},
     {"id":{"name":"Spr_Avatar_Walk","path":"sprites/Spr_Avatar_Walk/Spr_Avatar_Walk.yy",},},
-    {"id":{"name":"Spr_Avatar","path":"sprites/Spr_Avatar/Spr_Avatar.yy",},},
     {"id":{"name":"Spr_BG_Tile","path":"sprites/Spr_BG_Tile/Spr_BG_Tile.yy",},},
     {"id":{"name":"Spr_Bow","path":"sprites/Spr_Bow/Spr_Bow.yy",},},
     {"id":{"name":"Spr_Bush","path":"sprites/Spr_Bush/Spr_Bush.yy",},},

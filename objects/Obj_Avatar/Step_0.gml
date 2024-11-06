@@ -64,9 +64,9 @@ if(CanMove && AvatarState != "Dodge"){
 #region ATTACK
 if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 	if (EquippedWeapon == "Bow"){ //bow
-		_weapon = instance_create_layer(x,y,"Instances",Obj_Arrow);
-		_weapon.direction = direction;
-		_weapon.image_angle = direction;
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
+		_weapon.direction = _Dir;
+		_weapon.image_angle = _Dir;
 		CanAttack = false;
 		alarm_set(0,Bow_AttackSpeed);
 		CanMove = false;
