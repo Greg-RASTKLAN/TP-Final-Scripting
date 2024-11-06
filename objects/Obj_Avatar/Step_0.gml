@@ -47,6 +47,7 @@ if(CanMove && AvatarState != "Dodge"){
 		sprite_index = Spr_Avatar_Idle;
 	}
 } else if(DodgeLeft > 0){ //DODGE
+	direction = _Dir;
 	if(!place_meeting(x+lengthdir_x(DodgeStep, DodgeDirection),y+lengthdir_y(DodgeStep, DodgeDirection),_Collisions)){
 		x += lengthdir_x(DodgeStep, DodgeDirection);
 		y += lengthdir_y(DodgeStep, DodgeDirection);
