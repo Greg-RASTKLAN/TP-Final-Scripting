@@ -12,7 +12,7 @@ var _u_nmap = u_nmap;
 
 //Shadow surface setup
 if (!surface_exists(shad_surf)){
-	shad_surf = surface_create(320,180);
+	shad_surf = surface_create(camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0]));
 }
 
 matrix_set(matrix_world,matrix_build(-vx,-vy,0,0,0,0,1,1,1));

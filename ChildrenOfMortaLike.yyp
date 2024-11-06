@@ -73,6 +73,7 @@
     {"id":{"name":"Obj_Skill3","path":"objects/Obj_Skill3/Obj_Skill3.yy",},},
     {"id":{"name":"Obj_Skills_Back","path":"objects/Obj_Skills_Back/Obj_Skills_Back.yy",},},
     {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},},
+    {"id":{"name":"Obj_Torch","path":"objects/Obj_Torch/Obj_Torch.yy",},},
     {"id":{"name":"obj_tri","path":"objects/obj_tri/obj_tri.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Obj_WeaponWheel","path":"objects/Obj_WeaponWheel/Obj_WeaponWheel.yy",},},
@@ -122,6 +123,7 @@
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
     {"id":{"name":"Spr_TileSet_Sewers","path":"sprites/Spr_TileSet_Sewers/Spr_TileSet_Sewers.yy",},},
     {"id":{"name":"spr_tileu","path":"sprites/spr_tileu/spr_tileu.yy",},},
+    {"id":{"name":"Spr_Torch","path":"sprites/Spr_Torch/Spr_Torch.yy",},},
     {"id":{"name":"spr_tri","path":"sprites/spr_tri/spr_tri.yy",},},
     {"id":{"name":"Spr_Viper_Attack","path":"sprites/Spr_Viper_Attack/Spr_Viper_Attack.yy",},},
     {"id":{"name":"Spr_Viper_Idle","path":"sprites/Spr_Viper_Idle/Spr_Viper_Idle.yy",},},
@@ -139,9 +141,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room_Template","path":"rooms/Room_Template/Room_Template.yy",},},
-    {"roomId":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
     {"roomId":{"name":"Room_LS","path":"rooms/Room_LS/Room_LS.yy",},},
+    {"roomId":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
+    {"roomId":{"name":"Room_Template","path":"rooms/Room_Template/Room_Template.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

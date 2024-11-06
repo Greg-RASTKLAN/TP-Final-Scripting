@@ -29,8 +29,8 @@ vertex_end(vb);
 //view movement controls
 //vy += (keyboard_check(vk_down)-keyboard_check(vk_up))*4; 
 //vx += (keyboard_check(vk_right)-keyboard_check(vk_left))*4;
-vy = Obj_Camera.y; 
-vx = Obj_Camera.x; 
+vy = Obj_Camera.y;
+vx = Obj_Camera.x;
 //camera_set_view_pos(view_camera[0],vx,vy);
 global.vx = vx;
 global.vy = vy;
