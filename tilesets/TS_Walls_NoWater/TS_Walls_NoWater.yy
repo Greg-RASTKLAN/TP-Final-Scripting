@@ -3,6 +3,8 @@
   "%Name":"TS_Walls_NoWater",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"AT_FloorDarker","closed_edge":false,"name":"AT_FloorDarker","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[222,156,158,92,286,220,94,91,288,90,224,93,352,351,353,350,],},
+    {"$GMAutoTileSet":"","%Name":"AT_Square_Walls","closed_edge":false,"name":"AT_Square_Walls","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[1368,1499,1497,1238,1239,1366,922,1237,1434,1117,1370,654,1498,912,914,1041,],},
+    {"$GMAutoTileSet":"","%Name":"AT_Stairs","closed_edge":false,"name":"AT_Stairs","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[2237,0,0,2173,0,2236,987,2171,0,1117,2239,2174,2303,2301,2304,2108,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":0,

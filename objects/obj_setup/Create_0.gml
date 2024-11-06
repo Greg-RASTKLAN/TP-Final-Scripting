@@ -1,3 +1,6 @@
+//Code de GrizzliusMaximus Games et adapté par Simon Paradis
+layer_set_visible(layer_get_id("Normal"), true);
+
 //Resize the application surface to be lower res (for pixel games + performance boost)
 surface_resize(application_surface,camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0])); //320,180
 display_set_gui_maximize();

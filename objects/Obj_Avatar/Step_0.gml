@@ -9,6 +9,15 @@ _down = keyboard_check(ord("S"));
 _space = keyboard_check(vk_space);
 _mouseclick_left = mouse_check_button(mb_left);
 
+/*
+_KeyOne = keyboard_check(ord("1"));
+_KeyTwo = keyboard_check(ord("2"));
+_KeyThree = keyboard_check(ord("3"));
+
+if(_KeyOne == true){EquippedWeapon == "Bow";}
+if(_KeyTwo == true){EquippedWeapon == "Sword";}
+if(_KeyThree == true){EquippedWeapon == "Magic";}
+*/
 
 //DEV
 if(keyboard_check_pressed(vk_control)){room_restart();}
@@ -89,9 +98,9 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Sword;
-	} else if (EquippedWeapon == "Sword"){ //sword
+	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y,"Instances",Obj_Sword);
+		_weapon = instance_create_layer(x,y,"Instances",Obj_Magic);
 		_weapon.direction = direction;
 		_weapon.image_angle = direction-45;
 		CanAttack = false;
