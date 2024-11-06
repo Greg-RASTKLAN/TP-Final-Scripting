@@ -78,8 +78,6 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Obj_WeaponWheel","path":"objects/Obj_WeaponWheel/Obj_WeaponWheel.yy",},},
     {"id":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
-    {"id":{"name":"Room_LS","path":"rooms/Room_LS/Room_LS.yy",},},
-    {"id":{"name":"Room_Template","path":"rooms/Room_Template/Room_Template.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
     {"id":{"name":"shd_norm","path":"shaders/shd_norm/shd_norm.yy",},},
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
@@ -141,9 +139,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room_LS","path":"rooms/Room_LS/Room_LS.yy",},},
     {"roomId":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
-    {"roomId":{"name":"Room_Template","path":"rooms/Room_Template/Room_Template.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

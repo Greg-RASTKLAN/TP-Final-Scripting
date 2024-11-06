@@ -18,4 +18,4 @@ y = clamp(y, 0, room_width -  cameraHeight);
 
 
 // Règle la position de la caméra
-camera_set_view_pos(view_camera[0], x, y);
+//camera_set_view_pos(view_camera[0], x, y);
