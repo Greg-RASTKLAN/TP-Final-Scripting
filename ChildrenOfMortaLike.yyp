@@ -83,6 +83,7 @@
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
     {"id":{"name":"Spr_AcidWater_Animated","path":"sprites/Spr_AcidWater_Animated/Spr_AcidWater_Animated.yy",},},
     {"id":{"name":"Spr_Arrow","path":"sprites/Spr_Arrow/Spr_Arrow.yy",},},
+    {"id":{"name":"Spr_Avatar_2","path":"sprites/Spr_Avatar_2/Spr_Avatar_2.yy",},},
     {"id":{"name":"Spr_Avatar_Arc","path":"sprites/Spr_Avatar_Arc/Spr_Avatar_Arc.yy",},},
     {"id":{"name":"Spr_Avatar_Dodge","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},},
     {"id":{"name":"Spr_Avatar_Idle","path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",},},

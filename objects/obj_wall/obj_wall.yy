@@ -9,7 +9,10 @@
     "name":"Light System",
     "path":"folders/Objets/Light System.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Collision",
+    "path":"objects/Obj_Collision/Obj_Collision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
