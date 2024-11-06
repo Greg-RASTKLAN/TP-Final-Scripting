@@ -15,5 +15,4 @@ void main(){
 	col = in_Colour;
 	
 	v_vTexcoord = in_TextureCoord;
-	
 }
