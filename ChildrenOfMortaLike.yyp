@@ -72,12 +72,14 @@
     {"id":{"name":"Obj_Skill2","path":"objects/Obj_Skill2/Obj_Skill2.yy",},},
     {"id":{"name":"Obj_Skill3","path":"objects/Obj_Skill3/Obj_Skill3.yy",},},
     {"id":{"name":"Obj_Skills_Back","path":"objects/Obj_Skills_Back/Obj_Skills_Back.yy",},},
+    {"id":{"name":"Obj_Skilltree","path":"objects/Obj_Skilltree/Obj_Skilltree.yy",},},
     {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},},
     {"id":{"name":"Obj_Torch","path":"objects/Obj_Torch/Obj_Torch.yy",},},
     {"id":{"name":"obj_tri","path":"objects/obj_tri/obj_tri.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Obj_WeaponWheel","path":"objects/Obj_WeaponWheel/Obj_WeaponWheel.yy",},},
     {"id":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
+    {"id":{"name":"rm_Skilltree","path":"rooms/rm_Skilltree/rm_Skilltree.yy",},},
     {"id":{"name":"Scr_SpriteAnimation","path":"scripts/Scr_SpriteAnimation/Scr_SpriteAnimation.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
     {"id":{"name":"shd_norm","path":"shaders/shd_norm/shd_norm.yy",},},
@@ -142,6 +144,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
+    {"roomId":{"name":"rm_Skilltree","path":"rooms/rm_Skilltree/rm_Skilltree.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

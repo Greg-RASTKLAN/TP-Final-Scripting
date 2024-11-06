@@ -128,3 +128,10 @@ if (potion && !inventory.is_full()){
 	inventory.pickup(Spr_Potion);
 }
 #endregion
+
+#region SKILLTREE AFFICHAGE
+if (keyboard_check_pressed(ord("J"))) {
+	global.previous_room = aRoom1;
+	room_goto(rm_Skilltree);
+}
+
