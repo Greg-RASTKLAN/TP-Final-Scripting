@@ -2,6 +2,7 @@
 // You can write your code in this editor
 //depth = -16000
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Tiles_Collision")];
+LastInputDir = 1;
 
 nbVies = 3;
 Vitesse = 3;

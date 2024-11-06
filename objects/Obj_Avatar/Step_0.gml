@@ -16,9 +16,12 @@ if(keyboard_check_pressed(vk_control)){room_restart();}
 
 #region DIRECTION
 inputDirection = point_direction(0,0,_right-_left,_down-_up);
+if(inputDirection != 0){LastInputDir = inputDirection;}
 inputMagnitute = (_right - _left !=0) || (_down - _up !=0);
 _Dir = point_direction(x,y,mouse_x,mouse_y);
-direction = inputDirection;
+if(inputDirection == 0){
+	direction = _Dir;
+} else{direction = LastInputDir;}
 #endregion
 
 #region MOUVEMENTS
@@ -64,6 +67,7 @@ if(CanMove && AvatarState != "Dodge"){
 #region ATTACK
 if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 	if (EquippedWeapon == "Bow"){ //bow
+		direction = _Dir;
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
 		_weapon.direction = _Dir;
 		_weapon.image_angle = _Dir;
@@ -74,6 +78,7 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Bow;
 	} else if (EquippedWeapon == "Sword"){ //sword
+		direction = _Dir;
 		_weapon = instance_create_layer(x,y,"Instances",Obj_Sword);
 		_weapon.direction = direction;
 		_weapon.image_angle = direction-45;
