@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"ChildrenOfMortaLike",
   "resources":[
@@ -134,6 +134,7 @@
     {"id":{"name":"Spr_Viper_Walk","path":"sprites/Spr_Viper_Walk/Spr_Viper_Walk.yy",},},
     {"id":{"name":"Spr_Wall_NoWater","path":"sprites/Spr_Wall_NoWater/Spr_Wall_NoWater.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"Spr_Weapon_Tiles","path":"sprites/Spr_Weapon_Tiles/Spr_Weapon_Tiles.yy",},},
     {"id":{"name":"Spr_WeaponWheel","path":"sprites/Spr_WeaponWheel/Spr_WeaponWheel.yy",},},
     {"id":{"name":"tle_backwall","path":"tilesets/tle_backwall/tle_backwall.yy",},},
     {"id":{"name":"tle_normal","path":"tilesets/tle_normal/tle_normal.yy",},},
