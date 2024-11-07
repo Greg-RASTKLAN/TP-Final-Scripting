@@ -25,6 +25,6 @@ EquippedWeapon = WeaponsAvailable[0];
 CanAttack = true;
 _Dir = 0;
 //bow
-Bow_AttackSpeed = 30;
+Bow_AttackCooldown = 30;
 //sword
-Sword_AttackSpeed = 45;
+Sword_AttackCooldown = 45;

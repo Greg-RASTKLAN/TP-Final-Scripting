@@ -50,7 +50,7 @@ if(CanAttack && CanMove && AvatarState != "Dodge"){
 	_weapon.direction = direction;
 	_weapon.image_angle = direction;
 	CanAttack = false;
-	alarm_set(0,Bow_AttackSpeed);
+	alarm_set(0,Bow_AttackCooldown);
 	CanMove = false;
 	alarm_set(1,StateDelay);
 	AvatarState = "Attack";
