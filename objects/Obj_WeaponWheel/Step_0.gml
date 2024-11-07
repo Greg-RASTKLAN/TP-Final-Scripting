@@ -19,6 +19,21 @@ if (keyboard_check_pressed(ord("F"))) {
 
 if (keyboard_check_released(ord("F"))) {
     // Disparition de la roue et réinitialisation des variables
-    visible = false;
-    selected_index = -1;
+    if(selected_index == 0) {
+		show_debug_message("epee");
+		Obj_Avatar.EquippedWeapon = "Sword";
+	}
+	else if(selected_index == 1) {
+		show_debug_message("arc");
+		Obj_Avatar.EquippedWeapon = "Bow";
+	}
+	else {
+		show_debug_message("feu");
+		Obj_Avatar.EquippedWeapon = "Magic";
+	}
+	
+	
+	
+	visible = false;
+    //selected_index = -1;
 }
