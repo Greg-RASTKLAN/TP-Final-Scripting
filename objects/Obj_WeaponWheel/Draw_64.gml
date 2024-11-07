@@ -1,6 +1,6 @@
 if (visible) {
 	
-	// Détermine quel segment est survolé
+	// Cette variable indique l'angle vers lequel va la souris durant l'apparition de la wheel
 	angle_to_mouse = round(point_direction(mouse_pos_x, mouse_pos_y, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0)));
 
 	// Détermine l'index du segment survolé en fonction de l'angle
@@ -17,10 +17,9 @@ if (visible) {
 		draw_sprite_ext(Spr_WeaponWheel, 0, mouse_pos_x, mouse_pos_y, 1, 1, 170, highlight_color, 1); 
 	}
 
-	// Affiche chaque segment de la weapon wheel
+	// Affiche chaque arme de la weapon wheel
 	for (var i = 0; i < 3; i++) {
 	    
-		// Détermine l'angle de chaque segment pour aligner avec l'index
 	    var draw_angle;
 		
 	    if (i == 0) draw_angle = 50;
