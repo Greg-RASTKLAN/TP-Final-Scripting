@@ -21,6 +21,7 @@
   "height":128,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"0ffb3fd8-78fa-4576-a9fb-c4291474e81b","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0ffb3fd8-78fa-4576-a9fb-c4291474e81b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"46d32231-6106-4790-aee9-766be62948fc","blendMode":0,"displayName":"default","isLocked":false,"name":"46d32231-6106-4790-aee9-766be62948fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_WeaponWheel",
