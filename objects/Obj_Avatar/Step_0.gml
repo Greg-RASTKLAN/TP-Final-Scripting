@@ -76,14 +76,14 @@ if(CanMove && AvatarState != "Dodge"){
 #endregion
 
 #region ATTACKS
-if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
+if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
 		_weapon.direction = direction;
 		//_weapon.image_angle = direction-45;
-		CanAttack = false;
-		alarm_set(0,Bow_AttackCooldown);
+		Skill_1_Ready = false;
+		alarm_set(2,Skill_1_Cooldown);
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
@@ -93,8 +93,8 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
 		_weapon.direction = _Dir;
 		_weapon.image_angle = _Dir;
-		CanAttack = false;
-		alarm_set(0,Bow_AttackCooldown);
+		Skill_1_Ready = false;
+		alarm_set(2,Skill_1_Cooldown);
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
@@ -104,8 +104,8 @@ if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
 		_weapon.direction = direction;
 		_weapon.image_angle = direction-45;
-		CanAttack = false;
-		alarm_set(0,Bow_AttackCooldown);
+		Skill_1_Ready = false;
+		alarm_set(2,Skill_1_Cooldown);
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
