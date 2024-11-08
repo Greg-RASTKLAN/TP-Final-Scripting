@@ -104,6 +104,7 @@
     {"id":{"name":"Spr_HealthBarBackground","path":"sprites/Spr_HealthBarBackground/Spr_HealthBarBackground.yy",},},
     {"id":{"name":"Spr_HealthBarBorder","path":"sprites/Spr_HealthBarBorder/Spr_HealthBarBorder.yy",},},
     {"id":{"name":"Spr_InventoryMainBox","path":"sprites/Spr_InventoryMainBox/Spr_InventoryMainBox.yy",},},
+    {"id":{"name":"Spr_Magic_Statique","path":"sprites/Spr_Magic_Statique/Spr_Magic_Statique.yy",},},
     {"id":{"name":"Spr_Magic","path":"sprites/Spr_Magic/Spr_Magic.yy",},},
     {"id":{"name":"Spr_Mana","path":"sprites/Spr_Mana/Spr_Mana.yy",},},
     {"id":{"name":"Spr_ManaBar","path":"sprites/Spr_ManaBar/Spr_ManaBar.yy",},},

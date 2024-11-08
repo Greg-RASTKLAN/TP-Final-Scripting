@@ -3,7 +3,7 @@
 view_width = camera_get_view_width(0);
 view_height = camera_get_view_height(0);
 
-// Arriere plan du HUD
+// Arriere plan du HUD Skills
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2, view_height - 150, view_width/3, 150);
 
 // Compétences
@@ -19,8 +19,8 @@ if(currentWeapon == "Sword")
 if(currentWeapon == "Bow")
 	draw_sprite(Spr_Bow_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
 	
-//if(currentWeapon == "Magic")
-//	draw_sprite(Spr_Magic_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
+if(currentWeapon == "Magic")
+	draw_sprite(Spr_Magic_Statique, 1, view_width/2 - (view_width/3)/2 - 100, view_height - 80);
 #endregion
 
 #region Cooldown
@@ -41,6 +41,22 @@ var time_left_s3 = floor(timer_s3 / room_speed);
 draw_text(display_x + 180, display_y, string(time_left_s3));      
 #endregion
 
+
+// Arriere plan du HUD Potion
+draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2 + 350, view_height - 100, view_width/6, 100);
+
+// Potions
+draw_sprite(Spr_Potion, 0, view_width/2 - (view_width/3)/2 + 350, view_height - 100); // Potion
+
+draw_line_width_color(view_width/2 - (view_width/3)/2 + 430, 
+						view_height - 75, 
+						view_width/2 - (view_width/3)/2 + 430, 
+						view_height - 25, 
+						2, // Largeur de la ligne
+						#F5C400, 
+						#CA9822);
+						  
+draw_sprite(Spr_Mana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100); // Mana
 
 
 
