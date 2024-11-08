@@ -11,13 +11,14 @@ _space = keyboard_check(vk_space);
 _mouseclick_left = mouse_check_button(mb_left);
 _mouseclick_right = mouse_check_button_released(mb_right);
 
+/*
 if (_mouseclick_right){
 	switch (EquippedWeapon){
 		case "Sword": EquippedWeapon = "Bow"; break;
 		case "Bow": EquippedWeapon = "Magic"; break;
 		case "Magic": EquippedWeapon = "Sword"; break;
 	}
-}
+}*/
 
 //DEV
 if(keyboard_check_pressed(vk_control)){room_restart();}
