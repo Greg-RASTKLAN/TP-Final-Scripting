@@ -13,14 +13,17 @@ if (keyboard_check_released(ord("F"))) {
     if(selected_index == 0) {
 		show_debug_message("epee");
 		Obj_Avatar.EquippedWeapon = "Sword";
+
 	}
 	else if(selected_index == 1) {
-		show_debug_message("arc");
+		show_debug_message("bow");
 		Obj_Avatar.EquippedWeapon = "Bow";
+
 	}
 	else {
 		show_debug_message("feu");
 		Obj_Avatar.EquippedWeapon = "Magic";
+
 	}
 	
 	visible = false;

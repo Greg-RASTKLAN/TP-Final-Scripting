@@ -1,21 +1,45 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Décrémentation des timer de cooldown
 
-
-// Gestion de l'appui sur la touche E
-if (keyboard_check_pressed(ord("E") && !cooldown_active)) {
-    // Démarrer le cooldown si ce n'est pas déjà actif
-    cooldown_active = true;
-    cooldown_timer = skill_2_Cooldown;  // Démarre le timer avec la durée du cooldown
+#region Skill 1
+if (mouse_check_button_pressed(mb_left)) {
+	countdown_active_s1 = true;
 }
 
-// Réduire le cooldown si il est actif
-if (cooldown_active) {
-    cooldown_timer -= 1;
-	show_debug_message(cooldown_timer)
-    if (cooldown_timer <= 0) {
-        cooldown_timer = 0;
-        cooldown_active = false; // Arrêter le cooldown
-		cooldown_timer = skill_2_Cooldown;
-    }
+if (countdown_active_s1 && timer_s1 > 0) {
+    timer_s1 -= 1;
+} else if (timer_s1 <= 0) {
+    timer_s1 = initial_time_s1;          
+    countdown_active_s1 = false;    
 }
+#endregion
+
+#region Skill 2
+if (keyboard_check_pressed(ord("E"))) {
+    countdown_active_s2 = true;
+}
+
+if (countdown_active_s2 && timer_s2 > 0) {
+    timer_s2 -= 1;
+} else if (timer_s2 <= 0) {
+    timer_s2 = initial_time_s2;          
+    countdown_active_s2 = false;    
+}
+#endregion
+
+#region Skill 3
+if (keyboard_check_pressed(ord("A"))) {
+	countdown_active_s3 = true;
+}
+
+if (countdown_active_s3 && timer_s3 > 0) {
+    timer_s3 -= 1;
+} else if (timer_s3 <= 0) {
+    timer_s3 = initial_time_s3;          
+    countdown_active_s3 = false;    
+}
+
+#endregion
+
+
+
+

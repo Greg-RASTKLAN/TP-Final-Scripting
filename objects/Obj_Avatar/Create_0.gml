@@ -20,11 +20,17 @@ DodgeDirection = 0;
 CanDodge = true;
 
 //ATTACK
-WeaponsAvailable = ["Bow", "Sword", "Daggers"];
+WeaponsAvailable = ["Bow", "Sword", "Magic"];
 EquippedWeapon = WeaponsAvailable[0];
+
 CanAttack = true;
 _Dir = 0;
 //bow
 Bow_AttackCooldown = 30;
 //sword
 Sword_AttackCooldown = 45;
+
+
+
+
+
