@@ -20,9 +20,8 @@ DodgeDirection = 0;
 CanDodge = true;
 
 //ATTACK
-WeaponsAvailable = ["Sword", "Bow", "Magic"];
-EquippedWeapon = WeaponsAvailable[0];
-
+//WeaponsAvailable = ["Sword", "Bow", "Magic"];
+EquippedWeapon = "Sword";
 CanAttack = true;
 _Dir = 0;
 //bow

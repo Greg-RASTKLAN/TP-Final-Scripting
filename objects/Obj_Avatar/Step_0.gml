@@ -79,9 +79,9 @@ if(CanMove && AvatarState != "Dodge"){
 if(_mouseclick_left && CanAttack && CanMove && AvatarState != "Dodge"){
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Sword);
+		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
 		_weapon.direction = direction;
-		_weapon.image_angle = direction-45;
+		//_weapon.image_angle = direction-45;
 		CanAttack = false;
 		alarm_set(0,Bow_AttackCooldown);
 		CanMove = false;
@@ -139,5 +139,3 @@ if (potion && !inventory.is_full()){
 	inventory.pickup(Spr_Potion);
 }
 #endregion
-
-
