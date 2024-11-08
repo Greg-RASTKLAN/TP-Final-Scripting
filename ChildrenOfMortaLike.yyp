@@ -88,6 +88,7 @@
     {"id":{"name":"Spr_AcidWater_Animated","path":"sprites/Spr_AcidWater_Animated/Spr_AcidWater_Animated.yy",},},
     {"id":{"name":"Spr_Arrow","path":"sprites/Spr_Arrow/Spr_Arrow.yy",},},
     {"id":{"name":"Spr_Avatar_Bow","path":"sprites/Spr_Avatar_Bow/Spr_Avatar_Bow.yy",},},
+    {"id":{"name":"Spr_Avatar_Die","path":"sprites/Spr_Avatar_Die/Spr_Avatar_Die.yy",},},
     {"id":{"name":"Spr_Avatar_Dodge","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},},
     {"id":{"name":"Spr_Avatar_Idle","path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",},},
     {"id":{"name":"Spr_Avatar_Magic","path":"sprites/Spr_Avatar_Magic/Spr_Avatar_Magic.yy",},},
