@@ -66,6 +66,7 @@
     {"id":{"name":"Obj_Magic","path":"objects/Obj_Magic/Obj_Magic.yy",},},
     {"id":{"name":"Obj_ManaBar","path":"objects/Obj_ManaBar/Obj_ManaBar.yy",},},
     {"id":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},},
+    {"id":{"name":"Obj_Pause","path":"objects/Obj_Pause/Obj_Pause.yy",},},
     {"id":{"name":"Obj_Potion","path":"objects/Obj_Potion/Obj_Potion.yy",},},
     {"id":{"name":"obj_robo","path":"objects/obj_robo/obj_robo.yy",},},
     {"id":{"name":"obj_setup","path":"objects/obj_setup/obj_setup.yy",},},
