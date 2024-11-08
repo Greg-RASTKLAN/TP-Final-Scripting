@@ -8,9 +8,14 @@
       ],},
   ],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":8,
+    "SerialiseWidth":9,
+    "TileCompressedData":[
+      -10,0,26,208,209,210,211,212,213,214,215,0,273,274,275,276,277,278,279,280,0,338,339,340,341,342,343,
+      344,345,-10,0,26,208,209,210,211,212,213,214,215,0,273,274,275,276,277,278,279,280,0,338,339,340,341,
+      342,343,344,345,
+    ],
+    "TileDataFormat":1,
   },
   "name":"TS_Sewers",
   "out_columns":65,
