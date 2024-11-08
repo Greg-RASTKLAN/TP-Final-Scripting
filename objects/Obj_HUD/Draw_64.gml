@@ -19,8 +19,8 @@ if(currentWeapon == "Sword")
 if(currentWeapon == "Bow")
 	draw_sprite(Spr_Bow_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
 	
-//if(currentWeapon == "Magic")
-//	draw_sprite(Spr_Magic_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
+if(currentWeapon == "Magic")
+	draw_sprite(Spr_Magic_Statique, 1, view_width/2 - (view_width/3)/2 - 100, view_height - 80);
 #endregion
 
 #region Cooldown
