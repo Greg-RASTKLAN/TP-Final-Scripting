@@ -26,9 +26,17 @@ Bow_AttackCooldown = 30;
 CanAttack = true;
 _Dir = 0;
 
+//FUNCTIONS
+//Take Dammage
 function fct_Dommages(Dmg){
-	nbVies -= Dmg;
-	if(nbVies <= 0){
-		instance_destroy();
+	if(AvatarState != "Hurt"){
+		AvatarState = "Hurt";
+		sprite_index = Spr_MutantRat_Hurt;		
+		EnemyTarget = Obj_Avatar;
+		nbVies -= Dmg;
+		if(nbVies <= 0){
+			AvatarState = "Death";
+			sprite_index = Spr_MutantRat_Death;		
+		}
 	}
 }

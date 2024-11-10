@@ -2,14 +2,19 @@
 // You can write your code in this editor
 
 #region AGGRO
-//if(EnemyTarget != 0){
-if distance_to_object(Obj_Avatar) <= AggroRange{
-	EnemyTarget = Obj_Avatar;
-	_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
-	direction = _Dir;
-	move_towards_point(Obj_Avatar.x,Obj_Avatar.y,Vitesse);
+if(AvatarState != "Hurt" && AvatarState != "Death"){
+	if distance_to_object(Obj_Avatar) <= AggroRange{
+		sprite_index = Spr_MutantRat_Walk;
+		EnemyTarget = Obj_Avatar;
+		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
+		direction = _Dir;
+		move_towards_point(Obj_Avatar.x,Obj_Avatar.y,Vitesse);
+	} else{
+		sprite_index = Spr_MutantRat_idle;
+		EnemyTarget = 0;
+		move_towards_point(x,y,0);
+	}
 } else{
-	EnemyTarget = 0;
 	move_towards_point(x,y,0);
 }
 #endregion

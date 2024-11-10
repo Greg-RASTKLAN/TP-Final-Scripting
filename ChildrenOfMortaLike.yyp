@@ -113,6 +113,8 @@
     {"id":{"name":"Spr_ManaBar","path":"sprites/Spr_ManaBar/Spr_ManaBar.yy",},},
     {"id":{"name":"Spr_ManaBarBackground","path":"sprites/Spr_ManaBarBackground/Spr_ManaBarBackground.yy",},},
     {"id":{"name":"Spr_ManaBarBorder","path":"sprites/Spr_ManaBarBorder/Spr_ManaBarBorder.yy",},},
+    {"id":{"name":"Spr_MutantRat_Death","path":"sprites/Spr_MutantRat_Death/Spr_MutantRat_Death.yy",},},
+    {"id":{"name":"Spr_MutantRat_Hurt","path":"sprites/Spr_MutantRat_Hurt/Spr_MutantRat_Hurt.yy",},},
     {"id":{"name":"Spr_MutantRat_idle","path":"sprites/Spr_MutantRat_idle/Spr_MutantRat_idle.yy",},},
     {"id":{"name":"Spr_MutantRat_Walk","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},},
     {"id":{"name":"Spr_Potion","path":"sprites/Spr_Potion/Spr_Potion.yy",},},
