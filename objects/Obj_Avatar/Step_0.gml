@@ -121,6 +121,8 @@ if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
 		_weapon.direction = direction;
+		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Lacerate);
+		_weapon.direction = direction;
 		//_weapon.image_angle = direction-45;
 		Skill_2_Ready = false;
 		alarm_set(3,Skill_2_Cooldown);

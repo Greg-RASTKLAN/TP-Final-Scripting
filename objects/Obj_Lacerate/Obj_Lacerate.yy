@@ -1,14 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Arrow",
+  "%Name":"Obj_Lacerate",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Enemy_1","path":"objects/Obj_Enemy_1/Obj_Enemy_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Arrow",
+  "name":"Obj_Lacerate",
   "overriddenProperties":[],
   "parent":{
     "name":"Armes",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Arrow",
-    "path":"sprites/Spr_Arrow/Spr_Arrow.yy",
+    "name":"Spr_Lacerate",
+    "path":"sprites/Spr_Lacerate/Spr_Lacerate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
