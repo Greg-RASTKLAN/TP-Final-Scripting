@@ -8,6 +8,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
+		if(direction < 90 && direction > 270){image_xscale = 1;} else{image_xscale = -1;} //Flip Sprite
 		move_towards_point(Obj_Avatar.x,Obj_Avatar.y,Vitesse);
 	} else{
 		sprite_index = Spr_MutantRat_idle;
