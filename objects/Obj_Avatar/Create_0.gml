@@ -25,10 +25,10 @@ EquippedWeapon = "Sword";
 CanAttack = true;
 _Dir = 0;
 
-//Cooldowns
-Skill_1_Cooldown = 20;
-Skill_2_Cooldown = 60;
-Skill_3_Cooldown = 120;
+//Skills Cooldowns
+Skill_1_Cooldown = 60;
+Skill_2_Cooldown = 120;
+Skill_3_Cooldown = 360;
 Skill_1_Ready = false;
 Skill_2_Ready = false;
 Skill_3_Ready = false;
