@@ -10,6 +10,7 @@ _down = keyboard_check(ord("S"));
 _space = keyboard_check(vk_space);
 _mouseclick_left = mouse_check_button(mb_left);
 _mouseclick_right = mouse_check_button_released(mb_right);
+_keyE = keyboard_check(ord("E"));
 
 /*
 if (_mouseclick_right){
@@ -75,7 +76,7 @@ if(CanMove && AvatarState != "Dodge"){
 }
 #endregion
 
-#region ATTACKS
+#region ATTACKS Skill 1
 if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
@@ -106,6 +107,51 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 		_weapon.image_angle = direction-45;
 		Skill_1_Ready = false;
 		alarm_set(2,Skill_1_Cooldown);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Magic;
+	}
+}
+#endregion
+
+#region ATTACKS Skill 2
+if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
+	if (EquippedWeapon == "Sword"){ //sword
+		direction = _Dir;
+		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
+		_weapon.direction = direction;
+		//_weapon.image_angle = direction-45;
+		Skill_2_Ready = false;
+		alarm_set(3,Skill_2_Cooldown);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Sword;
+	} else if (EquippedWeapon == "Bow"){ //bow Skill 2 (Extra Arrows)
+		direction = _Dir;
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
+		_weapon.direction = _Dir;
+		_weapon.image_angle = _Dir;
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
+		_weapon.direction = _Dir+10;
+		_weapon.image_angle = _Dir;
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
+		_weapon.direction = _Dir-10;
+		_weapon.image_angle = _Dir;
+		Skill_2_Ready = false;
+		alarm_set(3,Skill_2_Cooldown);
+		CanMove = false;
+		alarm_set(1,StateDelay);
+		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Bow;
+	} else if (EquippedWeapon == "Magic"){ //magic
+		direction = _Dir;
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
+		_weapon.direction = direction;
+		_weapon.image_angle = direction-45;
+		Skill_2_Ready = false;
+		alarm_set(3,Skill_2_Cooldown);
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
