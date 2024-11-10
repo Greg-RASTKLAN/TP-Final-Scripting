@@ -3,7 +3,7 @@
 depth = -y; //Draw order
 
 #region DIRECTION
-image_angle = direction+90;
+image_angle = direction;
 #endregion
 
 #region MOUVEMENTS

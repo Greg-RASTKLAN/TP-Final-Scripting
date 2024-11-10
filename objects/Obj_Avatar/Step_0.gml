@@ -121,7 +121,7 @@ if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
 		_weapon.direction = direction;
-		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Lacerate);
+		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword_Lacerate);
 		_weapon.direction = direction;
 		//_weapon.image_angle = direction-45;
 		Skill_2_Ready = false;
@@ -149,7 +149,7 @@ if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
 		sprite_index = Spr_Avatar_Bow;
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic_Napalm);
 		_weapon.direction = direction;
 		_weapon.image_angle = direction-45;
 		Skill_2_Ready = false;
