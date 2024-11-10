@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Torch",
+  "%Name":"Obj_GiantPipe",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_Magic","path":"objects/Obj_Magic/Obj_Magic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Torch",
+  "name":"Obj_GiantPipe",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objets/Props.yy",
+    "name":"Traps|Puzzles",
+    "path":"folders/Objets/Traps|Puzzles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Torch",
-    "path":"sprites/Spr_Torch/Spr_Torch.yy",
+    "name":"Spr_GiantPipe",
+    "path":"sprites/Spr_GiantPipe/Spr_GiantPipe.yy",
   },
   "spriteMaskId":null,
   "visible":true,
