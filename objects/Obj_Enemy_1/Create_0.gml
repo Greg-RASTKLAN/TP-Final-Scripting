@@ -25,6 +25,7 @@ EnemyTarget = 0;
 Bow_AttackCooldown = 30;
 CanAttack = true;
 _Dir = 0;
+_Xscale = 1;
 
 //FUNCTIONS
 //Take Dammage

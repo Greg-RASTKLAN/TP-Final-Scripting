@@ -4,25 +4,24 @@
 #region AGGRO
 if(AvatarState != "Hurt" && AvatarState != "Death"){
 	if distance_to_object(Obj_Avatar) <= AggroRange{
+		AvatarState = "Walk"
 		sprite_index = Spr_MutantRat_Walk;
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
-		if(direction < 90 && direction > 270){image_xscale = 1;} else{image_xscale = -1;} //Flip Sprite
-		move_towards_point(Obj_Avatar.x,Obj_Avatar.y,Vitesse);
+		x += lengthdir_x(Vitesse,direction);
+		y += lengthdir_y(Vitesse,direction);
+		_Xscale = sign(round(x-xprevious));
+		if(_Xscale == 0){_Xscale = -1;}
+		image_xscale = _Xscale;
 	} else{
+		AvatarState = "Idle";
 		sprite_index = Spr_MutantRat_idle;
 		EnemyTarget = 0;
-		move_towards_point(x,y,0);
 	}
-} else{
-	move_towards_point(x,y,0);
 }
 #endregion
 
-#region DIRECTION
-
-#endregion
 /*/
 #region MOUVEMENTS
 if(CanMove && AvatarState != "Dodge"){
