@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"ChildrenOfMortaLike",
   "resources":[
@@ -56,6 +56,7 @@
     {"id":{"name":"Obj_Arrow","path":"objects/Obj_Arrow/Obj_Arrow.yy",},},
     {"id":{"name":"Obj_Avatar","path":"objects/Obj_Avatar/Obj_Avatar.yy",},},
     {"id":{"name":"Obj_Bush","path":"objects/Obj_Bush/Obj_Bush.yy",},},
+    {"id":{"name":"Obj_ButtonMenu","path":"objects/Obj_ButtonMenu/Obj_ButtonMenu.yy",},},
     {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
     {"id":{"name":"Obj_Chest_1","path":"objects/Obj_Chest_1/Obj_Chest_1.yy",},},
     {"id":{"name":"Obj_Collision","path":"objects/Obj_Collision/Obj_Collision.yy",},},
@@ -80,6 +81,7 @@
     {"id":{"name":"Obj_Torch","path":"objects/Obj_Torch/Obj_Torch.yy",},},
     {"id":{"name":"Obj_WeaponWheel","path":"objects/Obj_WeaponWheel/Obj_WeaponWheel.yy",},},
     {"id":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
+    {"id":{"name":"rm_Menui","path":"rooms/rm_Menui/rm_Menui.yy",},},
     {"id":{"name":"rm_Skilltree","path":"rooms/rm_Skilltree/rm_Skilltree.yy",},},
     {"id":{"name":"Scr_SpriteAnimation","path":"scripts/Scr_SpriteAnimation/Scr_SpriteAnimation.yy",},},
     {"id":{"name":"Spr_AcidBlob","path":"sprites/Spr_AcidBlob/Spr_AcidBlob.yy",},},
@@ -94,6 +96,7 @@
     {"id":{"name":"Spr_Avatar_Sword","path":"sprites/Spr_Avatar_Sword/Spr_Avatar_Sword.yy",},},
     {"id":{"name":"Spr_Avatar_Walk","path":"sprites/Spr_Avatar_Walk/Spr_Avatar_Walk.yy",},},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},},
+    {"id":{"name":"Spr_BackgroundMenu","path":"sprites/Spr_BackgroundMenu/Spr_BackgroundMenu.yy",},},
     {"id":{"name":"Spr_BG_Tile","path":"sprites/Spr_BG_Tile/Spr_BG_Tile.yy",},},
     {"id":{"name":"Spr_Bow_Statique","path":"sprites/Spr_Bow_Statique/Spr_Bow_Statique.yy",},},
     {"id":{"name":"Spr_Bush","path":"sprites/Spr_Bush/Spr_Bush.yy",},},
@@ -113,6 +116,7 @@
     {"id":{"name":"Spr_ManaBar","path":"sprites/Spr_ManaBar/Spr_ManaBar.yy",},},
     {"id":{"name":"Spr_ManaBarBackground","path":"sprites/Spr_ManaBarBackground/Spr_ManaBarBackground.yy",},},
     {"id":{"name":"Spr_ManaBarBorder","path":"sprites/Spr_ManaBarBorder/Spr_ManaBarBorder.yy",},},
+    {"id":{"name":"Spr_MenuButton","path":"sprites/Spr_MenuButton/Spr_MenuButton.yy",},},
     {"id":{"name":"Spr_MutantRat_Attack1","path":"sprites/Spr_MutantRat_Attack1/Spr_MutantRat_Attack1.yy",},},
     {"id":{"name":"Spr_MutantRat_Attack2","path":"sprites/Spr_MutantRat_Attack2/Spr_MutantRat_Attack2.yy",},},
     {"id":{"name":"Spr_MutantRat_Death","path":"sprites/Spr_MutantRat_Death/Spr_MutantRat_Death.yy",},},
@@ -152,6 +156,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_Menui","path":"rooms/rm_Menui/rm_Menui.yy",},},
     {"roomId":{"name":"aRoom1","path":"rooms/aRoom1/aRoom1.yy",},},
     {"roomId":{"name":"rm_Skilltree","path":"rooms/rm_Skilltree/rm_Skilltree.yy",},},
   ],
