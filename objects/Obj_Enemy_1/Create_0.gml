@@ -19,7 +19,10 @@ DodgeDirection = 0;
 CanDodge = true;
 
 //ATTACK
-AggroRange = 128;
+AggroRange = 128; //Distance que l'Ennemi vas commencer à chasser l'Avatar
+Attack1_Ready = true;
+Attack1_Range = 100; //Acid Blob
+Attack2_Range = 10; //Slash
 EnemyTarget = 0;
 
 Bow_AttackCooldown = 30;

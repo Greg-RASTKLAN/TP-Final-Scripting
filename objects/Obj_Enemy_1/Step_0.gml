@@ -3,7 +3,27 @@
 
 #region AGGRO
 if(AvatarState != "Hurt" && AvatarState != "Death"){
-	if distance_to_object(Obj_Avatar) <= AggroRange{
+	if (Attack1_Ready && distance_to_object(Obj_Avatar) <= Attack1_Range 
+	&& distance_to_object(Obj_Avatar) > Attack2_Range){
+		AvatarState = "Attack";
+		sprite_index = Spr_MutantRat_Attack1;
+		EnemyTarget = Obj_Avatar;
+		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
+		direction = _Dir;
+		_Xscale = sign(round(x-xprevious));
+		if(_Xscale == 0){_Xscale = -1;}
+		image_xscale = _Xscale;
+		
+	} else if (distance_to_object(Obj_Avatar) <= Attack2_Range){
+		AvatarState = "Attack";
+		sprite_index = Spr_MutantRat_Attack2;
+		EnemyTarget = Obj_Avatar;
+		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
+		direction = _Dir;
+		_Xscale = sign(round(x-xprevious));
+		if(_Xscale == 0){_Xscale = -1;}
+		image_xscale = _Xscale;
+	} else if (distance_to_object(Obj_Avatar) <= AggroRange){
 		AvatarState = "Walk"
 		sprite_index = Spr_MutantRat_Walk;
 		EnemyTarget = Obj_Avatar;
