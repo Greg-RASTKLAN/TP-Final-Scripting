@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Scr_SpriteAnimation",
+  "%Name":"Scr_Dialogue",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Scr_SpriteAnimation",
+  "name":"Scr_Dialogue",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

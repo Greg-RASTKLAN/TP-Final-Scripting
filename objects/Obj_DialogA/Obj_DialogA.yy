@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Glow",
+  "%Name":"Obj_DialogA",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Glow",
+  "name":"Obj_DialogA",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objets/Props.yy",
+    "name":"Objets",
+    "path":"folders/Objets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_DIalogParent",
+    "path":"objects/Obj_DIalogParent/Obj_DIalogParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_Glow",
-    "path":"sprites/Spr_Glow/Spr_Glow.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
