@@ -11,7 +11,7 @@ image_angle = direction;
 _X = lengthdir_x(Vitesse, direction);
 _Y = lengthdir_y(Vitesse, direction);
 
-if(!place_meeting(x+_X,y+_Y,Obj_Collision)){
+if(!place_meeting(x+_X,y+_Y,_Collisions)){
 	x += _X;
 	y += _Y;
 } else{
