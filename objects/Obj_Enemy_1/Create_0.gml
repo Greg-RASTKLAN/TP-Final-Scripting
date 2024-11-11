@@ -30,7 +30,7 @@ _Xscale = 1;
 //FUNCTIONS
 //Take Dammage
 function fct_Dommages(Dmg){
-	if(AvatarState != "Hurt"){
+	if(AvatarState != "Hurt" && AvatarState != "Death"){
 		AvatarState = "Hurt";
 		sprite_index = Spr_MutantRat_Hurt;		
 		EnemyTarget = Obj_Avatar;
