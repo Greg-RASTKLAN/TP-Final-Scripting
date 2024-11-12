@@ -37,41 +37,43 @@ if(inputDirection == 0){
 
 #region MOUVEMENTS
 var _OldSprite = sprite_index;
-if(CanMove && AvatarState != "Dodge"){
-	if(inputMagnitute != 0){ //WALK
-		//X
-		//_X = (_right - _left)*Vitesse;
-		_X = lengthdir_x(inputMagnitute*Vitesse,inputDirection);
-		if(!place_meeting(x+_X, y,_Collisions)){
-			x += _X;
+if(AvatarState != "Hurt" && AvatarState != "Death"){
+	if(CanMove && AvatarState != "Dodge"){
+		if(inputMagnitute != 0){ //WALK
+			//X
+			//_X = (_right - _left)*Vitesse;
+			_X = lengthdir_x(inputMagnitute*Vitesse,inputDirection);
+			if(!place_meeting(x+_X, y,_Collisions)){
+				x += _X;
+			}
+			//Y
+			//_Y = (_down - _up)*Vitesse;
+			_Y = lengthdir_y(inputMagnitute*Vitesse,inputDirection);
+			if(!place_meeting(x, y+_Y,_Collisions)){
+				y += _Y;
+			}
+			AvatarState = "Walking"
+			sprite_index = Spr_Avatar_Walk;
+		} else{
+			AvatarState = "Idle"
+			sprite_index = Spr_Avatar_Idle;
 		}
-		//Y
-		//_Y = (_down - _up)*Vitesse;
-		_Y = lengthdir_y(inputMagnitute*Vitesse,inputDirection);
-		if(!place_meeting(x, y+_Y,_Collisions)){
-			y += _Y;
+	} else if(DodgeLeft > 0){ //DODGE
+		direction = _Dir;
+		if(!place_meeting(x+lengthdir_x(DodgeStep, DodgeDirection),y+lengthdir_y(DodgeStep, DodgeDirection),_Collisions)){
+			x += lengthdir_x(DodgeStep, DodgeDirection);
+			y += lengthdir_y(DodgeStep, DodgeDirection);
 		}
-		AvatarState = "Walking"
-		sprite_index = Spr_Avatar_Walk;
-	} else{
-		AvatarState = "Idle"
-		sprite_index = Spr_Avatar_Idle;
-	}
-} else if(DodgeLeft > 0){ //DODGE
-	direction = _Dir;
-	if(!place_meeting(x+lengthdir_x(DodgeStep, DodgeDirection),y+lengthdir_y(DodgeStep, DodgeDirection),_Collisions)){
-		x += lengthdir_x(DodgeStep, DodgeDirection);
-		y += lengthdir_y(DodgeStep, DodgeDirection);
-	}
-	DodgeLeft -= DodgeStep;
-	if (DodgeLeft == 0){
-		AvatarState = "Idle";
-		sprite_index = Spr_Avatar_Idle;
-	}
-	else if(DodgeLeft < 0){
-		DodgeLeft = 0;
-		AvatarState = "Idle";
-		sprite_index = Spr_Avatar_Idle;
+		DodgeLeft -= DodgeStep;
+		if (DodgeLeft == 0){
+			AvatarState = "Idle";
+			sprite_index = Spr_Avatar_Idle;
+		}
+		else if(DodgeLeft < 0){
+			DodgeLeft = 0;
+			AvatarState = "Idle";
+			sprite_index = Spr_Avatar_Idle;
+		}
 	}
 }
 #endregion

@@ -1,6 +1,9 @@
 /// @description Insert description here
-// You can write your code in this editor
 
+//Collisions
+_Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls")];
+
+//Vies
 nbViesMax = 6;
 nbVies = nbViesMax;
 nbVieCent = nbVies/nbViesMax;
@@ -19,7 +22,8 @@ DodgeDirection = 0;
 CanDodge = true;
 
 //ATTACK
-AggroRange = 128; //Distance que l'Ennemi vas commencer à chasser l'Avatar
+Dommages = 10;
+AggroRange = 256; //Distance que l'Ennemi vas commencer à chasser l'Avatar
 Attack1_Ready = true;
 Attack1_Range = 100; //Acid Blob
 Attack2_Range = 10; //Slash

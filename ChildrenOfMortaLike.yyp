@@ -48,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"ChildrenOfMortaLike",
   "resources":[
@@ -93,8 +93,9 @@
     {"id":{"name":"Spr_AcidWater_Animated","path":"sprites/Spr_AcidWater_Animated/Spr_AcidWater_Animated.yy",},},
     {"id":{"name":"Spr_Arrow","path":"sprites/Spr_Arrow/Spr_Arrow.yy",},},
     {"id":{"name":"Spr_Avatar_Bow","path":"sprites/Spr_Avatar_Bow/Spr_Avatar_Bow.yy",},},
-    {"id":{"name":"Spr_Avatar_Die","path":"sprites/Spr_Avatar_Die/Spr_Avatar_Die.yy",},},
+    {"id":{"name":"Spr_Avatar_Death","path":"sprites/Spr_Avatar_Death/Spr_Avatar_Death.yy",},},
     {"id":{"name":"Spr_Avatar_Dodge","path":"sprites/Spr_Avatar_Dodge/Spr_Avatar_Dodge.yy",},},
+    {"id":{"name":"Spr_Avatar_Hurt","path":"sprites/Spr_Avatar_Hurt/Spr_Avatar_Hurt.yy",},},
     {"id":{"name":"Spr_Avatar_Idle","path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",},},
     {"id":{"name":"Spr_Avatar_Magic","path":"sprites/Spr_Avatar_Magic/Spr_Avatar_Magic.yy",},},
     {"id":{"name":"Spr_Avatar_Sword","path":"sprites/Spr_Avatar_Sword/Spr_Avatar_Sword.yy",},},

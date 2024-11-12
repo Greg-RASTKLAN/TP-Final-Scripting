@@ -4,7 +4,7 @@
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls")];
 LastInputDir = 1;
 
-nbVies = 3;
+nbVies = 50;
 Vitesse = 3;
 
 CanMove = true;
@@ -40,3 +40,17 @@ alarm_set(4,Skill_3_Cooldown);
 Bow_AttackCooldown = 30;
 //sword
 Sword_AttackCooldown = 45;
+
+//FUNCTIONS
+function fct_Dommages(Dmg){
+	if(AvatarState != "Hurt" && AvatarState != "Death" && AvatarState != "Dodge"){
+		AvatarState = "Hurt";
+		sprite_index = Spr_Avatar_Hurt;
+		nbVies -= Dmg;
+		if(nbVies <= 0){
+			AvatarState = "Death";
+			sprite_index = Spr_Avatar_Death;
+			CanMove = false;
+		}
+	}
+}

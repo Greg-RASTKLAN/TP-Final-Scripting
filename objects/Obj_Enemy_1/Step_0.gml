@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#region AGGRO
+#region ATTACK
 if(AvatarState != "Hurt" && AvatarState != "Death"){
 	if (Attack1_Ready && distance_to_object(Obj_Avatar) <= Attack1_Range 
-	&& distance_to_object(Obj_Avatar) > Attack2_Range){
+	&& distance_to_object(Obj_Avatar) > Attack2_Range){ //Throw Acid
 		AvatarState = "Attack";
 		sprite_index = Spr_MutantRat_Attack1;
 		EnemyTarget = Obj_Avatar;
@@ -13,8 +13,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
-		
-	} else if (distance_to_object(Obj_Avatar) <= Attack2_Range){
+	} else if (distance_to_object(Obj_Avatar) <= Attack2_Range){ //Slash
 		AvatarState = "Attack";
 		sprite_index = Spr_MutantRat_Attack2;
 		EnemyTarget = Obj_Avatar;
@@ -23,18 +22,26 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
-	} else if (distance_to_object(Obj_Avatar) <= AggroRange){
+		Obj_Avatar.fct_Dommages(Dommages);
+	} else if (distance_to_object(Obj_Avatar) <= AggroRange){ //Move to Avatar
 		AvatarState = "Walk"
 		sprite_index = Spr_MutantRat_Walk;
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
-		x += lengthdir_x(Vitesse,direction);
-		y += lengthdir_y(Vitesse,direction);
+		//Movements And Collisions
+		_X = lengthdir_x(Vitesse,direction);
+		if(!place_meeting(x+_X, y,_Collisions)){
+			x += _X;
+		}
+		_Y = lengthdir_y(Vitesse,direction);
+		if(!place_meeting(x, y+_Y,_Collisions)){
+			y += _Y;
+		}
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
-	} else{
+	} else{ //Idle
 		AvatarState = "Idle";
 		sprite_index = Spr_MutantRat_idle;
 		EnemyTarget = 0;
