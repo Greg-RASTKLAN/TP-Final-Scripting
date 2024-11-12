@@ -5,8 +5,13 @@ _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls")];
 LastInputDir = 1;
 
 
-nbVies_Max = 50;
+nbVies_Max = 100;
 nbVies = nbVies_Max;
+
+nbMana_Max = 100;
+nbMana = nbMana_Max;
+ManaRegen = 0.1;
+
 Vitesse = 3;
 
 CanMove = true;
@@ -35,6 +40,8 @@ Skill_3_Cooldown = 360;
 Skill_1_Ready = false;
 Skill_2_Ready = false;
 Skill_3_Ready = false;
+Skill_2_Mana = 30;
+Skill_3_Mana = 60;
 alarm_set(2,Skill_1_Cooldown);
 alarm_set(3,Skill_2_Cooldown);
 alarm_set(4,Skill_3_Cooldown);

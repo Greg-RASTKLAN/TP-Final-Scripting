@@ -118,7 +118,8 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 #endregion
 
 #region ATTACKS Skill 2
-if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
+if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge" && nbMana >= Skill_2_Mana){
+	nbMana -= Skill_2_Mana;
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
@@ -165,7 +166,8 @@ if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
 #endregion
 
 #region ATTACKS Skill 3
-if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge"){
+if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && nbMana >= Skill_3_Mana){	
+	nbMana -= Skill_3_Mana;
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
@@ -238,5 +240,12 @@ var potion = instance_place(x, y, Obj_Potion);
 if (potion && !inventory.is_full()){
 	instance_destroy(potion);
 	inventory.pickup(Spr_Potion);
+}
+#endregion
+
+#region MANA REGEN
+if nbMana < nbMana_Max{
+	nbMana += ManaRegen;
+	clamp(nbMana,0,nbMana_Max);
 }
 #endregion
