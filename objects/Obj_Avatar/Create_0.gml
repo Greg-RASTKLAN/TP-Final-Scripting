@@ -4,7 +4,9 @@
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls")];
 LastInputDir = 1;
 
-nbVies = 50;
+
+nbVies_Max = 50;
+nbVies = nbVies_Max;
 Vitesse = 3;
 
 CanMove = true;
@@ -13,6 +15,7 @@ AvatarState = "Idle";
 LocalFrame = 0;
 
 //DODGE
+DodgeCooldown = 80;
 DodgeRange = 128;
 DodgeLeft = 0;
 DodgeStep = 6; //Pixels à bouger chaque frames, vitesse de dodge
@@ -46,6 +49,9 @@ function fct_Dommages(Dmg){
 	if(AvatarState != "Hurt" && AvatarState != "Death" && AvatarState != "Dodge"){
 		AvatarState = "Hurt";
 		sprite_index = Spr_Avatar_Hurt;
+		CanAttack = false;
+		CanMove = false;
+		CanDodge = false;
 		nbVies -= Dmg;
 		if(nbVies <= 0){
 			AvatarState = "Death";

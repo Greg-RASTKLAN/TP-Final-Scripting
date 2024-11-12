@@ -219,12 +219,16 @@ if(CanMove && _space && AvatarState != "Dodge" && CanDodge){
 	DodgeDirection = _Dir;
 	CanAttack = false;
 	alarm_set(0,StateDelay);
+	CanDodge = false;
+	alarm_set(5,DodgeCooldown);
 }
 #endregion
 
 #region Update Animations
 if (_OldSprite != sprite_index){LocalFrame = 0;}
-Scr_SpriteAnimation();
+if(AvatarState != "Hurt" && AvatarState != "Death"){
+	Scr_SpriteAnimation();
+}
 #endregion
 
 #region POTION COLLISION

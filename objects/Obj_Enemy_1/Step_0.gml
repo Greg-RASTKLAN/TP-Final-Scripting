@@ -7,6 +7,8 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 	&& distance_to_object(Obj_Avatar) > Attack2_Range){ //Throw Acid
 		AvatarState = "Attack";
 		sprite_index = Spr_MutantRat_Attack1;
+		Attack1_Ready = false;
+		alarm_set(2,Attack1_Cooldown);
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
@@ -16,6 +18,8 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 	} else if (distance_to_object(Obj_Avatar) <= Attack2_Range){ //Slash
 		AvatarState = "Attack";
 		sprite_index = Spr_MutantRat_Attack2;
+		Attack2_Ready = false;
+		alarm_set(3,Attack2_Cooldown);
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
