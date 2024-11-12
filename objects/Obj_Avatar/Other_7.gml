@@ -5,6 +5,7 @@ if(AvatarState ="Hurt"){
 	CanMove = true;
 	CanAttack = true;
 	CanDodge = true;
+	alarm_set(6,InvincibleTime);
 }
 
 if(AvatarState ="Death"){

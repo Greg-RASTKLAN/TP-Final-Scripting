@@ -4,6 +4,8 @@
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls")];
 LastInputDir = 1;
 
+Invincible = false;
+InvincibleTime = 30; //Temps Invinciple après l'animation Hurt pour éviter StunLock
 
 nbVies_Max = 100;
 nbVies = nbVies_Max;
@@ -53,12 +55,13 @@ Sword_AttackCooldown = 45;
 
 //FUNCTIONS
 function fct_Dommages(Dmg){
-	if(AvatarState != "Hurt" && AvatarState != "Death" && AvatarState != "Dodge"){
+	if(AvatarState != "Hurt" && AvatarState != "Death" && AvatarState != "Dodge" && !Invincible){
 		AvatarState = "Hurt";
 		sprite_index = Spr_Avatar_Hurt;
 		CanAttack = false;
 		CanMove = false;
 		CanDodge = false;
+		Invincible = true;
 		nbVies -= Dmg;
 		if(nbVies <= 0){
 			AvatarState = "Death";

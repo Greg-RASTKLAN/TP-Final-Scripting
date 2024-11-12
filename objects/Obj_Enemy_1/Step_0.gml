@@ -12,6 +12,9 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
+		_Acid = instance_create_layer(x,y-16,"Instances",Obj_Enemy_AcidBlob);
+		_Acid.Target_X = Obj_Avatar.x;
+		_Acid.Target_Y = Obj_Avatar.y;
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;

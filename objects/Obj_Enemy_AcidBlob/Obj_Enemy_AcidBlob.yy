@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_AcidBlob",
+  "%Name":"Obj_Enemy_AcidBlob",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_AcidBlob",
+  "name":"Obj_Enemy_AcidBlob",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_AcidPop",
-    "path":"sprites/Spr_AcidPop/Spr_AcidPop.yy",
+    "name":"Spr_AcidBlob",
+    "path":"sprites/Spr_AcidBlob/Spr_AcidBlob.yy",
   },
   "spriteMaskId":null,
   "visible":true,
