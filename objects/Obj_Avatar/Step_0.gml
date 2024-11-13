@@ -183,14 +183,8 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 		sprite_index = Spr_Avatar_Sword;
 	} else if (EquippedWeapon == "Bow"){ //bow Skill 3 (Extra Arrows)
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
+		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow_Pierce);
 		_weapon.direction = _Dir;
-		_weapon.image_angle = _Dir;
-		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
-		_weapon.direction = _Dir+10;
-		_weapon.image_angle = _Dir;
-		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow);
-		_weapon.direction = _Dir-10;
 		_weapon.image_angle = _Dir;
 		Skill_3_Ready = false;
 		alarm_set(4,Skill_3_Cooldown);
