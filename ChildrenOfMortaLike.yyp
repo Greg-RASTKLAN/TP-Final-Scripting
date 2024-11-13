@@ -138,6 +138,7 @@
     {"id":{"name":"Spr_Props","path":"sprites/Spr_Props/Spr_Props.yy",},},
     {"id":{"name":"Spr_Sewers_Terrain2","path":"sprites/Spr_Sewers_Terrain2/Spr_Sewers_Terrain2.yy",},},
     {"id":{"name":"Spr_Shadow","path":"sprites/Spr_Shadow/Spr_Shadow.yy",},},
+    {"id":{"name":"Spr_Skill_Over","path":"sprites/Spr_Skill_Over/Spr_Skill_Over.yy",},},
     {"id":{"name":"Spr_Skill1","path":"sprites/Spr_Skill1/Spr_Skill1.yy",},},
     {"id":{"name":"Spr_Skill2","path":"sprites/Spr_Skill2/Spr_Skill2.yy",},},
     {"id":{"name":"Spr_Skill3","path":"sprites/Spr_Skill3/Spr_Skill3.yy",},},
