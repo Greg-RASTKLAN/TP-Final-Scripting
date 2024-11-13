@@ -31,6 +31,7 @@ EnemyTarget = 0;
 
 CanAttack = true;
 _Dir = 0;
+LastValidDir = 1;
 _Xscale = 1;
 
 //FUNCTIONS
@@ -38,12 +39,12 @@ _Xscale = 1;
 function fct_Dommages(Dmg){
 	if(AvatarState != "Hurt" && AvatarState != "Death"){
 		AvatarState = "Hurt";
-		sprite_index = Spr_MutantRat_Hurt;		
+		sprite_index = Spr_Viper_Hurt;		
 		EnemyTarget = Obj_Avatar;
 		nbVies -= Dmg;
 		if(nbVies <= 0){
 			AvatarState = "Death";
-			sprite_index = Spr_MutantRat_Death;		
+			sprite_index = Spr_Viper_Death;		
 		}
 	}
 }

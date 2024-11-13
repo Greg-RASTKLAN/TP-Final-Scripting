@@ -152,6 +152,8 @@
     {"id":{"name":"Spr_Torch","path":"sprites/Spr_Torch/Spr_Torch.yy",},},
     {"id":{"name":"Spr_TorchUnlit","path":"sprites/Spr_TorchUnlit/Spr_TorchUnlit.yy",},},
     {"id":{"name":"Spr_Viper_Attack","path":"sprites/Spr_Viper_Attack/Spr_Viper_Attack.yy",},},
+    {"id":{"name":"Spr_Viper_Death","path":"sprites/Spr_Viper_Death/Spr_Viper_Death.yy",},},
+    {"id":{"name":"Spr_Viper_Hurt","path":"sprites/Spr_Viper_Hurt/Spr_Viper_Hurt.yy",},},
     {"id":{"name":"Spr_Viper_Idle","path":"sprites/Spr_Viper_Idle/Spr_Viper_Idle.yy",},},
     {"id":{"name":"Spr_Viper_Walk","path":"sprites/Spr_Viper_Walk/Spr_Viper_Walk.yy",},},
     {"id":{"name":"Spr_Wall_NoWater","path":"sprites/Spr_Wall_NoWater/Spr_Wall_NoWater.yy",},},
