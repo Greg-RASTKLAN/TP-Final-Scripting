@@ -18,9 +18,4 @@ pop = function() {
 		return array_length(_dialogs);
 	}
 
-
-
-
-
-
 }

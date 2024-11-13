@@ -5,6 +5,6 @@
 event_inherited();
 
 
-dialog.add(Spr_PhotoNPC, "Hello");
+dialog.add(Spr_PhotoNPC, "Hffello");
 dialog.add(Spr_PhotoNPC, "My name is Simon");
 dialog.add(Spr_PhotoNPC, "Today is my birthday");

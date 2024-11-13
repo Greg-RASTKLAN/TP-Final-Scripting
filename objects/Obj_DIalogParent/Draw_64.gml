@@ -1,6 +1,7 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
+show_debug_message(current_dialog.message);
 if(showing_dialog == true) {
 	text_x = 30;
 	text_y = 18;
@@ -8,11 +9,6 @@ if(showing_dialog == true) {
 	border = 5;
 	padding = 16;
 
-	/*height = string_height(current_dialog.message);
-	
-	if(sprite_get_height(current_dialog.sprite) > height) {
-		height = sprite_get_height(current_dialog.sprite);
-	}*/
 	
 	height += padding * 2;
 	text_x = sprite_get_width(current_dialog.sprite) + (padding * 2);
@@ -32,8 +28,8 @@ if(showing_dialog == true) {
 		draw_sprite(current_dialog.sprite, 0, border * 3, border * 3);		
 	}
 	
-	/*draw_set_color(c_white);
-	draw_rectangle(text_x, text_y, current_dialog.message, 16, display_get_gui_width() - 192);*/
+	draw_set_color(c_white);
+	draw_text(text_x, text_y, current_dialog.message);
 	
 	alpha = lerp(alpha, 1, 0.06);
 	

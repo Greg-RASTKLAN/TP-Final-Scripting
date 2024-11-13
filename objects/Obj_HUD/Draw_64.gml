@@ -11,7 +11,7 @@ draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 20, view_height - 1
 draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 110, view_height - 140);
 draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 200, view_height - 140);
 
-show_debug_message(currentWeapon)
+//show_debug_message(currentWeapon)
 #region Arme courante sur la gauche du HUD
 if(currentWeapon == "Sword")
 	draw_sprite(Spr_Sword_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
