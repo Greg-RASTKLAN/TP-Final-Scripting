@@ -170,11 +170,11 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 	nbMana -= Skill_3_Mana;
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword);
-		_weapon.direction = direction;
-		_weapon = instance_create_layer(x,y-24,"Instances",Obj_Sword_Lacerate);
-		_weapon.direction = direction;
-		//_weapon.image_angle = direction-45;
+		for (var i=0;i<=2;i++){
+			_weapon = instance_create_layer(x,y-16,"Instances",Obj_Sword_Skill3);
+			_weapon.direction = direction+i*120;
+			_weapon.image_angle = direction-45+i*120;
+		}
 		Skill_3_Ready = false;
 		alarm_set(4,Skill_3_Cooldown);
 		CanMove = false;
@@ -200,9 +200,11 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 		sprite_index = Spr_Avatar_Bow;
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
-		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic_Napalm);
-		_weapon.direction = direction;
-		_weapon.image_angle = direction-45;
+		for (var i=0;i<=7;i++){
+			_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
+			_weapon.direction = direction+i*45;
+			_weapon.image_angle = direction-45+i*45;
+		}
 		Skill_3_Ready = false;
 		alarm_set(4,Skill_3_Cooldown);
 		CanMove = false;
