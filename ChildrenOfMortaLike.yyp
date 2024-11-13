@@ -141,6 +141,7 @@
     {"id":{"name":"Spr_Skill1","path":"sprites/Spr_Skill1/Spr_Skill1.yy",},},
     {"id":{"name":"Spr_Skill2","path":"sprites/Spr_Skill2/Spr_Skill2.yy",},},
     {"id":{"name":"Spr_Skill3","path":"sprites/Spr_Skill3/Spr_Skill3.yy",},},
+    {"id":{"name":"Spr_SkillBG","path":"sprites/Spr_SkillBG/Spr_SkillBG.yy",},},
     {"id":{"name":"Spr_Skills_Back","path":"sprites/Spr_Skills_Back/Spr_Skills_Back.yy",},},
     {"id":{"name":"Spr_SkillSlot","path":"sprites/Spr_SkillSlot/Spr_SkillSlot.yy",},},
     {"id":{"name":"Spr_SpikeTrap","path":"sprites/Spr_SpikeTrap/Spr_SpikeTrap.yy",},},
