@@ -64,6 +64,7 @@
     {"id":{"name":"Obj_Enemy_1","path":"objects/Obj_Enemy_1/Obj_Enemy_1.yy",},},
     {"id":{"name":"Obj_Enemy_AcidArea","path":"objects/Obj_Enemy_AcidArea/Obj_Enemy_AcidArea.yy",},},
     {"id":{"name":"Obj_Enemy_AcidBlob","path":"objects/Obj_Enemy_AcidBlob/Obj_Enemy_AcidBlob.yy",},},
+    {"id":{"name":"Obj_Enemy_Viper","path":"objects/Obj_Enemy_Viper/Obj_Enemy_Viper.yy",},},
     {"id":{"name":"Obj_GiantPipe","path":"objects/Obj_GiantPipe/Obj_GiantPipe.yy",},},
     {"id":{"name":"Obj_Glow","path":"objects/Obj_Glow/Obj_Glow.yy",},},
     {"id":{"name":"Obj_HealthBar","path":"objects/Obj_HealthBar/Obj_HealthBar.yy",},},
