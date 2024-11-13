@@ -19,8 +19,8 @@
     "path":"folders/Objets/Enemy.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Enemy_1",
-    "path":"objects/Obj_Enemy_1/Obj_Enemy_1.yy",
+    "name":"Obj_Enemy_MutantRat",
+    "path":"objects/Obj_Enemy_MutantRat/Obj_Enemy_MutantRat.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
