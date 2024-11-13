@@ -2,21 +2,23 @@
   "$GMSprite":"",
   "%Name":"Spr_Skill2",
   "bboxMode":0,
-  "bbox_bottom":39,
-  "bbox_left":7,
-  "bbox_right":39,
-  "bbox_top":7,
+  "bbox_bottom":95,
+  "bbox_left":0,
+  "bbox_right":95,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4dbb2420-a59a-4dc6-91b9-a17f588c5bb1","name":"4dbb2420-a59a-4dc6-91b9-a17f588c5bb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d0bf9717-727e-44e1-b1e0-58c1042fe49c","name":"d0bf9717-727e-44e1-b1e0-58c1042fe49c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ecb7c2aa-35ef-472c-b4ac-5f415678f6a2","name":"ecb7c2aa-35ef-472c-b4ac-5f415678f6a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f56f4cb5-ed1c-460c-a26c-dd5211cbe0fd","name":"f56f4cb5-ed1c-460c-a26c-dd5211cbe0fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":48,
+  "height":96,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"18d67e3f-d217-4c05-86f0-5805b18cf6fa","blendMode":0,"displayName":"default","isLocked":false,"name":"18d67e3f-d217-4c05-86f0-5805b18cf6fa","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -49,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,8 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4dbb2420-a59a-4dc6-91b9-a17f588c5bb1","path":"sprites/Spr_Skill2/Spr_Skill2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad9e062e-7ee1-4f4d-b78f-817279ae0204","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d0bf9717-727e-44e1-b1e0-58c1042fe49c","path":"sprites/Spr_Skill2/Spr_Skill2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0a8566c1-5181-406a-bb9f-2490b5bd3ed2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ecb7c2aa-35ef-472c-b4ac-5f415678f6a2","path":"sprites/Spr_Skill2/Spr_Skill2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0574ddc6-5745-477a-89b1-845ebf4c9354","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f56f4cb5-ed1c-460c-a26c-dd5211cbe0fd","path":"sprites/Spr_Skill2/Spr_Skill2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"63d71421-2701-4981-9f41-88ef17cf4538","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +94,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":48,
+  "width":96,
 }

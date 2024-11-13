@@ -2,21 +2,23 @@
   "$GMSprite":"",
   "%Name":"Spr_Skill1",
   "bboxMode":0,
-  "bbox_bottom":106,
-  "bbox_left":19,
-  "bbox_right":106,
-  "bbox_top":19,
+  "bbox_bottom":95,
+  "bbox_left":0,
+  "bbox_right":95,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"60c5d00b-fc36-4638-a3ae-49f4efaa610c","name":"60c5d00b-fc36-4638-a3ae-49f4efaa610c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5f02021f-b2c4-41b5-806d-4c7dfc04371b","name":"5f02021f-b2c4-41b5-806d-4c7dfc04371b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5c79a88a-91cb-4f52-9349-fa6e43b06ea4","name":"5c79a88a-91cb-4f52-9349-fa6e43b06ea4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7cf9aa4c-b6e3-4d40-8ee0-7b82a8a9b057","name":"7cf9aa4c-b6e3-4d40-8ee0-7b82a8a9b057","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":128,
+  "height":96,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"5f294d11-ce18-4231-8edb-ce17ea8e0295","blendMode":0,"displayName":"default","isLocked":false,"name":"5f294d11-ce18-4231-8edb-ce17ea8e0295","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -49,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,8 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60c5d00b-fc36-4638-a3ae-49f4efaa610c","path":"sprites/Spr_Skill1/Spr_Skill1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3c624af8-c28b-4104-be55-d6b58e01743a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f02021f-b2c4-41b5-806d-4c7dfc04371b","path":"sprites/Spr_Skill1/Spr_Skill1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"20ea4cfc-3502-43e1-9182-9f659fc61f51","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c79a88a-91cb-4f52-9349-fa6e43b06ea4","path":"sprites/Spr_Skill1/Spr_Skill1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fda9b54d-9a27-48c4-b79c-f9e9d7e2506f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7cf9aa4c-b6e3-4d40-8ee0-7b82a8a9b057","path":"sprites/Spr_Skill1/Spr_Skill1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f9f6eb4-0a2f-481e-94fd-659aa17a58bc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +94,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":96,
 }

@@ -1,7 +1,7 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-show_debug_message(current_dialog.message);
+//show_debug_message(current_dialog.message);
 if(showing_dialog == true) {
 	text_x = 30;
 	text_y = 18;

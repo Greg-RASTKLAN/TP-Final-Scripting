@@ -5,11 +5,29 @@ view_height = camera_get_view_height(0);
 
 // Arriere plan du HUD Skills
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2, view_height - 150, view_width/3, 150);
+//show_debug_message(image_index)
+#region Affichage des skills selon l'arme courante
+// Compétences Sword
+if(currentWeapon == "Sword") {
+	draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 25, view_height - 120);
+	draw_sprite(Spr_Skill2, 0, view_width/2 - (view_width/3)/2 + 125, view_height - 120);
+	draw_sprite(Spr_Skill3, 0, view_width/2 - (view_width/3)/2 + 225, view_height - 120);
+}
 
-// Compétences
-draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 20, view_height - 140);
-draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 110, view_height - 140);
-draw_sprite(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 200, view_height - 140);
+// Compétences Bow
+if(currentWeapon == "Bow") {
+	draw_sprite(Spr_Skill1, 1, view_width/2 - (view_width/3)/2 + 25, view_height - 120);
+	draw_sprite(Spr_Skill2, 1, view_width/2 - (view_width/3)/2 + 125, view_height - 120);
+	draw_sprite(Spr_Skill3, 1, view_width/2 - (view_width/3)/2 + 225, view_height - 120);
+}
+
+// Compétences Magic
+if(currentWeapon == "Magic") {
+	draw_sprite(Spr_Skill1, 2, view_width/2 - (view_width/3)/2 + 25, view_height - 120);
+	draw_sprite(Spr_Skill2, 2, view_width/2 - (view_width/3)/2 + 125, view_height - 120);
+	draw_sprite(Spr_Skill3, 2, view_width/2 - (view_width/3)/2 + 225, view_height - 120);
+}
+#endregion
 
 //show_debug_message(currentWeapon)
 #region Arme courante sur la gauche du HUD
@@ -19,8 +37,8 @@ if(currentWeapon == "Sword")
 if(currentWeapon == "Bow")
 	draw_sprite(Spr_Bow_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
 	
-if(currentWeapon == "Magic")
-	draw_sprite(Spr_Magic_Statique, 1, view_width/2 - (view_width/3)/2 - 100, view_height - 80);
+if(currentWeapon == "Magic") 
+    draw_sprite_ext(Spr_Magic_Statique, 1, view_width / 2 - (view_width / 3) / 2 - 110, view_height - 30, 1 / 3, 1 / 3, 25, c_white, 1);
 #endregion
 
 #region Cooldown
