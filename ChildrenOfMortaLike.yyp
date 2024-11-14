@@ -131,6 +131,7 @@
     {"id":{"name":"Spr_MutantRat_Hurt","path":"sprites/Spr_MutantRat_Hurt/Spr_MutantRat_Hurt.yy",},},
     {"id":{"name":"Spr_MutantRat_idle","path":"sprites/Spr_MutantRat_idle/Spr_MutantRat_idle.yy",},},
     {"id":{"name":"Spr_MutantRat_Walk","path":"sprites/Spr_MutantRat_Walk/Spr_MutantRat_Walk.yy",},},
+    {"id":{"name":"Spr_NPC","path":"sprites/Spr_NPC/Spr_NPC.yy",},},
     {"id":{"name":"Spr_PhotoNPC","path":"sprites/Spr_PhotoNPC/Spr_PhotoNPC.yy",},},
     {"id":{"name":"Spr_Potion","path":"sprites/Spr_Potion/Spr_Potion.yy",},},
     {"id":{"name":"Spr_Props","path":"sprites/Spr_Props/Spr_Props.yy",},},
