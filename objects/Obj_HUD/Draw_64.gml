@@ -60,20 +60,6 @@ draw_text(display_x + 180, display_y, string(time_left_s3));
 #endregion
 
 
-
-draw_set_alpha(0.6);
-/*draw_sprite(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 25, view_height - 120 + 96);
-draw_sprite(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 25 + 100, view_height - 120 + 96);
-draw_sprite(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 25 + 200, view_height - 120 + 96);*/
-draw_set_alpha(1);
-
-
-	draw_sprite_stretched(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 25, view_height - 120 + 96, sprite_get_width(Spr_SkillBG), sprite_get_height(Spr_SkillBG) / 2);
-	draw_sprite_stretched(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 25 + 100, view_height - 120 + 96, sprite_get_width(Spr_SkillBG), sprite_get_height(Spr_SkillBG) / 2);
-	draw_sprite_stretched(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 25 + 200, view_height - 120 + 96, sprite_get_width(Spr_SkillBG), sprite_get_height(Spr_SkillBG) / 2);
-
-
-
 // Arriere plan du HUD Potion
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2 + 350, view_height - 100, view_width/6, 100);
 

@@ -253,7 +253,7 @@ if(place_meeting(x, y, Obj_NPC)) {
 	Obj_NPC.image_index = 1
 		
 	if(keyboard_check_pressed(ord("B"))) {
-		show_debug_message("coucou");
+		//show_debug_message("coucou");
 		showDialog = true;
 		
 	}
