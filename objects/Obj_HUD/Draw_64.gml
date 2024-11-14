@@ -41,6 +41,7 @@ if(currentWeapon == "Magic")
     draw_sprite_ext(Spr_Magic_Statique, 1, view_width / 2 - (view_width / 3) / 2 - 110, view_height - 30, 1 / 3, 1 / 3, 25, c_white, 1);
 #endregion
 
+/*
 #region Cooldown
 // Affichage du cooldown sous forme de chiffres
 var display_x =  view_width/2 - (view_width/3)/2 + 80;
@@ -59,7 +60,7 @@ var time_left_s3 = floor(timer_s3 / room_speed);
 draw_text(display_x + 180, display_y, string(time_left_s3));      
 #endregion
 
-
+*/
 // Arriere plan du HUD Potion
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2 + 350, view_height - 100, view_width/6, 100);
 
@@ -75,12 +76,6 @@ draw_line_width_color(view_width/2 - (view_width/3)/2 + 430,
 						#CA9822);
 						  
 draw_sprite(Spr_Mana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100); // Mana
-
-
-
-
-
-
 
 
 

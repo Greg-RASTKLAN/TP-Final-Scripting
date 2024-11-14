@@ -8,8 +8,8 @@
   "name":"Obj_NPC",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"NPC",
+    "path":"folders/Objets/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"Obj_Pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"Game",
+    "path":"folders/Objets/Game.yy",
   },
   "parentObjectId":null,
   "persistent":true,

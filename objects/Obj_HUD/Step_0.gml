@@ -1,6 +1,6 @@
 /// @description Décrémentation des timer de cooldown
 currentWeapon = Obj_Avatar.EquippedWeapon;
-
+/*
 #region Skill 1
 if (mouse_check_button_pressed(mb_left)) {
 	countdown_active_s1 = true;
@@ -41,6 +41,6 @@ if (countdown_active_s3 && timer_s3 > 0) {
 
 #endregion
 
-
+*/
 
 
