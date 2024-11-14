@@ -9,10 +9,12 @@ InvincibleTime = 30; //Temps Invinciple après l'animation Hurt pour éviter Stu
 
 nbVies_Max = 100;
 nbVies = nbVies_Max;
+hpPotion = 30;
 
 nbMana_Max = 100;
 nbMana = nbMana_Max;
 ManaRegen = 0.1;
+ManaPotion = 30
 
 Vitesse = 3;
 

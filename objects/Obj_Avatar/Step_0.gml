@@ -239,10 +239,26 @@ if (potion && !inventory.is_full()){
 }
 #endregion
 
+#region HEALTH REGEN
+if nbVies < nbVies_Max{
+	if (keyboard_check_pressed(vk_f1)) {
+	show_debug_message("ozeifhozeiufh")
+		nbVies += hpPotion;
+	}
+	
+}
+#endregion
+
 #region MANA REGEN
 if nbMana < nbMana_Max{
 	nbMana += ManaRegen;
 	clamp(nbMana,0,nbMana_Max);
+	
+	if (keyboard_check_pressed(vk_f2)) {
+	show_debug_message("ozeifhozeiufh")
+		nbMana += ManaPotion;
+	}
+	
 }
 #endregion
 
