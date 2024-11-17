@@ -18,8 +18,8 @@
     {"$GMFolder":"","%Name":"Armes","folderPath":"folders/Objets/Armes.yy","name":"Armes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Objets/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Game","folderPath":"folders/Objets/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Objets/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inventory","folderPath":"folders/Objets/Inventory.yy","name":"Inventory","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Objets/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objets/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Props","folderPath":"folders/Objets/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Traps|Puzzles","folderPath":"folders/Objets/Traps|Puzzles.yy","name":"Traps|Puzzles","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -51,7 +51,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"ChildrenOfMortaLike",
   "resources":[
