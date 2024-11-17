@@ -61,7 +61,7 @@
     {"id":{"name":"Obj_Bush","path":"objects/Obj_Bush/Obj_Bush.yy",},},
     {"id":{"name":"Obj_ButtonMenu","path":"objects/Obj_ButtonMenu/Obj_ButtonMenu.yy",},},
     {"id":{"name":"Obj_Camera","path":"objects/Obj_Camera/Obj_Camera.yy",},},
-    {"id":{"name":"Obj_Chest_1","path":"objects/Obj_Chest_1/Obj_Chest_1.yy",},},
+    {"id":{"name":"Obj_Chest","path":"objects/Obj_Chest/Obj_Chest.yy",},},
     {"id":{"name":"Obj_Collision","path":"objects/Obj_Collision/Obj_Collision.yy",},},
     {"id":{"name":"Obj_Enemy_AcidArea","path":"objects/Obj_Enemy_AcidArea/Obj_Enemy_AcidArea.yy",},},
     {"id":{"name":"Obj_Enemy_AcidBlob","path":"objects/Obj_Enemy_AcidBlob/Obj_Enemy_AcidBlob.yy",},},

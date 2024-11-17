@@ -12,6 +12,7 @@ _mouseclick_left = mouse_check_button(mb_left);
 _mouseclick_right = mouse_check_button_released(mb_right);
 _keyE = keyboard_check(ord("E"));
 _keyR = keyboard_check(ord("R"));
+keyInteract = keyboard_check(ord("F")) || keyboard_check(ord("B"));
 
 //DEV
 /*if (_mouseclick_right){
@@ -264,12 +265,20 @@ Obj_NPC.image_index = 0
 if(place_meeting(x, y, Obj_NPC)) {
 	Obj_NPC.image_index = 1
 		
-	if(keyboard_check_pressed(ord("B"))) {
+	if(keyInteract){
 		//show_debug_message("coucou");
 		showDialog = true;
-		
 	}
 } else {
 	showDialog = false;
+}
+#endregion
+
+#region INTERACT CHEST
+if (keyInteract){
+	chest = instance_nearest(x,y,Obj_Chest);
+	if distance_to_object(chest) < 30 && chest.opened == false{
+		chest.Fct_OpenChest();
+	}
 }
 #endregion

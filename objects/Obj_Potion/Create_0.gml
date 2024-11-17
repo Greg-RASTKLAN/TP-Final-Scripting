@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_speed = 0;
+depth = -y;
+image_xscale = 0.5;
+image_yscale =image_xscale;
