@@ -1,5 +1,5 @@
 /// @description Init
-/*
+
 currentWeapon = Obj_Avatar.EquippedWeapon;
 
 hp_Potion_Cooldown = 1
@@ -22,4 +22,3 @@ skill_3_Cooldown = 10;
 initial_time_s3 = skill_3_Cooldown * room_speed;
 timer_s3 = initial_time_s3;           
 countdown_active_s3 = false;
-*/

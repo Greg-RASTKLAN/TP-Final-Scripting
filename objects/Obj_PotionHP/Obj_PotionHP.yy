@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Potion",
+  "%Name":"Obj_PotionHP",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Potion",
+  "name":"Obj_PotionHP",
   "overriddenProperties":[],
   "parent":{
     "name":"Inventory",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Potion",
-    "path":"sprites/Spr_Potion/Spr_Potion.yy",
+    "name":"Spr_PotionHP",
+    "path":"sprites/Spr_PotionHP/Spr_PotionHP.yy",
   },
   "spriteMaskId":null,
   "visible":true,

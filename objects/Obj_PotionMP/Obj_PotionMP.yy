@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Inventory",
+  "%Name":"Obj_PotionMP",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Inventory",
+  "name":"Obj_PotionMP",
   "overriddenProperties":[],
   "parent":{
     "name":"Inventory",
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_PotionMana",
+    "path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

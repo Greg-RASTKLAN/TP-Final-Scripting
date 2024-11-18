@@ -10,6 +10,10 @@ InvincibleTime = 30; //Temps Invinciple après l'animation Hurt pour éviter Stu
 nbVies_Max = 100;
 nbVies = nbVies_Max;
 hpPotion = 30;
+PotionHP = 1;
+PotionHP_Max = 3;
+PotionMP = 1;
+PotionMP_Max = 3;
 
 nbMana_Max = 100;
 nbMana = nbMana_Max;
@@ -41,9 +45,9 @@ _Dir = 0;
 Skill_1_Cooldown = 60;
 Skill_2_Cooldown = 120;
 Skill_3_Cooldown = 320;
-Skill_1_Ready = false;
-Skill_2_Ready = false;
-Skill_3_Ready = false;
+Skill_1_Ready = true;
+Skill_2_Ready = true;
+Skill_3_Ready = true;
 Skill_2_Mana = 30;
 Skill_3_Mana = 60;
 alarm_set(2,Skill_1_Cooldown);

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Spr_Mana",
+  "%Name":"Spr_PotionMana",
   "bboxMode":0,
   "bbox_bottom":80,
   "bbox_left":30,
@@ -28,7 +28,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"e27c2e12-1bae-44a8-9645-3690b41d8990","blendMode":0,"displayName":"default","isLocked":false,"name":"e27c2e12-1bae-44a8-9645-3690b41d8990","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Spr_Mana",
+  "name":"Spr_PotionMana",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -40,7 +40,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Spr_Mana",
+    "%Name":"Spr_PotionMana",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -64,7 +64,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Spr_Mana",
+    "name":"Spr_PotionMana",
     "playback":1,
     "playbackSpeed":16.0,
     "playbackSpeedType":0,
@@ -76,28 +76,28 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6b06c7f-ed0c-4867-9904-03069cbbe063","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c6b06c7f-ed0c-4867-9904-03069cbbe063","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a5d197bd-7a1e-4853-ae8e-a1f0dcd1f7b4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d574aed-622f-4c69-a182-7962f441b0af","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7d574aed-622f-4c69-a182-7962f441b0af","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cfb95ace-1507-42cb-9e7b-d9de69dd0359","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac8e91e6-9c5b-4ba1-881d-606180853fb6","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac8e91e6-9c5b-4ba1-881d-606180853fb6","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ed7d9ba8-5181-41fa-b72d-6c198263cb90","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43bb0017-35c8-4101-ac80-8eda954503f7","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43bb0017-35c8-4101-ac80-8eda954503f7","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ba008b43-8183-4cbc-a1b5-eabfdaaab41f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3795ded6-5da4-48e1-9138-1b3ccabd9b5f","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3795ded6-5da4-48e1-9138-1b3ccabd9b5f","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"086c20bb-b707-4b86-92e3-09482b651db0","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89071af7-5b19-4a1c-8ab2-811ef6b406a8","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89071af7-5b19-4a1c-8ab2-811ef6b406a8","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"63c3158a-cd54-4113-9c50-65039e3bd345","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f17cd14c-ade9-4c0f-a857-548affd964bc","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f17cd14c-ade9-4c0f-a857-548affd964bc","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c22a80fd-2e6f-447e-8df7-f94348b4e8d6","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90983507-a2b8-4ff3-8230-dfea855152ce","path":"sprites/Spr_Mana/Spr_Mana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90983507-a2b8-4ff3-8230-dfea855152ce","path":"sprites/Spr_PotionMana/Spr_PotionMana.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"649b9491-bb69-4b8a-a8f6-f49eaee1f502","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

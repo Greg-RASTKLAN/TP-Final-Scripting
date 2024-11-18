@@ -50,7 +50,30 @@ if(!Skill_3_Ready) {
 draw_sprite(Spr_Skill_Over,0,view_width/2 - (view_width/3)/2 + 25, view_height-120);
 #endregion
 
+#region Cooldown affichage numérique
+// Affichage du cooldown sous forme de chiffres
+var display_x =  view_width/2 - (view_width/3)/2 + 80;
+var display_y =  view_height - 100; 
 
+draw_set_halign(fa_center);
+// Cooldown Skill 1
+//draw_text(display_x , display_y, string(time_left_s1));
+if(!Skill_1_Ready){
+	draw_text_transformed(display_x, display_y, string(round(alarm_get(2)/room_speed)),3,3,0);
+}
+
+// Cooldown Skill 2
+if(!Skill_2_Ready){
+	draw_text_transformed(display_x + 90, display_y, string(round(alarm_get(3)/room_speed)),3,3,0);
+}
+
+// Cooldown Skill 3
+if(!Skill_3_Ready){
+	draw_text_transformed(display_x + 180, display_y, string(round(alarm_get(4)/room_speed)),3,3,0);
+}
+#endregion
+
+#region DIALOG
 if(showDialog == true) {
 	
 	var screen_width = display_get_gui_width();
@@ -72,6 +95,6 @@ if(showDialog == true) {
 	draw_text(text_x, text_y, Obj_NPC.message);
 
 }
-
+#endregion
 draw_set_alpha(1);
 

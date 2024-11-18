@@ -13,6 +13,8 @@ _mouseclick_right = mouse_check_button_released(mb_right);
 _keyE = keyboard_check(ord("E"));
 _keyR = keyboard_check(ord("R"));
 keyInteract = keyboard_check(ord("F")) || keyboard_check(ord("B"));
+keyPotionHP =  keyboard_check(ord("1"));
+keyPotionMP =  keyboard_check(ord("2"));
 
 //DEV
 /*if (_mouseclick_right){
@@ -231,19 +233,27 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 #endregion
 
 #region POTION COLLISION
-var inventory = instance_find(Obj_Inventory, 0);
-var potion = instance_place(x, y, Obj_Potion);
+var ItemPotionHP = instance_place(x, y, Obj_PotionHP);
+var ItemPotionMP = instance_place(x, y, Obj_PotionMP);
 
-if (potion && !inventory.is_full()){
-	instance_destroy(potion);
-	inventory.pickup(Spr_Potion);
+
+if (ItemPotionHP && PotionHP < PotionHP_Max){
+	PotionHP++;
+	instance_destroy(ItemPotionHP);
 }
+if (ItemPotionMP && PotionMP < PotionMP_Max){
+	PotionMP++;
+	instance_destroy(ItemPotionMP);
+}
+
 #endregion
 
 #region HEALTH REGEN
 if nbVies < nbVies_Max{
-	if (keyboard_check_pressed(vk_f1)) {
+	if (keyPotionHP && PotionHP > 0) {
 		nbVies += hpPotion;
+		PotionHP--;
+		nbVies = clamp(nbVies,0,nbVies_Max);
 	}	
 }
 #endregion
@@ -251,10 +261,11 @@ if nbVies < nbVies_Max{
 #region MANA REGEN
 if nbMana < nbMana_Max{
 	nbMana += ManaRegen;
-	clamp(nbMana,0,nbMana_Max);
 	
-	if (keyboard_check_pressed(vk_f2)) {
+	if (keyPotionMP && PotionMP > 0) {
 		nbMana += ManaPotion;
+		PotionMP--;
+		nbMana = clamp(nbMana,0,nbMana_Max);
 	}
 }
 #endregion
