@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y; //Draw order
 
 #region ATTACK
 if(AvatarState != "Hurt" && AvatarState != "Death"){
@@ -78,33 +79,6 @@ if(CanMove && AvatarState != "Dodge"){
 		AvatarState = "Idle";
 		sprite_index = Spr_Avatar_Idle;
 	}
-}
-#endregion
-/*/
-
-/*/
-#region ATTACK
-if(CanAttack && CanMove && AvatarState != "Dodge"){
-	_weapon = instance_create_layer(x,y,"Instances",Obj_weapon);
-	_weapon.direction = direction;
-	_weapon.image_angle = direction;
-	CanAttack = false;
-	alarm_set(0,Bow_AttackCooldown);
-	CanMove = false;
-	alarm_set(1,StateDelay);
-	AvatarState = "Attack";
-	sprite_index = Spr_Avatar_Arc;
-}
-#endregion
-
-#region DODGE
-if(CanMove && AvatarState != "Dodge" && CanDodge){
-	AvatarState = "Dodge";
-	sprite_index = Spr_Avatar_Dodge;
-	DodgeLeft = DodgeRange;
-	DodgeDirection = _Dir;
-	CanAttack = false;
-	alarm_set(0,StateDelay);
 }
 #endregion
 /*/

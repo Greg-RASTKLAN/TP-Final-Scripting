@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //depth = -16000
-_Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls")];
+_Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
 LastInputDir = 1;
 
 Invincible = false;

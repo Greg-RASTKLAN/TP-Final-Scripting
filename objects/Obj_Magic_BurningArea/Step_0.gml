@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -y; //Draw order
 /*
 #region DIRECTION
 image_angle = direction+90;
