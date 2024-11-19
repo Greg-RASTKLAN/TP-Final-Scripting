@@ -3,6 +3,7 @@
   "%Name":"Obj_NPC",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_NPC",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_NPC",
-    "path":"sprites/Spr_NPC/Spr_NPC.yy",
+    "name":"Spr_Avatar_Idle",
+    "path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
