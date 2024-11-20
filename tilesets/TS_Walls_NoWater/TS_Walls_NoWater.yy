@@ -8,6 +8,10 @@
     {"$GMAutoTileSet":"","%Name":"AT_Stairs_NoWater","closed_edge":false,"name":"AT_Stairs_NoWater","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[2237,0,0,2173,0,2236,987,2171,0,1117,2239,2174,2303,2301,2304,2108,],},
     {"$GMAutoTileSet":"","%Name":"AT_LowWall3","closed_edge":false,"name":"AT_LowWall3","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[2612,2546,2548,2482,2676,2610,2481,2545,2678,2483,2614,2549,2742,2741,2743,0,],},
     {"$GMAutoTileSet":"","%Name":"AT_DarkerTile","closed_edge":false,"name":"AT_DarkerTile","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[222,156,158,92,286,220,94,91,288,90,224,159,352,351,353,0,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        263,132,134,0,264,0,0,0,262,0,0,456,393,0,0,0,196,911,326,261,68,0,0,133,200,330,915,265,458,392,394,
+        328,0,0,67,131,69,135,459,395,457,391,0,0,0,0,198,
+      ],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":64,
