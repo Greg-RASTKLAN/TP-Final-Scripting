@@ -3,11 +3,12 @@
   "%Name":"TS_Sewers",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"AT_Wall2_WalkableTop","closed_edge":false,"name":"AT_Wall2_WalkableTop","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[1952,1886,1888,1822,2016,1950,2091,1821,2018,2286,1954,1889,2082,2015,2019,1820,],},
+    {"$GMAutoTileSet":"","%Name":"AT_Wall_walkable","closed_edge":false,"name":"AT_Wall_walkable","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[2147,2081,2083,2082,2146,2080,2277,2015,2148,2275,2084,2019,2212,2211,2213,0,],},
     {"$GMAutoTileSet":"","%Name":"AT_MetalGrid1","closed_edge":false,"name":"AT_MetalGrid1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[4059,3993,3995,3929,4123,4057,0,3992,4125,0,4061,3996,4189,4188,4190,0,],},
     {"$GMAutoTileSet":"","%Name":"AT_MetalGrid2","closed_edge":false,"name":"AT_MetalGrid2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[4064,3998,4000,3934,4128,4062,0,3997,4130,0,4066,4001,4194,4193,4195,0,],},
     {"$GMAutoTileSet":"","%Name":"AT_DarkerGround","closed_edge":false,"name":"AT_DarkerGround","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[226,160,162,96,290,224,98,159,292,94,228,163,356,355,357,0,],},
     {"$GMAutoTileSet":"","%Name":"AT_Wall1_Top","closed_edge":false,"name":"AT_Wall1_Top","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[197,131,133,67,261,195,467,130,263,532,199,68,327,260,264,0,],},
-    {"$GMAutoTileSet":"","%Name":"AT_SqWall_Water","closed_edge":false,"name":"AT_SqWall_Water","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[1562,1433,1431,1497,1626,1495,0,1430,1628,0,1499,1434,1627,1560,1564,0,],},
+    {"$GMAutoTileSet":"","%Name":"AT_SqWall_NotWalkable","closed_edge":false,"name":"AT_SqWall_NotWalkable","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[1562,1433,1431,1497,1626,1495,0,1430,1628,0,1499,1434,1627,1560,1564,0,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":30,
