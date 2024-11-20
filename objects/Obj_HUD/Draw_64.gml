@@ -5,7 +5,7 @@ view_height = camera_get_view_height(0);
 
 // Arriere plan du HUD Skills
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2, view_height - 150, view_width/3, 150);
-//show_debug_message(image_index)
+
 #region Affichage des skills selon l'arme courante
 // Compétences Sword
 if(currentWeapon == "Sword") {
@@ -29,7 +29,7 @@ if(currentWeapon == "Magic") {
 }
 #endregion
 
-//show_debug_message(currentWeapon)
+
 #region Arme courante sur la gauche du HUD
 if(currentWeapon == "Sword")
 	draw_sprite(Spr_Sword_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
@@ -40,15 +40,21 @@ if(currentWeapon == "Bow")
 if(currentWeapon == "Magic") 
     draw_sprite_ext(Spr_Magic_Statique, 1, view_width / 2 - (view_width / 3) / 2 - 110, view_height - 30, 1 / 3, 1 / 3, 25, c_white, 1);
 #endregion
+var display_x =  view_width/2 - (view_width/3)/2 + 420;
+var display_y =  view_height - 50;
+
 // Arriere plan du HUD Potion
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2 + 350, view_height - 100, view_width/6, 100);
 
-// Potions
-draw_sprite(Spr_PotionHP, 0, view_width/2 - (view_width/3)/2 + 350, view_height - 100); // Potion
-draw_text(view_width/2 - (view_width/3)/2 + 350, view_height - 100,string(Obj_Avatar.PotionHP));
+// Potions de vie
+draw_sprite(Spr_PotionHP, 0, view_width/2 - (view_width/3)/2 + 350, view_height - 100);
+//draw_text(view_width/2 - (view_width/3)/2 + 350, view_height - 100,string(Obj_Avatar.PotionHP)); 
+draw_text_transformed(display_x, display_y, string(Obj_Avatar.PotionHP),2,2,0);
 
 // Ligne de séparation entre les deux potions
 draw_line_width_color(view_width/2 - (view_width/3)/2 + 430, view_height - 75, view_width/2 - (view_width/3)/2 + 430, view_height - 25, 2, #F5C400, #CA9822);
-						  
-draw_sprite(Spr_PotionMana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100); // Mana
-draw_text(view_width/2 - (view_width/3)/2 + 400, view_height - 100,string(Obj_Avatar.PotionMP));
+	
+// Potion de mana
+draw_sprite(Spr_PotionMana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100);
+//draw_text(view_width/2 - (view_width/3)/2 + 400, view_height - 100,string(Obj_Avatar.PotionMP));
+draw_text_transformed(display_x + 70, display_y, string(Obj_Avatar.PotionMP),2,2,0);
