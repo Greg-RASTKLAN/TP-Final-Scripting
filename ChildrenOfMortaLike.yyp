@@ -163,6 +163,7 @@
     {"id":{"name":"Spr_Viper_Walk","path":"sprites/Spr_Viper_Walk/Spr_Viper_Walk.yy",},},
     {"id":{"name":"Spr_Wall_NoWater","path":"sprites/Spr_Wall_NoWater/Spr_Wall_NoWater.yy",},},
     {"id":{"name":"Spr_Weapon_Tiles","path":"sprites/Spr_Weapon_Tiles/Spr_Weapon_Tiles.yy",},},
+    {"id":{"name":"Spr_WeaponWheel_Back","path":"sprites/Spr_WeaponWheel_Back/Spr_WeaponWheel_Back.yy",},},
     {"id":{"name":"Spr_WeaponWheel","path":"sprites/Spr_WeaponWheel/Spr_WeaponWheel.yy",},},
     {"id":{"name":"tle_backwall","path":"tilesets/tle_backwall/tle_backwall.yy",},},
     {"id":{"name":"tle_normal","path":"tilesets/tle_normal/tle_normal.yy",},},
