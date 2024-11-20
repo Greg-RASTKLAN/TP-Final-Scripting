@@ -15,15 +15,15 @@ if (visible) {
 	    
 	    var draw_angle;
 		
-	    if (i == 0) draw_angle = 50;
-		else if (i == 1) draw_angle = 290;
-		else draw_angle = 170; 
+	    if (i == 0) draw_angle = 90;
+		else if (i == 1) draw_angle = 315;
+		else draw_angle = 225; 
 		
 	    // Applique la surbrillance si le segment est survolé
 	    if (i == selected_index) {
-			draw_sprite_ext(Spr_WeaponWheel, i, mouse_pos_x, mouse_pos_y, 1, 1, draw_angle, c_white, 1);
+			draw_sprite_ext(Spr_WeaponWheel, i,mouse_pos_x+lengthdir_x(64,draw_angle), mouse_pos_y+lengthdir_y(64,draw_angle),0.4, 0.4, 0, c_white, 1);
 	    } else {
-	        draw_sprite_ext(Spr_WeaponWheel, i, mouse_pos_x, mouse_pos_y, 1, 1, draw_angle, c_white, 0.5);
+	        draw_sprite_ext(Spr_WeaponWheel, i, mouse_pos_x+lengthdir_x(64,draw_angle), mouse_pos_y+lengthdir_y(64,draw_angle), 0.3, 0.3, 0, c_white, 0.5);
 	    }
 	}
 

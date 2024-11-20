@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9bea8617-5dc5-4c5c-8f19-f1858b272416","name":"9bea8617-5dc5-4c5c-8f19-f1858b272416","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"43ccc4c8-9345-418a-9b4c-84d942ef8e7a","name":"43ccc4c8-9345-418a-9b4c-84d942ef8e7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"41503548-15a0-4b8a-b8e1-6eeac7ace0c4","name":"41503548-15a0-4b8a-b8e1-6eeac7ace0c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"9c437a19-b533-4d31-911a-414b304de029","name":"9c437a19-b533-4d31-911a-414b304de029","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9bea8617-5dc5-4c5c-8f19-f1858b272416","path":"sprites/Spr_Skill3/Spr_Skill3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fcc1d5f4-3fb8-4f58-aa28-81595eb7ce41","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43ccc4c8-9345-418a-9b4c-84d942ef8e7a","path":"sprites/Spr_Skill3/Spr_Skill3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"596d1797-eaf8-4532-953b-95394fba887a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41503548-15a0-4b8a-b8e1-6eeac7ace0c4","path":"sprites/Spr_Skill3/Spr_Skill3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3f2a6ff7-475e-4986-8131-5a03bbc2a9d9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},

@@ -32,13 +32,13 @@ if(currentWeapon == "Magic") {
 
 #region Arme courante sur la gauche du HUD
 if(currentWeapon == "Sword")
-	draw_sprite(Spr_Sword_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
+	draw_sprite(Spr_Sword_Statique, 1, view_width/2 - (view_width/3)/2 + 7, view_height - 98);
 	
 if(currentWeapon == "Bow")
-	draw_sprite(Spr_Bow_Statique, 1, view_width/2 - (view_width/3)/2 - 40, view_height - 226);
+	draw_sprite_ext(Spr_Bow_Statique, 1, view_width/2 - (view_width/3)/2 - 48, view_height - 180, 0.7, 0.7, 0, c_white, 1);
 	
 if(currentWeapon == "Magic") 
-    draw_sprite_ext(Spr_Magic_Statique, 1, view_width / 2 - (view_width / 3) / 2 - 110, view_height - 30, 1 / 3, 1 / 3, 25, c_white, 1);
+    draw_sprite_ext(Spr_Magic_Statique, 1, view_width / 2 - (view_width / 3) / 2 - 64, view_height - 64, 0.7, 0.7, 0, c_white, 1);
 #endregion
 var display_x =  view_width/2 - (view_width/3)/2 + 420;
 var display_y =  view_height - 50;
