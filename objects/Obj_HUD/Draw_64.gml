@@ -48,13 +48,11 @@ draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2 + 350
 
 // Potions de vie
 draw_sprite(Spr_PotionHP, 0, view_width/2 - (view_width/3)/2 + 350, view_height - 100);
-//draw_text(view_width/2 - (view_width/3)/2 + 350, view_height - 100,string(Obj_Avatar.PotionHP)); 
-draw_text_transformed(display_x, display_y, string(Obj_Avatar.PotionHP),2,2,0);
+draw_text_transformed(display_x, display_y, string(Obj_Avatar.PotionHP),2,2,0); // Potion(s) restante(s)
 
 // Ligne de séparation entre les deux potions
 draw_line_width_color(view_width/2 - (view_width/3)/2 + 430, view_height - 75, view_width/2 - (view_width/3)/2 + 430, view_height - 25, 2, #F5C400, #CA9822);
 	
 // Potion de mana
 draw_sprite(Spr_PotionMana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100);
-//draw_text(view_width/2 - (view_width/3)/2 + 400, view_height - 100,string(Obj_Avatar.PotionMP));
-draw_text_transformed(display_x + 70, display_y, string(Obj_Avatar.PotionMP),2,2,0);
+draw_text_transformed(display_x + 70, display_y, string(Obj_Avatar.PotionMP),2,2,0); // Potion(s) restante(s)
