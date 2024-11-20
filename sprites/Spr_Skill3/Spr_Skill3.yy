@@ -21,6 +21,7 @@
   "height":96,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"0b91ca16-74a6-4168-9d1c-03ab081f568a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0b91ca16-74a6-4168-9d1c-03ab081f568a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"d04f3b30-8b76-489c-8f2b-043173ef4633","blendMode":0,"displayName":"default","isLocked":false,"name":"d04f3b30-8b76-489c-8f2b-043173ef4633","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_Skill3",
