@@ -8,7 +8,6 @@ if(AvatarState ="Hurt"){
 	alarm_set(6,InvincibleTime);
 }
 
-if(AvatarState ="Death"){
-	show_message("DEAD!");
-	room_restart();
+if(AvatarState == "Death"){
+	//room_restart();
 }

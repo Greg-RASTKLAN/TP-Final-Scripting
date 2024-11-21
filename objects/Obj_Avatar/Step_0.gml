@@ -292,3 +292,8 @@ if (keyInteract){
 	}
 }
 #endregion
+
+if(AvatarState == "Death" && keyboard_check_pressed(vk_anykey))
+{ 
+	room_restart();
+}
