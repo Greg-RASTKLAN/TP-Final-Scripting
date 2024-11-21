@@ -24,9 +24,9 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
-		_Xscale = sign(round(x-xprevious));
+		/*_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
-		image_xscale = _Xscale;
+		image_xscale = _Xscale;*/
 	} else if (distance_to_object(Obj_Avatar) <= Attack2_Range){ //Atk3 Spin
 		AvatarState = "Attack";
 		sprite_index = Spr_Beholder_Spin;
@@ -35,9 +35,9 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		EnemyTarget = Obj_Avatar;
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
-		_Xscale = sign(round(x-xprevious));
+		/*_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
-		image_xscale = _Xscale;
+		image_xscale = _Xscale;*/
 		Obj_Avatar.fct_Dommages(DommagesSpin);
 	} else if (distance_to_object(Obj_Avatar) <= AggroRange){ //Move to Avatar
 		AvatarState = "Walk"
@@ -54,9 +54,9 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		if(!place_meeting(x, y+_Y,_Collisions)){
 			y += _Y;
 		}
-		_Xscale = sign(round(x-xprevious));
+		/*_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
-		image_xscale = _Xscale;
+		image_xscale = _Xscale;*/
 	} else{ //Idle
 		AvatarState = "Idle";
 		sprite_index = Spr_Beholder_Idle;
