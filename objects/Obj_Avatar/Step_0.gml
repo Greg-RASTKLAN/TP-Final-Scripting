@@ -273,10 +273,8 @@ if nbMana < nbMana_Max{
 #region NPC Dialogs
 Obj_NPC.image_index = 0
 if(place_meeting(x, y, Obj_NPC)) {
-	Obj_NPC.image_index = 1
-		
+	Obj_NPC.image_index = 1;
 	if(keyInteract){
-		//show_debug_message("coucou");
 		showDialog = true;
 	}
 } else {

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Avatar_Idle",
-    "path":"sprites/Spr_Avatar_Idle/Spr_Avatar_Idle.yy",
+    "name":"Spr_NPC",
+    "path":"sprites/Spr_NPC/Spr_NPC.yy",
   },
   "spriteMaskId":null,
   "visible":true,
