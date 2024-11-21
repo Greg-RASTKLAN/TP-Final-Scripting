@@ -119,6 +119,7 @@
     {"id":{"name":"Spr_Collision","path":"sprites/Spr_Collision/Spr_Collision.yy",},},
     {"id":{"name":"Spr_DamageArea","path":"sprites/Spr_DamageArea/Spr_DamageArea.yy",},},
     {"id":{"name":"Spr_DialogBox","path":"sprites/Spr_DialogBox/Spr_DialogBox.yy",},},
+    {"id":{"name":"Spr_FeedbackSkills","path":"sprites/Spr_FeedbackSkills/Spr_FeedbackSkills.yy",},},
     {"id":{"name":"Spr_GiantPipe","path":"sprites/Spr_GiantPipe/Spr_GiantPipe.yy",},},
     {"id":{"name":"Spr_Glow","path":"sprites/Spr_Glow/Spr_Glow.yy",},},
     {"id":{"name":"Spr_Healthbar","path":"sprites/Spr_Healthbar/Spr_Healthbar.yy",},},
