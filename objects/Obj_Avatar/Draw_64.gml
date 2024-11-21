@@ -32,7 +32,7 @@ var skill2_CDScale = (alarmNormalized/Skill_2_Cooldown);
 if(!Skill_2_Ready){
 	draw_sprite_ext(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 125, view_height-24,1,skill2_CDScale,0,c_white,0.7);
 }
-draw_sprite(Spr_Skill_Over,0,view_width/2 - (view_width/3)/2 + 25, view_height-120);
+draw_sprite(Spr_Skill_Over,0,view_width/2 - (view_width/3)/2 + 125, view_height-120);
 #endregion
 
 #region CoolDown Skill 3
@@ -47,7 +47,7 @@ var skill3_CDScale = (alarmNormalized/Skill_3_Cooldown);
 if(!Skill_3_Ready) {
 	draw_sprite_ext(Spr_SkillBG, 0, view_width/2 - (view_width/3)/2 + 225, view_height-24,1,skill3_CDScale,0,c_white,0.7);
 }
-draw_sprite(Spr_Skill_Over,0,view_width/2 - (view_width/3)/2 + 25, view_height-120);
+draw_sprite(Spr_Skill_Over,0,view_width/2 - (view_width/3)/2 + 225, view_height-120);
 #endregion
 
 #region Cooldown affichage numérique
