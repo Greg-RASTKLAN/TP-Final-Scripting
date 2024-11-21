@@ -7,12 +7,6 @@ view_height = camera_get_view_height(0);
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2, view_height - 150, view_width/3, 150);
 
 #region Affichage des skills selon l'arme courante
-// Feedbacks pour les bindings des touches
-draw_sprite_ext(Spr_FeedbackSkills, 0, view_width/2 - (view_width/3)/2 + 7, view_height - 98, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(Spr_FeedbackSkills, 1, view_width/2 - (view_width/3)/2 + 25, view_height - 120, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(Spr_FeedbackSkills, 2, view_width/2 - (view_width/3)/2 + 125, view_height - 120, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(Spr_FeedbackSkills, 3, view_width/2 - (view_width/3)/2 + 225, view_height - 120, 0.5, 0.5, 0, c_white, 1);
-
 // Compétences Sword
 if(currentWeapon == "Sword") {
 	var c = (Obj_Avatar.Skill_1_Ready ? draw_sprite_ext(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 25, view_height - 120,1,1,0,c_white,1) : draw_sprite_ext(Spr_Skill1, 0, view_width/2 - (view_width/3)/2 + 25, view_height - 120,1,1,0,c_gray,1))
@@ -62,3 +56,12 @@ draw_line_width_color(view_width/2 - (view_width/3)/2 + 430, view_height - 75, v
 // Potion de mana
 draw_sprite(Spr_PotionMana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100);
 draw_text_transformed(display_x + 70, display_y, string(Obj_Avatar.PotionMP),2,2,0); // Potion(s) restante(s)
+
+// Feedbacks pour les bindings des touches
+draw_sprite_ext(Spr_FeedbackSkills, 0, view_width/2 - (view_width/3)/2 -50, view_height - 98, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 1, view_width/2 - (view_width/3)/2 + 25, view_height - 120, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 2, view_width/2 - (view_width/3)/2 + 125, view_height - 120, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 3, view_width/2 - (view_width/3)/2 + 225, view_height - 120, 0.5, 0.5, 0, c_white, 1);
+
+draw_sprite_ext(Spr_FeedbackSkills, 4, view_width/2 - (view_width/3)/2 + 350, view_height - 100, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 5, view_width/2 - (view_width/3)/2 + 420, view_height - 100, 0.5, 0.5, 0, c_white, 1);
