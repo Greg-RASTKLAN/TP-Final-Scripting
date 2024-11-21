@@ -10,7 +10,7 @@ nbVieCent = nbVies/nbViesMax;
 
 //Mouvements
 LocalFrame = 0;
-Vitesse = 1;
+Vitesse = 0.5;
 CanMove = true;
 StateDelay = 20; //Délai entre les States pour éviter le animation cancel trop tôt
 AvatarState = "Idle";
@@ -29,11 +29,11 @@ Attack1_Ready = true;
 Attack1_Cooldown = 300;
 Attack1_Range = 100;
 //BulletHell
-nbBullets = 1;
-BulletHellDuration = 60;
+nbBullets = 12;
+BulletHellDuration = 240;
 BulletHellStep = 0;
 Attack2_Ready = true;
-Attack2_Cooldown = 300;
+Attack2_Cooldown = 600;
 //Spin
 DommagesSpin = 10;
 Attack2_Range = 10;

@@ -7,9 +7,11 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 	if(AvatarState == "BulletHell"){ //Atk 3 BulletHell in action
 		if(BulletHellStep < BulletHellDuration){
 			BulletHellStep++;
-			for(i=0;i<=nbBullets;i++){
-				var _Bullet = instance_create_layer(x,y-16,"Instances",Obj_Bullet);
-				_Bullet.direction = irandom_range(0,359);
+			if(BulletHellStep %20 == 0){
+				for(i=0;i<=nbBullets;i++){
+					var _Bullet = instance_create_layer(x,y,"Instances",Obj_Bullet);
+					_Bullet.direction = irandom_range(0,359);
+				}
 			}
 		} else{
 			AvatarState = "Idle";
