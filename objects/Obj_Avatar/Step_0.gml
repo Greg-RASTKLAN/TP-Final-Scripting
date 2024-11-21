@@ -174,7 +174,7 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
 		for (var i=0;i<=2;i++){
-			_weapon = instance_create_layer(x,y-16,"Instances",Obj_Sword_Skill3);
+			_weapon = instance_create_layer(x+lengthdir_x(30,direction+i*120),y-16+lengthdir_y(30,direction+i*120),"Instances",Obj_Sword_Skill3);
 			_weapon.direction = direction+i*120;
 			_weapon.image_angle = direction-45+i*120;
 		}

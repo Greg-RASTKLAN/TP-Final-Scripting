@@ -6,7 +6,9 @@ image_yscale = image_xscale;
 depth = -16000;
 LocalFrame = 0;
 
+Lifetime_Max = 120;
+Lifetime = 0;
 RotationSpeed = 2;
 Dommages = 5;
 
-alarm_set(0, 120);
+alarm_set(0, Lifetime_Max);

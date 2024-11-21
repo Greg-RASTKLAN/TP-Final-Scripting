@@ -54,6 +54,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		if(!place_meeting(x, y+_Y,_Collisions)){
 			y += _Y;
 		}
+		Scr_SpriteAnimation();
 		/*_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;*/
