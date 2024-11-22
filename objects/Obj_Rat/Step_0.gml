@@ -1,11 +1,11 @@
 /// @description
 depth = -y; //Draw order
 
-if (distance_to_object(Obj_Avatar) <= AggroRange){ //Move to Avatar
-	AvatarState = "Walk"
+if (distance_to_object(Obj_Avatar) <= AggroRange){ //s'enfuit de l'Avatar
+	AvatarState = "RunAway";
 	sprite_index = Spr_Rat_Walk;
-	EnemyTarget = Obj_Avatar;
 	direction = point_direction(x,y,EnemyTarget.x,EnemyTarget.y)-180;
+	
 	//Movements And Collisions
 	_X = lengthdir_x(Vitesse,direction);
 	if(!place_meeting(x+_X, y,_Collisions)){

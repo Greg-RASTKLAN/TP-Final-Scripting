@@ -17,14 +17,6 @@ keyPotionHP =  keyboard_check_pressed(ord("1"));
 keyPotionMP =  keyboard_check_pressed(ord("2"));
 
 //DEV
-/*if (_mouseclick_right){
-	switch (EquippedWeapon){
-		case "Sword": EquippedWeapon = "Bow"; break;
-		case "Bow": EquippedWeapon = "Magic"; break;
-		case "Magic": EquippedWeapon = "Sword"; break;
-	}
-}*/
-
 if(keyboard_check_pressed(vk_control)){room_restart();}
 #endregion
 
@@ -298,7 +290,9 @@ if (keyInteract){
 }
 #endregion
 
-if(AvatarState == "Death" && keyboard_check_pressed(vk_anykey))
+#region DEATH
+if(AvatarState == "Death" && keyboard_check_pressed(vk_anykey && RestartAfterDead == true))
 { 
 	room_restart();
 }
+#endregion
