@@ -96,8 +96,6 @@
     {"id":{"name":"rm_Menui","path":"rooms/rm_Menui/rm_Menui.yy",},},
     {"id":{"name":"Scr_SpriteAnimation","path":"scripts/Scr_SpriteAnimation/Scr_SpriteAnimation.yy",},},
     {"id":{"name":"snd_BackgroundWater","path":"sounds/snd_BackgroundWater/snd_BackgroundWater.yy",},},
-    {"id":{"name":"snd_SwordImpactAutoAttack","path":"sounds/snd_SwordImpactAutoAttack/snd_SwordImpactAutoAttack.yy",},},
-    {"id":{"name":"snd_SwordSwitch","path":"sounds/snd_SwordSwitch/snd_SwordSwitch.yy",},},
     {"id":{"name":"Spr_AcidArea","path":"sprites/Spr_AcidArea/Spr_AcidArea.yy",},},
     {"id":{"name":"Spr_AcidBlob","path":"sprites/Spr_AcidBlob/Spr_AcidBlob.yy",},},
     {"id":{"name":"Spr_AcidWater_Animated","path":"sprites/Spr_AcidWater_Animated/Spr_AcidWater_Animated.yy",},},
