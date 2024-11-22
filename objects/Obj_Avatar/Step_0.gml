@@ -13,8 +13,8 @@ _mouseclick_right = mouse_check_button_released(mb_right);
 _keyE = keyboard_check(ord("E"));
 _keyR = keyboard_check(ord("R"));
 keyInteract = keyboard_check(ord("F")) || keyboard_check(ord("B"));
-keyPotionHP =  keyboard_check(ord("1"));
-keyPotionMP =  keyboard_check(ord("2"));
+keyPotionHP =  keyboard_check_pressed(ord("1"));
+keyPotionMP =  keyboard_check_pressed(ord("2"));
 
 //DEV
 if(keyboard_check_pressed(vk_control)){room_restart();}
@@ -85,7 +85,9 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
-		audio_play_sound(snd_SwordImpactAutoAttack, 0, false);
+		//audio_play_sound(snd_SwordAA1, 0, false);
+		
+		audio_play_sound(choose(snd_SwordAA1, snd_SwordAA2, snd_SwordAA3), 1, false);
 		sprite_index = Spr_Avatar_Sword;
 	} else if (EquippedWeapon == "Bow"){ //bow
 		direction = _Dir;

@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_BackgroundWater",
+  "%Name":"snd_NPC",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":83.424,
-  "name":"snd_BackgroundWater",
+  "duration":0.912917,
+  "name":"snd_NPC",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_BackgroundWater.mp3",
+  "soundFile":"snd_NPC.mp3",
   "type":0,
-  "volume":0.09,
+  "volume":1.0,
 }
