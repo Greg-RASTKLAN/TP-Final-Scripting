@@ -1,3 +1,2 @@
-/// @description instance destroy
-// You can write your code in this editor
+/// @description Destroy
 instance_destroy();
