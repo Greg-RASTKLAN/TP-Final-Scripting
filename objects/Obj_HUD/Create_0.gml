@@ -1,4 +1,6 @@
 /// @description Init
+PotionHP_Frame = 0;
+PotionMP_Frame = 0;
 
 currentWeapon = Obj_Avatar.EquippedWeapon;
 

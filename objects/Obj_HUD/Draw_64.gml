@@ -46,15 +46,29 @@ var display_y =  view_height - 50;
 // Arriere plan du HUD Potion
 draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2 + 350, view_height - 100, view_width/6, 100);
 
+show_debug_message(string(PotionHP_Frame));
+
 // Potions de vie
-draw_sprite(Spr_PotionHP, 0, view_width/2 - (view_width/3)/2 + 350, view_height - 100);
+if(PotionHP_Frame < 0 || PotionHP_Frame > 0){
+	draw_sprite(Spr_PotionHP, PotionHP_Frame+8, view_width/2 - (view_width/3)/2 + 350, view_height - 100);
+	if(current_time % 4 == 0){PotionHP_Frame += sign(PotionHP_Frame)*-1;}
+} else{
+	draw_sprite(Spr_PotionHP, 0, view_width/2 - (view_width/3)/2 + 350, view_height - 100);
+}
+
 draw_text_transformed(display_x, display_y, string(Obj_Avatar.PotionHP),2,2,0); // Potion(s) restante(s)
 
 // Ligne de séparation entre les deux potions
 draw_line_width_color(view_width/2 - (view_width/3)/2 + 430, view_height - 75, view_width/2 - (view_width/3)/2 + 430, view_height - 25, 2, #F5C400, #CA9822);
 	
 // Potion de mana
-draw_sprite(Spr_PotionMana, 0, view_width/2 - (view_width/3)/2 + 420, view_height - 100);
+if(PotionMP_Frame < 0 || PotionMP_Frame > 0){
+	draw_sprite(Spr_PotionMana, PotionMP_Frame+8, view_width/2 - (view_width/3)/2 + 420, view_height - 100);
+	if(current_time % 4 == 0){PotionMP_Frame += sign(PotionMP_Frame)*-1;}
+} else{
+	draw_sprite(Spr_PotionMana, PotionMP_Frame, view_width/2 - (view_width/3)/2 + 420, view_height - 100);
+}
+
 draw_text_transformed(display_x + 70, display_y, string(Obj_Avatar.PotionMP),2,2,0); // Potion(s) restante(s)
 
 // Feedbacks pour les bindings des touches
