@@ -270,23 +270,27 @@ if nbMana < nbMana_Max{
 #endregion
 
 #region NPC Dialogs
-Obj_NPC.image_index = 0
+Obj_NPC.image_index = 0;
 if(place_meeting(x, y, Obj_NPC)) {
-	Obj_NPC.image_index = 1;
+	Obj_NPC.ShowInteract = true;
 	if(keyInteract){
 		showDialog = true;
 	}
 } else {
+	Obj_NPC.ShowInteract = false;
 	showDialog = false;
 }
 #endregion
 
 #region INTERACT CHEST
-if (keyInteract){
-	chest = instance_nearest(x,y,Obj_Chest);
-	if distance_to_object(chest) < 30 && chest.opened == false{
+chest = instance_nearest(x,y,Obj_Chest);
+if (distance_to_object(chest) < 30 && chest.opened == false){
+	chest.ShowInteract = true;
+	if (keyInteract){
 		chest.Fct_OpenChest();
 	}
+} else{
+	chest.ShowInteract = false;
 }
 #endregion
 

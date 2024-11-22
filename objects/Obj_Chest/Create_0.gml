@@ -3,6 +3,7 @@
 depth = -y;
 opened = false;
 image_speed = 0;
+ShowInteract = false;
 
 function Fct_OpenChest(){
 	opened = true;
