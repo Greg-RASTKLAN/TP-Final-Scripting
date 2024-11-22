@@ -287,7 +287,7 @@ if (keyInteract){
 #endregion
 
 #region DEATH
-if(AvatarState == "Death" && keyboard_check_pressed(vk_anykey && RestartAfterDead == true))
+if(AvatarState == "Death" && keyboard_check_pressed(vk_anykey) && RestartAfterDead == true)
 { 
 	room_restart();
 }
