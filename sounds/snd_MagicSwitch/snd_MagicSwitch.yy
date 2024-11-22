@@ -12,8 +12,8 @@
   "duration":1.17375,
   "name":"snd_MagicSwitch",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Magic",
+    "path":"folders/Sons/Magic.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

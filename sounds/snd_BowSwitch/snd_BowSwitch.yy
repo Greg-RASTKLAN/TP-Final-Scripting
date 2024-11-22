@@ -12,8 +12,8 @@
   "duration":1.17375,
   "name":"snd_BowSwitch",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Bow",
+    "path":"folders/Sons/Bow.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.86075,
   "name":"snd_SwordAA1",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Sword",
+    "path":"folders/Sons/Sword.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

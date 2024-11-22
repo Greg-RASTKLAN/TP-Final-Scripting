@@ -101,5 +101,7 @@ draw_set_alpha(1);
 
 if(AvatarState == "Death") { 
 	draw_text(view_width / 2, (view_height / 2) + 200, "Press a key to play again")
+	if(image_index == 0) 
+		audio_play_sound(snd_PlayerDead, 0, false);
 }
 

@@ -12,8 +12,8 @@
   "duration":0.86075,
   "name":"snd_PotionHPUse",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Potions",
+    "path":"folders/Sons/Potions.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

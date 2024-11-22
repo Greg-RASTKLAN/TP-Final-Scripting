@@ -12,8 +12,8 @@
   "duration":1.831167,
   "name":"snd_LancerBullet",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"NME",
+    "path":"folders/Sons/NME.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

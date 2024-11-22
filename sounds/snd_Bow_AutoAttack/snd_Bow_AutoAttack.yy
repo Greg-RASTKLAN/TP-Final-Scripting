@@ -12,8 +12,8 @@
   "duration":1.538917,
   "name":"snd_Bow_AutoAttack",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Bow",
+    "path":"folders/Sons/Bow.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

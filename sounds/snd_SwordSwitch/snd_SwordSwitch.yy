@@ -12,8 +12,8 @@
   "duration":1.434583,
   "name":"snd_SwordSwitch",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Sword",
+    "path":"folders/Sons/Sword.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

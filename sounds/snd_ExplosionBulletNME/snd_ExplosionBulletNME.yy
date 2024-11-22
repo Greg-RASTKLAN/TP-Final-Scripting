@@ -12,8 +12,8 @@
   "duration":3.83425,
   "name":"snd_ExplosionBulletNME",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"NME",
+    "path":"folders/Sons/NME.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_PotionCollision",
+  "%Name":"snd_Chest",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,16 +10,16 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.866083,
-  "name":"snd_PotionCollision",
+  "name":"snd_Chest",
   "parent":{
-    "name":"Potions",
-    "path":"folders/Sons/Potions.yy",
+    "name":"Sons",
+    "path":"folders/Sons.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_PotionCollision.mp3",
+  "soundFile":"snd_Chest.mp3",
   "type":0,
   "volume":1.0,
 }

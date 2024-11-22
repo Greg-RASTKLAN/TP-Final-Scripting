@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_PotionCollision",
+  "%Name":"snd_PlayerDead",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.866083,
-  "name":"snd_PotionCollision",
+  "duration":1.0955,
+  "name":"snd_PlayerDead",
   "parent":{
-    "name":"Potions",
-    "path":"folders/Sons/Potions.yy",
+    "name":"Sons",
+    "path":"folders/Sons.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_PotionCollision.mp3",
+  "soundFile":"snd_PlayerDead.mp3",
   "type":0,
   "volume":1.0,
 }

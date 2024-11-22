@@ -277,8 +277,9 @@ if nbMana < nbMana_Max{
 Obj_NPC.image_index = 0;
 if(place_meeting(x, y, Obj_NPC)) {
 	Obj_NPC.ShowInteract = true;
-	if(keyInteract){
+	if(keyInteract && showDialog == false){
 		showDialog = true;
+		audio_play_sound(snd_NPC, 0, false);
 	}
 } else {
 	Obj_NPC.ShowInteract = false;
@@ -292,6 +293,7 @@ if (distance_to_object(chest) < 30 && chest.opened == false){
 	chest.ShowInteract = true;
 	if (keyInteract){
 		chest.Fct_OpenChest();
+		audio_play_sound(snd_Chest, 0, false);
 	}
 } else{
 	chest.ShowInteract = false;

@@ -12,8 +12,8 @@
   "duration":3.025667,
   "name":"snd_MagicAutoAttack",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"Magic",
+    "path":"folders/Sons/Magic.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
