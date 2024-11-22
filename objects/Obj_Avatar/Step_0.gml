@@ -236,10 +236,12 @@ var ItemPotionMP = instance_place(x, y, Obj_PotionMP);
 
 if (ItemPotionHP && PotionHP < PotionHP_Max){
 	PotionHP++;
+	Obj_HUD.PotionHP_Frame = -8;
 	instance_destroy(ItemPotionHP);
 }
 if (ItemPotionMP && PotionMP < PotionMP_Max){
 	PotionMP++;
+	Obj_HUD.PotionMP_Frame = -8;
 	instance_destroy(ItemPotionMP);
 }
 
@@ -250,6 +252,7 @@ if nbVies < nbVies_Max{
 	if (keyPotionHP && PotionHP > 0) {
 		nbVies += hpPotion;
 		PotionHP--;
+		Obj_HUD.PotionHP_Frame = 8;
 		nbVies = clamp(nbVies,0,nbVies_Max);
 		audio_play_sound(snd_PotionHPUse, 0, false);
 	}	
@@ -263,6 +266,7 @@ if nbMana < nbMana_Max{
 	if (keyPotionMP && PotionMP > 0) {
 		nbMana += ManaPotion;
 		PotionMP--;
+		Obj_HUD.PotionMP_Frame = 8;
 		nbMana = clamp(nbMana,0,nbMana_Max);
 		audio_play_sound(snd_PotionManaUse, 0, false);
 	}
