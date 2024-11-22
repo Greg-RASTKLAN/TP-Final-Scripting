@@ -41,13 +41,14 @@ _Xscale = 1;
 //Take Dammage
 function fct_Dommages(Dmg){
 	if(AvatarState != "Hurt" && AvatarState != "Death"){
+		instance_create_layer(x,y-16,"Instances",Obj_BloodVFX);
 		AvatarState = "Hurt";
 		sprite_index = Spr_MutantRat_Hurt;		
 		EnemyTarget = Obj_Avatar;
 		nbVies -= Dmg;
 		if(nbVies <= 0){
 			AvatarState = "Death";
-			sprite_index = Spr_MutantRat_Death;		
+			sprite_index = Spr_MutantRat_Death;
 		}
 	}
 }
