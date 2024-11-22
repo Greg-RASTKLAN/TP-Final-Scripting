@@ -1,30 +1,31 @@
-/// @description Insert description here
-// You can write your code in this editor
-//depth = -16000
+/// @description Simon Paradis
+//Player Character
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
 LastInputDir = 1;
 
 Invincible = false;
 InvincibleTime = 30; //Temps Invinciple après l'animation Hurt pour éviter StunLock
 
+//HP
 nbVies_Max = 100;
 nbVies = nbVies_Max;
-hpPotion = 30;
-PotionHP = 1;
+hpPotion = 30; //nombre de HP et MP reçus en utilisant les potions
+PotionHP = 1; //Nombre de Potions HP
 PotionHP_Max = 3;
-PotionMP = 1;
+PotionMP = 1; //Nombre de Potions MP
 PotionMP_Max = 3;
 
+//MP
 nbMana_Max = 100;
 nbMana = nbMana_Max;
 ManaRegen = 0.1;
 ManaPotion = 30
 
+//Mouvements et States
 Vitesse = 3;
-
 CanMove = true;
 StateDelay = 20; //Délai entre les States pour éviter le animation cancel trop tôt
-AvatarState = "Idle";
+AvatarState = "Idle"; //Idle, Hurt, Death, Walk, etc.
 LocalFrame = 0;
 
 //DODGE
@@ -41,7 +42,7 @@ EquippedWeapon = "Sword";
 CanAttack = true;
 _Dir = 0;
 
-//Skills Cooldowns
+//Skills 1-3 Cooldowns
 Skill_1_Cooldown = 60;
 Skill_2_Cooldown = 120;
 Skill_3_Cooldown = 320;
@@ -53,11 +54,6 @@ Skill_3_Mana = 60;
 alarm_set(2,Skill_1_Cooldown);
 alarm_set(3,Skill_2_Cooldown);
 alarm_set(4,Skill_3_Cooldown);
-
-//bow
-Bow_AttackCooldown = 30;
-//sword
-Sword_AttackCooldown = 45;
 
 //FUNCTIONS
 function fct_Dommages(Dmg){
