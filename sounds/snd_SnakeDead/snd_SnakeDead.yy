@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_NMEHit3",
+  "%Name":"snd_SnakeDead",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.678167,
-  "name":"snd_NMEHit3",
+  "duration":2.764833,
+  "name":"snd_SnakeDead",
   "parent":{
     "name":"NME",
     "path":"folders/Sons/NME.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_NMEHit3.mp3",
+  "soundFile":"snd_SnakeDead.mp3",
   "type":0,
-  "volume":0.56,
+  "volume":0.46,
 }

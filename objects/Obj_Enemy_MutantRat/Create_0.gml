@@ -41,6 +41,7 @@ _Xscale = 1;
 //Take Dammage
 function fct_Dommages(Dmg){
 	if(AvatarState != "Hurt" && AvatarState != "Death"){
+		audio_play_sound(choose(snd_NMEHit1, snd_NMEHit2, snd_NMEHit3), 1, false);
 		instance_create_layer(x,y-16,"Instances",Obj_BloodVFX);
 		AvatarState = "Hurt";
 		sprite_index = Spr_MutantRat_Hurt;		
@@ -49,6 +50,7 @@ function fct_Dommages(Dmg){
 		if(nbVies <= 0){
 			AvatarState = "Death";
 			sprite_index = Spr_MutantRat_Death;
+			audio_play_sound(choose(snd_NME1Dead, snd_NME2Dead, snd_NME3Dead), 1, false);
 		}
 	}
 }

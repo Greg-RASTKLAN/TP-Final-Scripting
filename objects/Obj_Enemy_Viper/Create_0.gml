@@ -47,6 +47,8 @@ function fct_Dommages(Dmg){
 		if(nbVies <= 0){
 			AvatarState = "Death";
 			sprite_index = Spr_Viper_Death;		
+			audio_sound_set_track_position(snd_SnakeDead, 1.6)
+			audio_play_sound(snd_SnakeDead, 0, false)
 		}
 	}
 }

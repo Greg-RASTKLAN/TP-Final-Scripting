@@ -12,8 +12,8 @@
   "duration":1.048667,
   "name":"snd_NME2Dead",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"NME",
+    "path":"folders/Sons/NME.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_NME2Dead.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.52,
 }
