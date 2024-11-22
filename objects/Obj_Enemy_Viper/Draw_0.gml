@@ -4,7 +4,7 @@ draw_sprite(Spr_Shadow,0,x,y+4);
 draw_self();
 
 if(AvatarState != "Death"){
-	draw_healthbar(x-16,y-sprite_height-16,x+16,y-sprite_height-10,(nbVies/nbViesMax)*100,c_gray,c_orange,c_red,0,true,true);
+	draw_healthbar(x-16,y-sprite_height+58,x+16,y-sprite_height+64,(nbVies/nbViesMax)*100,c_gray,c_orange,c_red,0,true,true);
 }
 
 //draw_text(x,y-64,string(_Xscale)+"   "+AvatarState);

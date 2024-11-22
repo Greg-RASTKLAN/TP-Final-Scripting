@@ -1,4 +1,5 @@
-/// @description Insert description here
+/// @description Simon Paradis
+//Ennemi Vipere
 
 //Collisions
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
