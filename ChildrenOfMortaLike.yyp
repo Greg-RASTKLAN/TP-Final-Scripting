@@ -101,6 +101,8 @@
     {"id":{"name":"snd_BackgroundWater","path":"sounds/snd_BackgroundWater/snd_BackgroundWater.yy",},},
     {"id":{"name":"snd_Bow_AutoAttack","path":"sounds/snd_Bow_AutoAttack/snd_Bow_AutoAttack.yy",},},
     {"id":{"name":"snd_BowSwitch","path":"sounds/snd_BowSwitch/snd_BowSwitch.yy",},},
+    {"id":{"name":"snd_ExplosionBulletNME","path":"sounds/snd_ExplosionBulletNME/snd_ExplosionBulletNME.yy",},},
+    {"id":{"name":"snd_LancerBullet","path":"sounds/snd_LancerBullet/snd_LancerBullet.yy",},},
     {"id":{"name":"snd_MagicAutoAttack","path":"sounds/snd_MagicAutoAttack/snd_MagicAutoAttack.yy",},},
     {"id":{"name":"snd_MagicSwitch","path":"sounds/snd_MagicSwitch/snd_MagicSwitch.yy",},},
     {"id":{"name":"snd_MainMenu","path":"sounds/snd_MainMenu/snd_MainMenu.yy",},},

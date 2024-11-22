@@ -9,4 +9,4 @@ image_angle = direction;
 Dommages = 0;
 Vitesse = 3;
 
-audio_play_sound()
+audio_play_sound(snd_LancerBullet, 0, false)
