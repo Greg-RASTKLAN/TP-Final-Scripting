@@ -4,7 +4,7 @@ view_width = camera_get_view_width(0);
 view_height = camera_get_view_height(0);
 
 // Arriere plan du HUD Skills
-draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2, view_height - 170, view_width/3, 170);
+draw_sprite_stretched(Spr_Skills_Back, 0,  view_width/2 - (view_width/3)/2, view_height - 155, view_width/3, 150);
 
 #region Affichage des skills selon l'arme courante
 // Compétences Sword
@@ -59,9 +59,9 @@ draw_text_transformed(display_x + 70, display_y, string(Obj_Avatar.PotionMP),2,2
 
 // Feedbacks pour les bindings des touches
 draw_sprite_ext(Spr_FeedbackSkills, 0, view_width/2 - (view_width/3)/2 -50, view_height - 98, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(Spr_FeedbackSkills, 1, view_width/2 - (view_width/3)/2 + 25, view_height - 150, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(Spr_FeedbackSkills, 2, view_width/2 - (view_width/3)/2 + 125, view_height - 150, 0.5, 0.5, 0, c_white, 1);
-draw_sprite_ext(Spr_FeedbackSkills, 3, view_width/2 - (view_width/3)/2 + 225, view_height - 150, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 1, view_width/2 - (view_width/3)/2 + 37, view_height - 147, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 2, view_width/2 - (view_width/3)/2 + 125, view_height - 147, 0.5, 0.5, 0, c_white, 1);
+draw_sprite_ext(Spr_FeedbackSkills, 3, view_width/2 - (view_width/3)/2 + 225, view_height - 147, 0.5, 0.5, 0, c_white, 1);
 
 draw_sprite_ext(Spr_FeedbackSkills, 4, view_width/2 - (view_width/3)/2 + 350, view_height - 95, 0.5, 0.5, 0, c_white, 1);
 draw_sprite_ext(Spr_FeedbackSkills, 5, view_width/2 - (view_width/3)/2 + 420, view_height - 95, 0.5, 0.5, 0, c_white, 1);
