@@ -13,7 +13,7 @@ Vitesse = 2;
 
 CanMove = true;
 StateDelay = 20; //Délai entre les States pour éviter le animation cancel trop tôt
-AvatarState = "Idle";
+AvatarState = "Idle"; //Idle, Hurt, Death, Walk, etc.
 
 //DODGE
 DodgeRange = 128;
