@@ -8,7 +8,7 @@ _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
 nbViesMax = 3;
 nbVies = nbViesMax;
 
-AggroRange = 256; //Distance que le Rat s'enfui de l'Avatar
+AggroRange = 128; //Distance que le Rat s'enfui de l'Avatar
 EnemyTarget = noone;
 
 Vitesse = 2;
