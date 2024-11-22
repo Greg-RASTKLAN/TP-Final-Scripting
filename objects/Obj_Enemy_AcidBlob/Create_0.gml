@@ -8,3 +8,5 @@ image_angle = direction;
 
 Dommages = 0;
 Vitesse = 3;
+
+audio_play_sound()

@@ -6,3 +6,5 @@ LocalFrame = 0;
 
 Dommages = 2;
 Vitesse = 0;
+
+audio_play_sound()
