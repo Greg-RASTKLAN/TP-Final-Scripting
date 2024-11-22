@@ -19,11 +19,13 @@ if (mouse_check_button_released(mb_right)) {
 	else if(selected_index == 1) {
 		show_debug_message("bow");
 		Obj_Avatar.EquippedWeapon = "Bow";
+		audio_play_sound(snd_BowSwitch, 0, false)
 
 	}
 	else {
 		show_debug_message("feu");
 		Obj_Avatar.EquippedWeapon = "Magic";
+		audio_play_sound(snd_MagicSwitch, 0, false)
 
 	}
 	
