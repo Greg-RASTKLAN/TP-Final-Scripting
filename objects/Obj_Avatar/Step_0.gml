@@ -108,6 +108,7 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Bow;
+		audio_play_sound(choose(snd_Bow_AutoAttack, snd_Bow_AutoAttack, snd_Bow_AutoAttack), 1, false);
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
@@ -119,6 +120,7 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Magic;
+		audio_play_sound(choose(snd_MagicAutoAttack, snd_MagicAutoAttack, snd_MagicAutoAttack), 1, false);
 	}
 }
 #endregion
@@ -257,6 +259,7 @@ if nbVies < nbVies_Max{
 		nbVies += hpPotion;
 		PotionHP--;
 		nbVies = clamp(nbVies,0,nbVies_Max);
+		audio_play_sound(snd_PotionHPUse, 0, false);
 	}	
 }
 #endregion
@@ -269,6 +272,7 @@ if nbMana < nbMana_Max{
 		nbMana += ManaPotion;
 		PotionMP--;
 		nbMana = clamp(nbMana,0,nbMana_Max);
+		audio_play_sound(snd_PotionManaUse, 0, false);
 	}
 }
 #endregion
