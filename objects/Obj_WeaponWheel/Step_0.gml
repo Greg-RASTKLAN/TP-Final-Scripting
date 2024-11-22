@@ -13,6 +13,7 @@ if (mouse_check_button_released(mb_right)) {
     if(selected_index == 0) {
 		show_debug_message("epee");
 		Obj_Avatar.EquippedWeapon = "Sword";
+		audio_play_sound(snd_SwordSwitch, 0, false)
 
 	}
 	else if(selected_index == 1) {

@@ -93,6 +93,7 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
+		audio_play_sound(snd_SwordImpactAutoAttack, 0, false);
 		sprite_index = Spr_Avatar_Sword;
 	} else if (EquippedWeapon == "Bow"){ //bow
 		direction = _Dir;
