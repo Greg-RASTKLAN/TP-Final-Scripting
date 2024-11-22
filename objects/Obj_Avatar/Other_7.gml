@@ -11,4 +11,5 @@ if(AvatarState ="Hurt"){
 if(AvatarState == "Death"){
 	//room_restart();
 	image_index = image_number-1;
+	RestartAfterDead = true;
 }

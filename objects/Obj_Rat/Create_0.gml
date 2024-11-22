@@ -9,7 +9,7 @@ nbViesMax = 3;
 nbVies = nbViesMax;
 
 AggroRange = 128; //Distance que le Rat s'enfui de l'Avatar
-EnemyTarget = noone;
+EnemyTarget = Obj_Avatar;
 
 Vitesse = 2;
 AvatarState = "Idle"; //Idle, Hurt, Death, Walk, etc.

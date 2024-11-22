@@ -76,3 +76,4 @@ function fct_Dommages(Dmg){
 }
 
 showDialog = false;
+RestartAfterDead = false;
