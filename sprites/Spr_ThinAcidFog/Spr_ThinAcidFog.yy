@@ -41,7 +41,7 @@
   "origin":0,
   "parent":{
     "name":"Props",
-    "path":"folders/Sprites/Props.yy",
+    "path":"folders/Sprites/Traps|Puzzles/Props.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

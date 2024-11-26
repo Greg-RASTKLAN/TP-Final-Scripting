@@ -44,7 +44,7 @@
     {"$GMFolder":"","%Name":"Ennemis","folderPath":"folders/Sprites/Ennemis.yy","name":"Ennemis","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPCs","folderPath":"folders/Sprites/NPCs.yy","name":"NPCs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Props","folderPath":"folders/Sprites/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Props","folderPath":"folders/Sprites/Traps|Puzzles/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Traps|Puzzles","folderPath":"folders/Sprites/Traps|Puzzles.yy","name":"Traps|Puzzles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Health","folderPath":"folders/Sprites/UI/Health.yy","name":"Health","resourceType":"GMFolder","resourceVersion":"2.0",},
