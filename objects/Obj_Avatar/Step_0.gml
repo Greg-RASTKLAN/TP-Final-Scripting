@@ -183,7 +183,10 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 		CanMove = false;
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
+		sprite_index = Spr_Avatar_Bow;
 		sprite_index = Spr_Avatar_Sword;
+		audio_sound_set_track_position(snd_SnakeDead, 2)
+		audio_play_sound(snd_sword_ult, 0, false);
 	} else if (EquippedWeapon == "Bow"){ //bow Skill 3 (Extra Arrows)
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Arrow_Pierce);
@@ -195,6 +198,7 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Bow;
+		audio_play_sound(snd_bow_skill3, 0, false);
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
 		for (var i=0;i<=7;i++){
@@ -208,6 +212,7 @@ if(_keyR && Skill_3_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Magic;
+		audio_play_sound(snd_magic_ult, 0, false);
 	}
 }
 #endregion
