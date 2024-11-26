@@ -47,7 +47,7 @@ _Dir = 0;
 //Skills 1-3 Cooldowns
 Skill_1_Cooldown = 60;
 Skill_2_Cooldown = 120;
-Skill_3_Cooldown = 320;
+Skill_3_Cooldown = 300;
 Skill_1_Ready = true;
 Skill_2_Ready = true;
 Skill_3_Ready = true;
