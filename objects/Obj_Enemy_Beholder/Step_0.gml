@@ -11,6 +11,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 				for(i=0;i<=nbBullets;i++){
 					var _Bullet = instance_create_layer(x,y,"Instances",Obj_Bullet);
 					_Bullet.direction = irandom_range(0,359);
+					 audio_play_sound(snd_skillBeholder, 1, false);
 				}
 			}
 		} else{
@@ -68,3 +69,18 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 	}
 }
 #endregion
+
+
+// Obtenez les dimensions de la caméra actuelle
+var cam_x = camera_get_view_x(view_camera[0]);
+var cam_y = camera_get_view_y(view_camera[0]);
+var cam_width = camera_get_view_width(view_camera[0]);
+var cam_height = camera_get_view_height(view_camera[0]);
+
+// Vérifiez si l'ennemi est dans les limites de la caméra
+if (x > cam_x && x < cam_x + cam_width && y > cam_y && y < cam_y + cam_height) {
+    // L'ennemi est visible, lancer la musique
+    if (!audio_is_playing(snd_epicMusic_Beholder)) {
+        audio_play_sound(snd_epicMusic_Beholder, 1, true);
+    }
+}

@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_epicMusic_Beholder",
+  "%Name":"snd_skillBeholder",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":24.058777,
-  "name":"snd_epicMusic_Beholder",
+  "duration":1.92,
+  "name":"snd_skillBeholder",
   "parent":{
     "name":"Beholder",
     "path":"folders/Sons/NME/Beholder.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_epicMusic_Beholder.mp3",
+  "soundFile":"snd_skillBeholder.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.51,
 }

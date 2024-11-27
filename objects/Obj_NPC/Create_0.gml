@@ -7,4 +7,4 @@ LocalFrame = 0;
 ShowInteract = false;
 
 image_speed = 0;
-message = "bvlabalbalbal";
+message = "Bonne chance MMOMUAHHAHHAHAHAHA";

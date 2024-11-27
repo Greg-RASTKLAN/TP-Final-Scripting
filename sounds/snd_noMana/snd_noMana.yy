@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_epicMusic_Beholder",
+  "%Name":"snd_noMana",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":24.058777,
-  "name":"snd_epicMusic_Beholder",
+  "duration":0.288,
+  "name":"snd_noMana",
   "parent":{
-    "name":"Beholder",
-    "path":"folders/Sons/NME/Beholder.yy",
+    "name":"Sons",
+    "path":"folders/Sons.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_epicMusic_Beholder.mp3",
+  "soundFile":"snd_noMana.mp3",
   "type":0,
   "volume":1.0,
 }

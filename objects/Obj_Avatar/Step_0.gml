@@ -100,7 +100,7 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Bow;
-		audio_play_sound(choose(snd_Bow_AutoAttack, snd_Bow_AutoAttack, snd_Bow_AutoAttack), 1, false);
+		audio_play_sound(choose(snd_arrow_skill1, snd_arrow_skill1, snd_arrow_skill1), 1, false);
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic);
@@ -116,6 +116,11 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 	}
 }
 #endregion
+
+if((Skill_2_Ready || Skill_3_Ready) && keyPotionMP && ((nbMana <= Skill_2_Mana) || (nbMana <= Skill_3_Mana)))
+	//show_debug_message("coucçou");
+	audio_play_sound(snd_noMana, 0, false);
+
 
 #region ATTACKS Skill 2
 if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge" && nbMana >= Skill_2_Mana){
@@ -151,7 +156,7 @@ if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge" && n
 		alarm_set(1,StateDelay);
 		AvatarState = "Attack";
 		sprite_index = Spr_Avatar_Bow;
-		audio_play_sound(snd_Bow_AutoAttack, 0, false);
+		audio_play_sound(snd_arrow_skill2, 0, false);
 	} else if (EquippedWeapon == "Magic"){ //magic
 		direction = _Dir;
 		_weapon = instance_create_layer(x,y-16,"Instances",Obj_Magic_Napalm);
