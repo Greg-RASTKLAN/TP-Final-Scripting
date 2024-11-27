@@ -117,9 +117,10 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 }
 #endregion
 
+/*
 if((Skill_2_Ready || Skill_3_Ready) && keyPotionMP && ((nbMana <= Skill_2_Mana) || (nbMana <= Skill_3_Mana)))
 	//show_debug_message("coucçou");
-	audio_play_sound(snd_noMana, 0, false);
+	audio_play_sound(snd_noMana, 0, false);*/
 
 
 #region ATTACKS Skill 2

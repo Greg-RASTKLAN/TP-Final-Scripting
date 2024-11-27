@@ -56,6 +56,8 @@ function fct_Dommages(Dmg){
 			AvatarState = "Death";
 			sprite_index = Spr_Beholder_Death;	
 			audio_play_sound(snd_behholderDeath, 0, false);
+			audio_play_sound(snd_victory, 0, false);
+			
 		}
 	}
 }
