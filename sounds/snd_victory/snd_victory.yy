@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_Chest",
+  "%Name":"snd_victory",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.528,
-  "name":"snd_Chest",
+  "duration":2.952,
+  "name":"snd_victory",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_Chest.mp3",
+  "soundFile":"snd_victory.mp3",
   "type":0,
   "volume":1.0,
 }
