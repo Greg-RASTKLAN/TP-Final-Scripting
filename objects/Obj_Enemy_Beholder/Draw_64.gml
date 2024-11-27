@@ -8,4 +8,6 @@ if(AvatarState == "Death"){
 	var sprite_x = view_width / 2; 
 	var sprite_y = view_height / 2;
 	draw_sprite_ext(Spr_Victory, 0, sprite_x -100, sprite_y, 2, 2, 0, c_white, 1);
+	
+	instance_create_layer(x, y + 100, "Instances", Obj_ButtonMenuBack);
 }

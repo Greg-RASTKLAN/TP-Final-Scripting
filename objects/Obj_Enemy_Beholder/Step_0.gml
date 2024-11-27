@@ -74,7 +74,8 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 #region Beholder sounds
 if(AvatarState == "Death") {
 	audio_stop_sound(snd_epicMusic_Beholder);
-	audio_stop_sound(snd_souris);
+	audio_stop_sound(snd_souris) 
+
 }
 
 
