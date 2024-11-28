@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.866083,
+  "duration":0.528,
   "name":"snd_Chest",
   "parent":{
     "name":"Sons",
