@@ -47,7 +47,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		if(!place_meeting(x, y+_Y,_Collisions)){
 			y += _Y;
 		}*/
-		path_start(path, Vitesse, path_action_reverse, true);
+		//path_start(path, Vitesse, path_action_stop, true);
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
