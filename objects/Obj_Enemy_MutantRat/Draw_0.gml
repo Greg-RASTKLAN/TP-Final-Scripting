@@ -9,4 +9,5 @@ if(AvatarState != "Death"){
 
 //draw_text(x,y-64,string(_Xscale)+"   "+AvatarState);
 //DEV Cercle d'Aggro
-//draw_circle_color(x,y,AggroRange,c_red,c_red,true); 
+//draw_circle_color(x,y,AggroRange,c_red,c_red,true);
+draw_path(path,x,y,1);

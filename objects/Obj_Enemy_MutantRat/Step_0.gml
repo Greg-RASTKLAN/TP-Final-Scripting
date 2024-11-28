@@ -38,6 +38,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
 		//Movements And Collisions
+		/*
 		_X = lengthdir_x(Vitesse,direction);
 		if(!place_meeting(x+_X, y,_Collisions)){
 			x += _X;
@@ -45,7 +46,8 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		_Y = lengthdir_y(Vitesse,direction);
 		if(!place_meeting(x, y+_Y,_Collisions)){
 			y += _Y;
-		}
+		}*/
+		path_start(path, Vitesse, path_action_reverse, true);
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
