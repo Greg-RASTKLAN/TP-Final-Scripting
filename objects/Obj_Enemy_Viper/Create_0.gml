@@ -4,6 +4,8 @@
 //Collisions
 _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
 
+path = path_add();
+
 //Vies
 nbViesMax = 3;
 nbVies = nbViesMax;

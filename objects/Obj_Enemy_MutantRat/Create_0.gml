@@ -6,7 +6,6 @@ _Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
 
 path = path_add();
 
-alarm_set(11,120);
 
 //Vies
 nbViesMax = 6;
@@ -28,7 +27,7 @@ CanDodge = true;
 
 //ATTACK
 Dommages = 10;
-AggroRange = 256; //Distance que l'Ennemi vas commencer à chasser l'Avatar
+AggroRange = 180; //Distance que l'Ennemi vas commencer à chasser l'Avatar
 Attack1_Ready = true;
 Attack1_Cooldown = 300;
 Attack1_Range = 100; //Acid Blob

@@ -16,6 +16,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
 		Obj_Avatar.fct_Dommages(Dommages);
+		path_end();
 	} else if (distance_to_object(Obj_Avatar) <= AggroRange){ //Move to Avatar
 		AvatarState = "Walk"
 		sprite_index = Spr_Viper_Walk;
@@ -23,21 +24,23 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		_Dir = point_direction(x,y,EnemyTarget.x,EnemyTarget.y);
 		direction = _Dir;
 		//Movements And Collisions
-		_X = lengthdir_x(Vitesse,direction);
+		/*_X = lengthdir_x(Vitesse,direction);
 		if(!place_meeting(x+_X, y,_Collisions)){
 			x += _X;
 		}
 		_Y = lengthdir_y(Vitesse,direction);
 		if(!place_meeting(x, y+_Y,_Collisions)){
 			y += _Y;
-		}
+		}*/
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
 		image_xscale = _Xscale;
+		if(alarm_get(11) <= 0){alarm_set(11, 30);}
 	} else{ //Idle
 		AvatarState = "Idle";
 		sprite_index = Spr_Viper_Idle;
 		EnemyTarget = 0;
+		path_end();
 	}
 }
 #endregion
