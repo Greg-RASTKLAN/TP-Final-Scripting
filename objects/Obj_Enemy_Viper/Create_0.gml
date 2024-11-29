@@ -46,6 +46,8 @@ function fct_Dommages(Dmg){
 		sprite_index = Spr_Viper_Hurt;		
 		EnemyTarget = Obj_Avatar;
 		nbVies -= Dmg;
+		path_end();
+		alarm_set(11,-1);
 		if(nbVies <= 0){
 			AvatarState = "Death";
 			sprite_index = Spr_Viper_Death;		

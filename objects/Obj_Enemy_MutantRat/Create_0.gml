@@ -51,10 +51,13 @@ function fct_Dommages(Dmg){
 		sprite_index = Spr_MutantRat_Hurt;		
 		EnemyTarget = Obj_Avatar;
 		nbVies -= Dmg;
+		path_end();
+		alarm_set(11,-1);
 		if(nbVies <= 0){
 			AvatarState = "Death";
 			sprite_index = Spr_MutantRat_Death;
 			audio_play_sound(choose(snd_NME1Dead, snd_NME2Dead, snd_NME3Dead), 1, false);
+			path_end();
 		}
 	}
 }

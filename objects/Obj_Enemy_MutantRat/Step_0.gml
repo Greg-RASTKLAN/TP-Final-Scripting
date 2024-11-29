@@ -18,6 +18,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		_Acid.Target_Y = Obj_Avatar.y;
 		
 		path_end();
+		alarm_set(11,-1);
 		
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
@@ -32,6 +33,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		direction = _Dir;
 		
 		path_end();
+		alarm_set(11,-1);
 		
 		_Xscale = sign(round(x-xprevious));
 		if(_Xscale == 0){_Xscale = -1;}
@@ -65,6 +67,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		sprite_index = Spr_MutantRat_idle;
 		EnemyTarget = 0;
 		path_end();
+		alarm_set(11,-1);
 	}
 }
 #endregion

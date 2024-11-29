@@ -24,4 +24,5 @@ if (distance_to_object(Obj_Avatar) <= AggroRange){ //s'enfuit de l'Avatar
 	AvatarState = "Idle";
 	sprite_index = Spr_Rat_Idle;
 	path_end();
+	alarm_set(11,-1);
 }

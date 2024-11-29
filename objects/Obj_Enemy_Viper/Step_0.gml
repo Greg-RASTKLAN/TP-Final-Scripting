@@ -17,6 +17,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		image_xscale = _Xscale;
 		Obj_Avatar.fct_Dommages(Dommages);
 		path_end();
+		alarm_set(11,-1);
 	} else if (distance_to_object(Obj_Avatar) <= AggroRange){ //Move to Avatar
 		AvatarState = "Walk"
 		sprite_index = Spr_Viper_Walk;
@@ -41,6 +42,7 @@ if(AvatarState != "Hurt" && AvatarState != "Death"){
 		sprite_index = Spr_Viper_Idle;
 		EnemyTarget = 0;
 		path_end();
+		alarm_set(11,-1);
 	}
 }
 #endregion
