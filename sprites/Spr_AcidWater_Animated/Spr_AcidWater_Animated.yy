@@ -26,7 +26,7 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f1953c3a-ca8d-4dfb-9284-70e9152bb568","blendMode":0,"displayName":"default","isLocked":false,"name":"f1953c3a-ca8d-4dfb-9284-70e9152bb568","opacity":63.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f1953c3a-ca8d-4dfb-9284-70e9152bb568","blendMode":0,"displayName":"default","isLocked":false,"name":"f1953c3a-ca8d-4dfb-9284-70e9152bb568","opacity":71.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_AcidWater_Animated",
   "nineSlice":null,

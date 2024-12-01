@@ -169,6 +169,7 @@
     {"id":{"name":"Spr_Beholder_Idle","path":"sprites/Spr_Beholder_Idle/Spr_Beholder_Idle.yy",},},
     {"id":{"name":"Spr_Beholder_Spin","path":"sprites/Spr_Beholder_Spin/Spr_Beholder_Spin.yy",},},
     {"id":{"name":"Spr_BG_Tile","path":"sprites/Spr_BG_Tile/Spr_BG_Tile.yy",},},
+    {"id":{"name":"Spr_BG_Tile2","path":"sprites/Spr_BG_Tile2/Spr_BG_Tile2.yy",},},
     {"id":{"name":"Spr_Blood_1","path":"sprites/Spr_Blood_1/Spr_Blood_1.yy",},},
     {"id":{"name":"Spr_Blood_2","path":"sprites/Spr_Blood_2/Spr_Blood_2.yy",},},
     {"id":{"name":"Spr_Blood_3","path":"sprites/Spr_Blood_3/Spr_Blood_3.yy",},},
