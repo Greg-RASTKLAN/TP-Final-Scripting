@@ -117,14 +117,16 @@ if(_mouseclick_left && Skill_1_Ready && CanAttack && CanMove && AvatarState != "
 }
 #endregion
 
-/*
-if((Skill_2_Ready || Skill_3_Ready) && keyPotionMP && ((nbMana <= Skill_2_Mana) || (nbMana <= Skill_3_Mana)))
-	//show_debug_message("coucçou");
-	audio_play_sound(snd_noMana, 0, false);*/
+
+if((Skill_2_Ready || Skill_3_Ready) &&(keyboard_check_released(ord("E")) || keyboard_check_released(ord("R"))) && ((nbMana <= Skill_2_Mana) || (nbMana <= Skill_3_Mana))){
+	show_debug_message("coucçou");
+	audio_play_sound(snd_noMana, 0, false);
+}
 
 
 #region ATTACKS Skill 2
 if(_keyE && Skill_2_Ready && CanAttack && CanMove && AvatarState != "Dodge" && nbMana >= Skill_2_Mana){
+	
 	nbMana -= Skill_2_Mana;
 	if (EquippedWeapon == "Sword"){ //sword
 		direction = _Dir;
