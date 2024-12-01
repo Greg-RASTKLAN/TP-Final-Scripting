@@ -1,7 +1,7 @@
 /// @description Insert description here
 
 //Collisions
-_Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
+_Collisions = [Obj_Collision,layer_tilemap_get_id("FrontWalls_NoWater")];
 
 //Vies
 nbViesMax = 60;

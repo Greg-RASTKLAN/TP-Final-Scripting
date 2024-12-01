@@ -2,7 +2,7 @@
 //Player Character
 
 //Collision utilisés pour le mouvement seulement, pas pour les attaques
-_Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
+_Collisions = [Obj_Collision,layer_tilemap_get_id("FrontWalls_NoWater")];
 LastInputDir = 1;
 
 Invincible = false;
