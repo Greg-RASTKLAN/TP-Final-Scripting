@@ -8,7 +8,7 @@ LocalFrame = 0;
 
 Lifetime_Max = 120;
 Lifetime = 0;
-RotationSpeed = 2;
+RotationSpeed = 6;
 Dommages = 5;
 
 alarm_set(0, Lifetime_Max);

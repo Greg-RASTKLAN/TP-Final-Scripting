@@ -8,6 +8,9 @@ nbViesMax = 60;
 nbVies = nbViesMax;
 nbVieCent = nbVies/nbViesMax;
 
+Invincible = false;
+InvincibleTime = 120; //Temps Invinciple après l'animation Hurt pour éviter StunLock
+
 //Mouvements
 LocalFrame = 0;
 Vitesse = 0.5;
@@ -46,12 +49,13 @@ _Xscale = 1;
 //FUNCTIONS
 //Take Dammage
 function fct_Dommages(Dmg){
-	if(AvatarState != "Hurt" && AvatarState != "Death"){
+	if(AvatarState != "Hurt" && AvatarState != "Death" && !Invincible){
 		instance_create_layer(x,y-16,"Instances",Obj_BloodVFX);
 		AvatarState = "Hurt";
 		sprite_index = Spr_Beholder_Hurt;		
 		EnemyTarget = Obj_Avatar;
 		nbVies -= Dmg;
+		Invincible = true;
 		if(nbVies <= 0){
 			AvatarState = "Death";
 			sprite_index = Spr_Beholder_Death;	

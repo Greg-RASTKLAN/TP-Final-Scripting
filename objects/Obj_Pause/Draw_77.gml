@@ -6,6 +6,7 @@
    On va capturer l'écran de notre jeu sur une surface, puis désactiver tous nos 
    autres objets du jeu pour dessiner la surface pendant l'écran de pause	*/
    
+
 if (pause) {
     surface_set_target(application_surface);
     
@@ -15,6 +16,7 @@ if (pause) {
     }
 
     // Affichage ecran de pause
+	//surface_depth_disable()
     draw_set_color(c_black);  
     draw_set_alpha(0.4);    
     draw_rectangle(0, 0, resW, resH, false);

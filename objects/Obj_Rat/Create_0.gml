@@ -2,7 +2,7 @@
 // Rat décoratif
 
 //Collision utilisés pour le mouvements
-_Collisions = [Obj_Collision,layer_tilemap_get_id("Front_Walls_NoWater")];
+_Collisions = [Obj_Collision,layer_tilemap_get_id("FrontWalls_NoWater")];
 
 path = path_add();
 

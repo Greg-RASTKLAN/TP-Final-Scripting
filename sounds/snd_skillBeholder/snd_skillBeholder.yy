@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_skillBeholder.mp3",
   "type":0,
-  "volume":0.13,
+  "volume":0.06,
 }

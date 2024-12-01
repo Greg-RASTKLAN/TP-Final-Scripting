@@ -6,7 +6,7 @@ depth = -y;
 }*/
 
 Lifetime++;
-direction++;
+direction += 3;
 x = Obj_Avatar.x+lengthdir_x(30+Lifetime,direction);
 y = Obj_Avatar.y-16+lengthdir_y(30+Lifetime,direction);
 image_angle += RotationSpeed;
