@@ -90,8 +90,8 @@ var cam_height = camera_get_view_height(view_camera[0]);
 if (x > cam_x && x < cam_x + cam_width && y > cam_y && y < cam_y + cam_height && AvatarState != "Death") {
     // L'ennemi est visible, lancer la musique
     if (!audio_is_playing(snd_epicMusic_Beholder)) {
+		instance_activate_object(Obj_Collision_BossRoom); //ONEWAY Block
         audio_play_sound(snd_epicMusic_Beholder, 1, true);
-	
     }
 }
 

@@ -8,6 +8,7 @@ if(room == rm_Menui)
 
 //Hide collisions layer
 layer_set_visible(layer_get_id("Ins_Collisions"), false);
+instance_deactivate_object(Obj_Collision_BossRoom);
 
 //Nav Mesh for Pathfinding
 var GridSize = 32;
