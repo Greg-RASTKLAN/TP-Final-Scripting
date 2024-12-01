@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 _Collisions = layer_tilemap_get_id("FrontWalls_NoWater");
 
 audio_play_sound(snd_BackgroundWater, 0, true);
