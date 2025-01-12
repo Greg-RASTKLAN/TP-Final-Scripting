@@ -1,0 +1,14 @@
+
+
+[2025-01-12 13:24:04] Client version: 1733269577
+[2025-01-12 13:24:04] [AppID 7] Starting sync (init,)
+[2025-01-12 13:24:04] [AppID 7] AutoCloud checking local state for user 1844396792
+[2025-01-12 13:24:04] [AppID 7] Not running AutoCloud. No config data found
+[2025-01-12 13:24:04] [U:1:1844396792] [AppID 7] Init cache request complete
+[2025-01-12 13:24:04] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder/userdata/1844396792/7/remotecache.vdf'
+[2025-01-12 13:24:06] [AppID 7] Starting sync (down,)
+[2025-01-12 13:24:06] [AppID 7] Attempting to sync from local change number '0' to global change number '0' (full)
+[2025-01-12 13:24:06] [AppID 7] Download complete in build list
+[2025-01-12 13:24:06] [AppID 7] Successfully synced to ChangeNumber 0
+[2025-01-12 13:24:06] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2025-01-12 13:24:06] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder/userdata/1844396792/7/remotecache.vdf'

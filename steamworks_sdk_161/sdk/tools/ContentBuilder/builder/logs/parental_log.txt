@@ -1,0 +1,5 @@
+
+
+[2025-01-12 13:24:04] Client version: 1733269577
+[2025-01-12 13:24:04] Failed to get ParentalSettings\Settings from config file for account ID 1844396792
+[2025-01-12 13:24:04] Got parental settings for account ID 1844396792

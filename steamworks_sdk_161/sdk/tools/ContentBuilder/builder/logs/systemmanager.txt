@@ -1,0 +1,4 @@
+
+
+[2025-01-12 13:23:15] Client version: 1733269577
+[2025-01-12 13:23:15] Initializing System Manager

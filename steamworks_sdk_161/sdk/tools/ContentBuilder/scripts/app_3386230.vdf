@@ -1,0 +1,14 @@
+"appbuild"
+{
+	"appid" "3386230"
+	"desc" "SewerAdventures_Win_1.0"
+	"buildoutput" "C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\output"
+	"contentroot" ""
+	"setlive" ""
+	"preview" "0"
+	"local"	""
+	"depots"
+	{
+		"3386231"	"C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\scripts\depot_3386231.vdf"
+	}
+}

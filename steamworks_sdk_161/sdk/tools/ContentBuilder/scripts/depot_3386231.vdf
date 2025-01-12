@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "3386231"
+	"contentroot" "C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\content\SewerAdventures"
+	"FileMapping"
+	{
+		"LocalPath" "*"
+		"DepotPath" "."
+		"recursive" "1"
+	}
+	"FileExclusion" "*.pdb"
+}

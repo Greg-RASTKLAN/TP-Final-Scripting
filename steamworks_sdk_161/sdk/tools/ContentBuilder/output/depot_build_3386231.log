@@ -1,0 +1,15 @@
+[2025-01-12 13:24:27]: Starting build for depot 3386231, content path is "C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\content\SewerAdventures", build flags 0x0
+[2025-01-12 13:24:27]: Building file listing for depot 3386231 ...
+[2025-01-12 13:24:27]: Found 4 files for mapping: C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\content\SewerAdventures * -> .
+[2025-01-12 13:24:27]: Found 4 files (30 MB) for depot 3386231
+[2025-01-12 13:24:27]: Building depot 3386231, no baseline manifest
+[2025-01-12 13:24:27]: Found 34 chunks ( 0 used previously ) for depot 3386231, took 0 minutes, 0 seconds
+[2025-01-12 13:24:27]: Changes to baseline manifest 0 :
+[2025-01-12 13:24:27]: Added  : "ChildrenOfMortaLike.exe" 12492 kB 
+[2025-01-12 13:24:27]: Added  : "data.win" 18441 kB 
+[2025-01-12 13:24:27]: Added  : "options.ini" 1 kB 
+[2025-01-12 13:24:27]: Added  : "splash.png" 597 kB 
+[2025-01-12 13:24:27]: Summary: 4 files added, 0 files changed, 0 files removed
+[2025-01-12 13:24:28]: Uploading new manifest to 192.69.99.15:80 (handle 16380799612415570698, 1753 bytes).
+[2025-01-12 13:24:28]: Uploading 34 out of 34 missing chunks.
+[2025-01-12 13:24:32]: Success! New manifestID 3891513794362991369 created and 34 new chunks uploaded.

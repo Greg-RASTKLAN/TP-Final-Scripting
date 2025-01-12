@@ -1,0 +1,16 @@
+
+
+[2025-01-12 13:23:15] Client version: 1733269577
+[2025-01-12 13:23:15] Failed to read store 'install' from 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2025-01-12 13:23:15] Failed to read store 'install' from 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2025-01-12 13:23:15] Failed to read store 'install' from 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2025-01-12 13:23:15] Failed to read store 'install' from 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2025-01-12 13:23:16] Flushed store 'install' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2025-01-12 13:23:17] Flushed store 'install' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2025-01-12 13:24:04] Flushed store 'install' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2025-01-12 13:24:04] Loaded store 'install' from 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf' successfully
+[2025-01-12 13:24:04] Failed to read store 'userlocal' from 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\userdata\1844396792\config\localconfig.vdf.tmp'
+[2025-01-12 13:24:04] Flushed store 'install' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2025-01-12 13:24:04] Flushed store 'userlocal' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\userdata\1844396792\config\localconfig.vdf'
+[2025-01-12 13:24:05] Flushed store 'userlocal' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\userdata\1844396792\config\localconfig.vdf'
+[2025-01-12 13:24:07] Flushed store 'userlocal' to 'C:\TP-Final-Scripting\steamworks_sdk_161\sdk\tools\ContentBuilder\builder\userdata\1844396792\config\localconfig.vdf'
