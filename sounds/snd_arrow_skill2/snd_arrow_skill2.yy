@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.872,
+  "duration":0.6,
   "name":"snd_arrow_skill2",
   "parent":{
     "name":"Bow",
